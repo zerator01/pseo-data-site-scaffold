@@ -1,0 +1,64 @@
+{
+  "projectName": "my-data-site",
+  "siteName": "My Data Site",
+  "siteUrl": "https://example.com",
+  "siteDescription": "A data-led pSEO site built on the scaffold starter.",
+  "siteTagline": "Runnable starter for data-led pSEO sites",
+  "heroTitle": "Build a real scaffold, not another vague page factory.",
+  "heroDescription": "This starter demonstrates layered indexing, anti-orphan hubs, representative rankings, centralized schema, and documented methodology with sample data.",
+  "entitySingular": "City",
+  "entityPlural": "Cities",
+  "entityDirectoryLabel": "City directory",
+  "entityRouteBase": "entities",
+  "categorySingular": "Region",
+  "categoryPlural": "Regions",
+  "categoryRouteBase": "categories",
+  "defaultCategoryHubLabel": "Region Hub",
+  "defaultCategoryHubSlug": "port-city",
+  "representativeRankingLabel": "Representative Rankings",
+  "representativeRankingDescription": "A user-facing sample ranking that filters out tiny edge cases.",
+  "fullRankingLabel": "Full Rankings",
+  "fullRankingDescription": "The raw mathematical ordering of all entities in the sample dataset.",
+  "metricFamilies": [
+    {
+      "key": "cost_index",
+      "label": "Cost Index"
+    },
+    {
+      "key": "access_index",
+      "label": "Access Index"
+    },
+    {
+      "key": "momentum_index",
+      "label": "Momentum Index"
+    }
+  ],
+  "homeSectionOrder": [
+    "hero",
+    "navigation_matrix",
+    "category_hubs",
+    "featured_entities",
+    "ranking_families",
+    "next_steps"
+  ],
+  "entityDetailSectionOrder": [
+    "hero",
+    "metrics",
+    "route_rationale",
+    "related_entities",
+    "next_steps"
+  ],
+  "categoryHubSectionOrder": [
+    "hero",
+    "entity_grid",
+    "next_steps"
+  ],
+  "rankingHubSectionOrder": [
+    "hero",
+    "ranking_grid"
+  ],
+  "rankingDetailSectionOrder": [
+    "hero",
+    "ranking_table"
+  ]
+}

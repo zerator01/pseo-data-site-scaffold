@@ -1,0 +1,37 @@
+{
+  "name": "my-data-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "create:project": "node scripts/create-project.mjs",
+    "smoke:create-project": "node scripts/smoke-create-project.mjs",
+    "init:project": "node scripts/init-project.mjs",
+    "fetch:sample": "tsx scripts/fetch-sample-source.ts",
+    "transform:sample": "tsx scripts/transform-sample-source.ts",
+    "rebuild:baseline": "tsx scripts/rebuild-anomaly-baseline.ts",
+    "refresh:data": "npm run fetch:sample && npm run transform:sample && npm run rebuild:baseline && npm run validate:ops",
+    "validate:data": "tsx scripts/validate-data.ts",
+    "validate:overrides": "tsx scripts/validate-overrides.ts",
+    "check:anomalies": "tsx scripts/check-anomalies.ts",
+    "evaluate:publish-gate": "tsx scripts/evaluate-publish-gate.ts",
+    "validate:ops": "npm run validate:overrides && npm run check:anomalies && npm run evaluate:publish-gate"
+  },
+  "dependencies": {
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.37",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

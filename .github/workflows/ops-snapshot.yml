@@ -1,0 +1,40 @@
+name: Ops Snapshot
+
+on:
+  schedule:
+    - cron: '15 1 * * 1'
+  workflow_dispatch:
+
+jobs:
+  generate-ops-artifacts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Initialize scaffold
+        run: npm run init:project
+
+      - name: Refresh sample data
+        run: npm run refresh:data
+
+      - name: Generate ops artifacts
+        run: npm run ops:generate
+
+      - name: Upload ops artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ops-snapshot-${{ github.run_id }}
+          path: docs/ops/generated/
+          if-no-files-found: error

@@ -133,3 +133,5 @@ This writes starter outputs into `docs/ops/generated/`:
 - `qa-sampling-queue.md`
 - `qa-sampling-queue.json`
 - `weekly-ops-summary.md`
+
+GitHub Actions also includes a weekly `Ops Snapshot` workflow plus manual `workflow_dispatch` support so the same artifacts can be generated and archived remotely.

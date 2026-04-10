@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "north-harbor",
+    "name": "North Harbor",
+    "category": "port-city",
+    "categoryLabel": "Region Hub",
+    "score": 88,
+    "population": 420000,
+    "reviewFocus": "top-ranked narrative check"
+  },
+  {
+    "slug": "mesa-grove",
+    "name": "Mesa Grove",
+    "category": "comparison-hub",
+    "categoryLabel": "Comparison Regions",
+    "score": 81,
+    "population": 310000,
+    "reviewFocus": "median-page readability check"
+  },
+  {
+    "slug": "riverbend",
+    "name": "Riverbend",
+    "category": "value-hub",
+    "categoryLabel": "Value Regions",
+    "score": 76,
+    "population": 185000,
+    "reviewFocus": "edge-case and low-confidence review"
+  }
+]

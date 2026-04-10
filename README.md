@@ -110,3 +110,26 @@ npm run refresh:data
 - `data/governance/`: anomaly baseline and override registry
 - `scripts/`: init, refresh, validation, and publish-gate commands
 - `docs/`: blueprint, refresh, governance, and source documentation
+
+## Operations Starter
+
+`init:project` also generates a minimal operations scaffold under `docs/ops/` so each new site starts with:
+
+- an operating model
+- a publishing SOP
+- a quality review SOP
+- an incident response SOP
+- an automation backlog that can later map into GitHub Actions, OpenClaw, or another orchestrator
+
+For the first layer of operations automation, generate review artifacts with:
+
+```bash
+npm run ops:generate
+```
+
+This writes starter outputs into `docs/ops/generated/`:
+
+- `refresh-digest.md`
+- `qa-sampling-queue.md`
+- `qa-sampling-queue.json`
+- `weekly-ops-summary.md`

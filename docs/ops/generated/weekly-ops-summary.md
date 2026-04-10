@@ -1,17 +1,17 @@
 # Weekly Ops Summary
 
-- Generated at: 2026-04-10T02:31:08.245Z
+- Generated at: 2026-04-10T03:45:35.659Z
 - Dataset version: `2026.04.10.6`
 - Last refresh: `2026-04-09T17:52:22.016Z`
 - Refresh cadence: `monthly`
 - Publish mode: `semi_automatic`
 
-## What Changed
+## What Changed Since Last Snapshot
 
-- Current entity count: 3
-- Active overrides: 1
+- Entity count: 3 (+0)
+- Active overrides: 1 (+0)
 - Pending override reviews: 0
-- Human review required: yes
+- Top entity changed: no
 
 ## Top-Line Watchlist
 

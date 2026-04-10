@@ -6,7 +6,8 @@ const MANIFEST_PATH = path.join(ROOT, 'data', 'data-manifest.json');
 const ENTITY_PATH = path.join(ROOT, 'data', 'processed', 'entities.json');
 const QA_QUEUE_PATH = path.join(ROOT, 'docs', 'ops', 'generated', 'qa-sampling-queue.json');
 const DIGEST_PATH = path.join(ROOT, 'docs', 'ops', 'generated', 'refresh-digest.md');
-const OUTPUT_PATH = path.join(ROOT, 'docs', 'ops', 'generated', 'weekly-ops-plan.md');
+const JSON_OUTPUT_PATH = path.join(ROOT, 'docs', 'ops', 'generated', 'weekly-ops-plan.json');
+const MARKDOWN_OUTPUT_PATH = path.join(ROOT, 'docs', 'ops', 'generated', 'weekly-ops-plan.md');
 
 interface ManifestFile {
   dataset_version: string;
@@ -29,6 +30,18 @@ interface QueueItem {
   reviewFocus: string;
 }
 
+interface OpsTask {
+  id: string;
+  title: string;
+  owner: string;
+  executor_type: 'human' | 'agent' | 'system';
+  executor_id: string;
+  status: 'planned' | 'in_progress' | 'done' | 'blocked' | 'carried_forward' | 'dropped';
+  due: string;
+  carry_forward_reason: string | null;
+  source: 'ops_cycle';
+}
+
 function readJson<T>(filePath: string): T {
   return JSON.parse(fs.readFileSync(filePath, 'utf8')) as T;
 }
@@ -41,8 +54,10 @@ function readFileSafe(filePath: string): string {
   return fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf8') : '';
 }
 
-function isoDate(): string {
-  return new Date().toISOString().slice(0, 10);
+function isoDate(offsetDays = 0): string {
+  const date = new Date();
+  date.setUTCDate(date.getUTCDate() + offsetDays);
+  return date.toISOString().slice(0, 10);
 }
 
 function extractGateSummary(digest: string): string {
@@ -50,26 +65,81 @@ function extractGateSummary(digest: string): string {
   return match?.[1] ?? 'hold_for_review';
 }
 
-function main() {
-  const manifest = readJson<ManifestFile>(MANIFEST_PATH);
-  const entities = readJson<EntityRecord[]>(ENTITY_PATH);
-  const queue = readJson<QueueItem[]>(QA_QUEUE_PATH);
-  const digest = readFileSafe(DIGEST_PATH);
+function buildTasks(
+  manifest: ManifestFile,
+  entities: EntityRecord[],
+  queue: QueueItem[],
+  digest: string
+): OpsTask[] {
   const topEntity = [...entities].sort((left, right) => right.score - left.score)[0];
   const edgeEntity = [...entities].sort((left, right) => left.score - right.score)[0];
   const gateSummary = extractGateSummary(digest);
+  const focusEntity = queue[0]?.name ?? topEntity?.name ?? 'top pages';
 
-  const tasks = [
-    'Refresh core data and review anomaly output',
-    `Review the QA sampling queue with focus on ${queue[0]?.name ?? topEntity?.name ?? 'top pages'}`,
-    gateSummary === 'hold_for_review' || manifest.refresh_policy?.review_required
-      ? 'Decide whether the current publish gate should stay manual-review-only'
-      : 'Confirm the current publish gate can remain semi-automatic',
-    `Audit one high-confidence page (${topEntity?.name ?? 'top entity'}) and one edge-case page (${edgeEntity?.name ?? 'edge entity'})`,
-    'Update the ops automation backlog with one candidate to automate next',
+  return [
+    {
+      id: 'refresh_core_data',
+      title: 'Refresh core data and review anomaly output',
+      owner: 'zerator',
+      executor_type: 'human',
+      executor_id: 'zerator',
+      status: 'planned',
+      due: isoDate(1),
+      carry_forward_reason: null,
+      source: 'ops_cycle',
+    },
+    {
+      id: 'review_qa_sampling_queue',
+      title: `Review the QA sampling queue with focus on ${focusEntity}`,
+      owner: 'zerator',
+      executor_type: 'agent',
+      executor_id: 'openclaw',
+      status: 'planned',
+      due: isoDate(2),
+      carry_forward_reason: null,
+      source: 'ops_cycle',
+    },
+    {
+      id: 'decide_publish_gate_mode',
+      title:
+        gateSummary === 'hold_for_review' || manifest.refresh_policy?.review_required
+          ? 'Decide whether the current publish gate should stay manual-review-only'
+          : 'Confirm the current publish gate can remain semi-automatic',
+      owner: 'zerator',
+      executor_type: 'human',
+      executor_id: 'zerator',
+      status: 'planned',
+      due: isoDate(3),
+      carry_forward_reason: null,
+      source: 'ops_cycle',
+    },
+    {
+      id: 'audit_representative_pages',
+      title: `Audit one high-confidence page (${topEntity?.name ?? 'top entity'}) and one edge-case page (${edgeEntity?.name ?? 'edge entity'})`,
+      owner: 'zerator',
+      executor_type: 'agent',
+      executor_id: 'openclaw',
+      status: 'planned',
+      due: isoDate(4),
+      carry_forward_reason: null,
+      source: 'ops_cycle',
+    },
+    {
+      id: 'update_automation_backlog',
+      title: 'Update the ops automation backlog with one candidate to automate next',
+      owner: 'zerator',
+      executor_type: 'human',
+      executor_id: 'zerator',
+      status: 'planned',
+      due: isoDate(5),
+      carry_forward_reason: null,
+      source: 'ops_cycle',
+    },
   ];
+}
 
-  const content = `# Weekly Ops Plan
+function toMarkdown(tasks: OpsTask[], manifest: ManifestFile): string {
+  return `# Weekly Ops Plan
 
 - Generated at: ${new Date().toISOString()}
 - Planning window start: ${isoDate()}
@@ -85,7 +155,14 @@ function main() {
 
 ## Planned Tasks
 
-${tasks.map((task) => `- [ ] ${task}`).join('\n')}
+| Task ID | Title | Owner | Executor Type | Executor | Status | Due | Carry Forward Reason |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+${tasks
+  .map(
+    (task) =>
+      `| \`${task.id}\` | ${task.title} | ${task.owner} | ${task.executor_type} | ${task.executor_id} | ${task.status} | ${task.due} | ${task.carry_forward_reason ?? ''} |`
+  )
+  .join('\n')}
 
 ## Inputs To Review
 
@@ -93,15 +170,20 @@ ${tasks.map((task) => `- [ ] ${task}`).join('\n')}
 - \`docs/ops/generated/qa-sampling-queue.md\`
 - \`docs/ops/generated/weekly-ops-summary.md\`
 - \`docs/ops/ops-execution-log.md\`
-
-## Success Check
-
-- Weekly review can show which planned tasks were completed, blocked, or rolled forward
 `;
+}
 
-  ensureDir(OUTPUT_PATH);
-  fs.writeFileSync(OUTPUT_PATH, `${content}\n`);
-  console.log(`Wrote weekly ops plan to ${path.relative(ROOT, OUTPUT_PATH)}.`);
+function main() {
+  const manifest = readJson<ManifestFile>(MANIFEST_PATH);
+  const entities = readJson<EntityRecord[]>(ENTITY_PATH);
+  const queue = readJson<QueueItem[]>(QA_QUEUE_PATH);
+  const digest = readFileSafe(DIGEST_PATH);
+  const tasks = buildTasks(manifest, entities, queue, digest);
+
+  ensureDir(JSON_OUTPUT_PATH);
+  fs.writeFileSync(JSON_OUTPUT_PATH, `${JSON.stringify({ generated_at: new Date().toISOString(), tasks }, null, 2)}\n`);
+  fs.writeFileSync(MARKDOWN_OUTPUT_PATH, `${toMarkdown(tasks, manifest)}\n`);
+  console.log(`Wrote weekly ops plan to ${path.relative(ROOT, MARKDOWN_OUTPUT_PATH)}.`);
 }
 
 main();

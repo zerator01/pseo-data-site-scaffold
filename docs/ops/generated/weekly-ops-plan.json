@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-04-10T03:45:36.265Z",
+  "tasks": [
+    {
+      "id": "refresh_core_data",
+      "title": "Refresh core data and review anomaly output",
+      "owner": "zerator",
+      "executor_type": "human",
+      "executor_id": "zerator",
+      "status": "planned",
+      "due": "2026-04-11",
+      "carry_forward_reason": null,
+      "source": "ops_cycle"
+    },
+    {
+      "id": "review_qa_sampling_queue",
+      "title": "Review the QA sampling queue with focus on North Harbor",
+      "owner": "zerator",
+      "executor_type": "agent",
+      "executor_id": "openclaw",
+      "status": "planned",
+      "due": "2026-04-12",
+      "carry_forward_reason": null,
+      "source": "ops_cycle"
+    },
+    {
+      "id": "decide_publish_gate_mode",
+      "title": "Decide whether the current publish gate should stay manual-review-only",
+      "owner": "zerator",
+      "executor_type": "human",
+      "executor_id": "zerator",
+      "status": "planned",
+      "due": "2026-04-13",
+      "carry_forward_reason": null,
+      "source": "ops_cycle"
+    },
+    {
+      "id": "audit_representative_pages",
+      "title": "Audit one high-confidence page (North Harbor) and one edge-case page (Riverbend)",
+      "owner": "zerator",
+      "executor_type": "agent",
+      "executor_id": "openclaw",
+      "status": "planned",
+      "due": "2026-04-14",
+      "carry_forward_reason": null,
+      "source": "ops_cycle"
+    },
+    {
+      "id": "update_automation_backlog",
+      "title": "Update the ops automation backlog with one candidate to automate next",
+      "owner": "zerator",
+      "executor_type": "human",
+      "executor_id": "zerator",
+      "status": "planned",
+      "due": "2026-04-15",
+      "carry_forward_reason": null,
+      "source": "ops_cycle"
+    }
+  ]
+}

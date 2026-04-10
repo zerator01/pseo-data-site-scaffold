@@ -27,7 +27,7 @@ Use this document to separate safe automation candidates from tasks that still r
 
 | Task | Manual Cost | Risk If Automated Wrong | Suggested System | Status |
 | --- | --- | --- | --- | --- |
-| Detect visible page-narrative diffs after refresh | Medium | Medium | Repo script plus GitHub Actions artifact | Proposed |
+| Detect visible page-narrative diffs after refresh | Medium | Medium | Repo script plus GitHub Actions artifact | In Place |
 | Generate refresh digest | Medium | Low | GitHub Actions or OpenClaw | Proposed |
 | Create QA sampling queue | Low | Low | Repo script | In Place |
 | Draft weekly ops report | Medium | Low | OpenClaw or external workflow | Proposed |

@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-04-10T12:10:04.201Z",
+  "entity_count": 3,
+  "items": [
+    {
+      "slug": "north-harbor",
+      "name": "North Harbor",
+      "score": 88,
+      "summary": "North Harbor is the sample high-confidence city. It demonstrates how a detail page can combine score context, supporting metrics, and next-step navigation without becoming a dead end.",
+      "faq": [
+        {
+          "question": "Why does North Harbor rank near the top in this My Data Site sample?",
+          "answer": "Its sample score is lifted by strong access and momentum metrics rather than a single extreme outlier."
+        },
+        {
+          "question": "Is the score based on public data or an estimate?",
+          "answer": "This starter uses sample data only. Real projects should document every source, fallback rule, and estimate boundary."
+        }
+      ],
+      "topComparisonSlugs": [
+        "mesa-grove",
+        "riverbend"
+      ]
+    },
+    {
+      "slug": "mesa-grove",
+      "name": "Mesa Grove",
+      "score": 81,
+      "summary": "Mesa Grove shows how a representative city can have strong momentum with slightly weaker affordability. The detail page should explain those tradeoffs instead of just printing a rank.",
+      "faq": [
+        {
+          "question": "What makes Mesa Grove different from North Harbor?",
+          "answer": "Mesa Grove wins more from growth and medium-term upside than from access density."
+        },
+        {
+          "question": "How should My Data Site use these metrics?",
+          "answer": "Treat them as placeholders for your own source-backed dimensions. Do not ship them as real-world claims."
+        }
+      ],
+      "topComparisonSlugs": [
+        "riverbend",
+        "north-harbor"
+      ]
+    },
+    {
+      "slug": "riverbend",
+      "name": "Riverbend",
+      "score": 76,
+      "summary": "Riverbend is the sample value case. It helps My Data Site demonstrate representative rankings that do not always simply mirror the absolute top score.",
+      "faq": [
+        {
+          "question": "Why is Riverbend still useful in a city comparison?",
+          "answer": "Its sample affordability metric is strong enough to make it competitive for value-led comparisons."
+        },
+        {
+          "question": "Should My Data Site separate representative and full rankings?",
+          "answer": "Yes. Representative rankings are for normal users, while full rankings preserve raw mathematical output."
+        }
+      ],
+      "topComparisonSlugs": [
+        "mesa-grove",
+        "north-harbor"
+      ]
+    }
+  ]
+}

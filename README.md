@@ -147,4 +147,24 @@ The intended loop is:
 4. Generate the replan brief for the next cycle.
 5. Use the replan brief to drive the next plan cycle, either manually or through an LLM / agent layer.
 
+To let an OpenAI-compatible model turn that brief into a proposed next-week plan:
+
+```bash
+export OPS_REPLAN_API_KEY=...
+export OPS_REPLAN_BASE_URL=https://api.openai.com/v1
+export OPS_REPLAN_MODEL=gpt-5-mini
+npm run ops:replan:llm
+```
+
+Optional:
+
+- `OPS_REPLAN_API_STYLE=responses` for OpenAI Responses-compatible APIs
+- `OPS_REPLAN_API_STYLE=chat_completions` for OpenAI Chat Completions-compatible APIs
+
+This writes:
+
+- `weekly-ops-next-plan.json`
+- `weekly-ops-next-plan.md`
+- `weekly-ops-llm-response.json`
+
 GitHub Actions includes a weekly `Ops Snapshot` workflow plus manual `workflow_dispatch` support so these artifacts can be generated, archived, and upserted into a dated GitHub issue.

@@ -20,6 +20,7 @@
     "ops:weekly-plan": "tsx scripts/generate-weekly-ops-plan.ts",
     "ops:weekly-review": "tsx scripts/generate-weekly-ops-review.ts",
     "ops:replan": "tsx scripts/generate-weekly-ops-replan.ts",
+    "ops:replan:llm": "tsx scripts/run-weekly-ops-replan-llm.ts",
     "ops:generate": "npm run ops:refresh-digest && npm run ops:qa-queue && npm run ops:weekly-summary && npm run ops:weekly-plan && npm run ops:weekly-review && npm run ops:replan",
     "ops:cycle": "npm run ops:generate",
     "validate:data": "tsx scripts/validate-data.ts",

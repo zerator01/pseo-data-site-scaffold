@@ -1,9 +1,9 @@
 # Page Narrative Diff
 
-- Generated at: 2026-04-10T12:10:04.201Z
-- Compared to previous snapshot: none
+- Generated at: 2026-04-10T12:15:48.162Z
+- Compared to previous snapshot: 2026-04-10T12:10:04.201Z
 - Entity count: 3
-- Changed entities: 3
+- Changed entities: 0
 
 ## Review Guidance
 
@@ -12,15 +12,5 @@
 
 ## Changed Entities
 
-### North Harbor (`north-harbor`)
-
-- No previous snapshot found. Treat this as the baseline capture.
-
-### Mesa Grove (`mesa-grove`)
-
-- No previous snapshot found. Treat this as the baseline capture.
-
-### Riverbend (`riverbend`)
-
-- No previous snapshot found. Treat this as the baseline capture.
+- No visible narrative changes detected against the previous snapshot.
 

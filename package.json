@@ -13,7 +13,7 @@
     "fetch:sample": "tsx scripts/fetch-sample-source.ts",
     "transform:sample": "tsx scripts/transform-sample-source.ts",
     "rebuild:baseline": "tsx scripts/rebuild-anomaly-baseline.ts",
-    "refresh:data": "npm run fetch:sample && npm run transform:sample && npm run rebuild:baseline && npm run validate:ops",
+    "refresh:data": "npm run fetch:sample && npm run transform:sample && npm run rebuild:baseline && npm run validate:ops && npm run ops:narrative-diff",
     "ops:refresh-digest": "tsx scripts/generate-refresh-digest.ts",
     "ops:narrative-diff": "tsx scripts/generate-page-narrative-diff.ts",
     "ops:qa-queue": "tsx scripts/generate-qa-sampling-queue.ts",

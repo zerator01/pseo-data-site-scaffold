@@ -112,6 +112,8 @@ This writes:
 
 - `docs/ops/generated/page-quality-audit.md`
 - `docs/ops/generated/page-quality-audit.json`
+- `docs/ops/generated/page-narrative-diff.md`
+- `docs/ops/generated/page-narrative-diff.json`
 
 Use these with:
 
@@ -152,6 +154,8 @@ npm run ops:cycle
 This writes starter outputs into `docs/ops/generated/`:
 
 - `refresh-digest.md`
+- `page-narrative-diff.md`
+- `page-narrative-diff.json`
 - `qa-sampling-queue.md`
 - `qa-sampling-queue.json`
 - `weekly-ops-summary.md`
@@ -163,10 +167,11 @@ This writes starter outputs into `docs/ops/generated/`:
 The intended loop is:
 
 1. Generate the weekly plan.
-2. Record actual work in `docs/ops/ops-execution-log.md`.
-3. Generate the weekly review.
-4. Generate the replan brief for the next cycle.
-5. Use the replan brief to drive the next plan cycle, either manually or through an LLM / agent layer.
+2. Review `page-narrative-diff.md` before making a publish decision.
+3. Record actual work in `docs/ops/ops-execution-log.md`.
+4. Generate the weekly review.
+5. Generate the replan brief for the next cycle.
+6. Use the replan brief to drive the next plan cycle, either manually or through an LLM / agent layer.
 
 To let an OpenAI-compatible model turn that brief into a proposed next-week plan:
 

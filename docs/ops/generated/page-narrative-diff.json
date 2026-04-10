@@ -1,29 +1,7 @@
 {
-  "generated_at": "2026-04-10T12:10:04.201Z",
-  "compared_to": null,
+  "generated_at": "2026-04-10T12:15:48.162Z",
+  "compared_to": "2026-04-10T12:10:04.201Z",
   "entity_count": 3,
-  "changed_count": 3,
-  "diffs": [
-    {
-      "slug": "north-harbor",
-      "name": "North Harbor",
-      "changes": [
-        "No previous snapshot found. Treat this as the baseline capture."
-      ]
-    },
-    {
-      "slug": "mesa-grove",
-      "name": "Mesa Grove",
-      "changes": [
-        "No previous snapshot found. Treat this as the baseline capture."
-      ]
-    },
-    {
-      "slug": "riverbend",
-      "name": "Riverbend",
-      "changes": [
-        "No previous snapshot found. Treat this as the baseline capture."
-      ]
-    }
-  ]
+  "changed_count": 0,
+  "diffs": []
 }

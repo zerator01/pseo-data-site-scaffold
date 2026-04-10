@@ -32,6 +32,7 @@ Publish mode values:
 - Automatic publish allowed for:
 - Semi-automatic publish allowed for: low-risk source refreshes with clean validation and anomaly results
 - Manual approval required for: any refresh that changes page narratives, override registry, or methodology text
+- Narrative-change evidence should come from `docs/ops/generated/page-narrative-diff.md` after `npm run refresh:data`
 - Never auto-publish:
 - Always spot-check these fields: slug, score, population, categoryLabel, summary
 - Always review these page families: home, representative rankings, top entity details, default hub

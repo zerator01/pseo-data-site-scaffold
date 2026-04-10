@@ -23,6 +23,7 @@
     "ops:replan:llm": "tsx scripts/run-weekly-ops-replan-llm.ts",
     "ops:generate": "npm run ops:refresh-digest && npm run ops:qa-queue && npm run ops:weekly-summary && npm run ops:weekly-plan && npm run ops:weekly-review && npm run ops:replan",
     "ops:cycle": "npm run ops:generate",
+    "audit:page-quality": "tsx scripts/generate-page-quality-audit.ts",
     "validate:data": "tsx scripts/validate-data.ts",
     "validate:overrides": "tsx scripts/validate-overrides.ts",
     "check:anomalies": "tsx scripts/check-anomalies.ts",

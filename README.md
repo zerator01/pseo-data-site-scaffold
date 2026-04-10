@@ -100,6 +100,27 @@ npm run rebuild:baseline
 npm run refresh:data
 ```
 
+## Quality Audit
+
+Run:
+
+```bash
+npm run audit:page-quality
+```
+
+This writes:
+
+- `docs/ops/generated/page-quality-audit.md`
+- `docs/ops/generated/page-quality-audit.json`
+
+Use these with:
+
+- `docs/page-quality-audit-framework.md`
+- `docs/seo-signal-response-map.md`
+- `docs/checklists/page-family-audit-checklist.md`
+
+The goal is to make page-family quality review repeatable instead of relying on ad hoc judgment when Search Console starts moving.
+
 ## Starter Surface
 
 - `app/`: page families and routes

@@ -358,9 +358,24 @@ function main() {
   );
   writeFromTemplate('docs/source-registry.template.md', 'docs/source-registry.md', replacements);
   writeFromTemplate('docs/metric-spec.template.md', 'docs/metric-spec.md', replacements);
+  writeFromTemplate(
+    'docs/page-quality-audit-framework.template.md',
+    'docs/page-quality-audit-framework.md',
+    replacements
+  );
+  writeFromTemplate(
+    'docs/seo-signal-response-map.template.md',
+    'docs/seo-signal-response-map.md',
+    replacements
+  );
   writeFromTemplate('docs/data-audit-log.template.md', 'docs/data-audit-log.md', replacements);
   writeFromTemplate('docs/data-refresh-policy.template.md', 'docs/data-refresh-policy.md', replacements);
   writeFromTemplate('docs/refresh-runbook.template.md', 'docs/refresh-runbook.md', replacements);
+  writeFromTemplate(
+    'docs/checklists/page-family-audit-checklist.template.md',
+    'docs/checklists/page-family-audit-checklist.md',
+    replacements
+  );
   writeFromTemplate('docs/ops/operating-model.template.md', 'docs/ops/operating-model.md', replacements);
   writeFromTemplate('docs/ops/publishing-sop.template.md', 'docs/ops/publishing-sop.md', replacements);
   writeFromTemplate(

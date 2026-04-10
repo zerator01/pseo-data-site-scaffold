@@ -54,8 +54,6 @@ To verify the generator end to end in a fresh temporary directory:
 npm run smoke:create-project
 ```
 
-GitHub Actions runs both the scaffold verification flow and the generator smoke test on every push to `main` and on pull requests.
-
 ## First 15 Minutes
 
 1. Edit `scaffold.config.json`.

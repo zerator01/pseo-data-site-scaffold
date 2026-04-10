@@ -361,6 +361,23 @@ function main() {
   writeFromTemplate('docs/data-audit-log.template.md', 'docs/data-audit-log.md', replacements);
   writeFromTemplate('docs/data-refresh-policy.template.md', 'docs/data-refresh-policy.md', replacements);
   writeFromTemplate('docs/refresh-runbook.template.md', 'docs/refresh-runbook.md', replacements);
+  writeFromTemplate('docs/ops/operating-model.template.md', 'docs/ops/operating-model.md', replacements);
+  writeFromTemplate('docs/ops/publishing-sop.template.md', 'docs/ops/publishing-sop.md', replacements);
+  writeFromTemplate(
+    'docs/ops/quality-review-sop.template.md',
+    'docs/ops/quality-review-sop.md',
+    replacements
+  );
+  writeFromTemplate(
+    'docs/ops/incident-response-sop.template.md',
+    'docs/ops/incident-response-sop.md',
+    replacements
+  );
+  writeFromTemplate(
+    'docs/ops/automation-backlog.template.md',
+    'docs/ops/automation-backlog.md',
+    replacements
+  );
 
   console.log(`Initialized scaffold for ${config.siteName} with sample ${titleCase(config.entityPlural)} data.`);
 }

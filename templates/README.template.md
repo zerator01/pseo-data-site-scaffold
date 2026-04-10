@@ -110,3 +110,38 @@ npm run refresh:data
 - `data/governance/`: anomaly baseline and override registry
 - `scripts/`: init, refresh, validation, and publish-gate commands
 - `docs/`: blueprint, refresh, governance, and source documentation
+
+## Operations Starter
+
+`init:project` also generates a minimal operations scaffold under `docs/ops/` so each new site starts with:
+
+- an operating model
+- a publishing SOP
+- a quality review SOP
+- an incident response SOP
+- an automation backlog
+- an execution log template for recording what actually got done
+
+For the first planning loop, run:
+
+```bash
+npm run ops:cycle
+```
+
+This writes starter outputs into `docs/ops/generated/`:
+
+- `refresh-digest.md`
+- `qa-sampling-queue.md`
+- `qa-sampling-queue.json`
+- `weekly-ops-summary.md`
+- `weekly-ops-plan.md`
+- `weekly-ops-review.md`
+
+The intended loop is:
+
+1. Generate the weekly plan.
+2. Record actual work in `docs/ops/ops-execution-log.md`.
+3. Generate the weekly review.
+4. Use the review to drive the next plan cycle.
+
+GitHub Actions includes a weekly `Ops Snapshot` workflow plus manual `workflow_dispatch` support so these artifacts can be generated, archived, and upserted into a dated GitHub issue.

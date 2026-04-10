@@ -119,12 +119,13 @@ npm run refresh:data
 - a publishing SOP
 - a quality review SOP
 - an incident response SOP
-- an automation backlog that can later map into GitHub Actions, OpenClaw, or another orchestrator
+- an automation backlog
+- an execution log template for recording what actually got done
 
-For the first layer of operations automation, generate review artifacts with:
+For the first planning loop, run:
 
 ```bash
-npm run ops:generate
+npm run ops:cycle
 ```
 
 This writes starter outputs into `docs/ops/generated/`:
@@ -133,7 +134,14 @@ This writes starter outputs into `docs/ops/generated/`:
 - `qa-sampling-queue.md`
 - `qa-sampling-queue.json`
 - `weekly-ops-summary.md`
+- `weekly-ops-plan.md`
+- `weekly-ops-review.md`
 
-GitHub Actions also includes a weekly `Ops Snapshot` workflow plus manual `workflow_dispatch` support so the same artifacts can be generated and archived remotely.
+The intended loop is:
 
-The scheduled workflow also upserts a dated GitHub issue with the generated weekly summary, refresh digest, and QA queue so the artifacts have a default review surface even before Slack or OpenClaw integration.
+1. Generate the weekly plan.
+2. Record actual work in `docs/ops/ops-execution-log.md`.
+3. Generate the weekly review.
+4. Use the review to drive the next plan cycle.
+
+GitHub Actions includes a weekly `Ops Snapshot` workflow plus manual `workflow_dispatch` support so these artifacts can be generated, archived, and upserted into a dated GitHub issue.

@@ -378,6 +378,11 @@ function main() {
     'docs/ops/automation-backlog.md',
     replacements
   );
+  writeFromTemplate(
+    'docs/ops/ops-execution-log.template.md',
+    'docs/ops/ops-execution-log.md',
+    replacements
+  );
 
   console.log(`Initialized scaffold for ${config.siteName} with sample ${titleCase(config.entityPlural)} data.`);
 }

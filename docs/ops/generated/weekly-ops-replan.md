@@ -1,6 +1,6 @@
 # Weekly Ops Replan Brief
 
-- Generated at: 2026-04-10T06:03:04.029Z
+- Generated at: 2026-04-10T06:56:34.274Z
 - Purpose: package the current cycle into a model-ready replanning brief
 
 ## Replan Signals
@@ -9,37 +9,46 @@
 - Re-scope candidates: 0
 - Drop candidates: 0
 
-## Task Decisions
+## Compact Context Sent To LLM
 
-| Task ID | Latest Status | Recommended Action | Executor | Due | Carry Forward Reason |
-| --- | --- | --- | --- | --- | --- |
-| `refresh_core_data` | planned | keep | human:zerator | 2026-04-11 |  |
-| `review_qa_sampling_queue` | planned | keep | agent:openclaw | 2026-04-12 |  |
-| `decide_publish_gate_mode` | planned | keep | human:zerator | 2026-04-13 |  |
-| `audit_representative_pages` | planned | keep | agent:openclaw | 2026-04-14 |  |
-| `update_automation_backlog` | planned | keep | human:zerator | 2026-04-15 |  |
+### Summary Headlines
 
-## Operator Notes
+- Generated at: 2026-04-10T06:03:02.878Z
+- Dataset version: `2026.04.10.6`
+- Last refresh: `2026-04-09T17:52:22.016Z`
+- Refresh cadence: `monthly`
+- Publish mode: `semi_automatic`
+- Entity count: 3 (+0)
+- Active overrides: 1 (+0)
+- Pending override reviews: 0
 
-- `refresh_core_data`: Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
-- `review_qa_sampling_queue`: Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
-- `decide_publish_gate_mode`: Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
-- `audit_representative_pages`: Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
-- `update_automation_backlog`: Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
+### Review Headlines
 
-## Inputs Included
+- Generated at: 2026-04-10T06:03:03.482Z
+- Planned task count: 5
+- Completed planned tasks: 0
+- Completion rate: 0%
+- No planned tasks marked complete yet.
+- No tasks are currently marked blocked.
+- No tasks have been explicitly carried forward yet.
+- `refresh_core_data` Refresh core data and review anomaly output
+- `review_qa_sampling_queue` Review the QA sampling queue with focus on North Harbor
+- `decide_publish_gate_mode` Decide whether the current publish gate should stay manual-review-only
 
-- `docs/ops/generated/weekly-ops-summary.md`
-- `docs/ops/generated/weekly-ops-review.md`
-- `docs/ops/generated/weekly-ops-plan.json`
-- `docs/ops/ops-execution-log.md`
+### Decision Inputs
+
+- `refresh_core_data`: action=keep; status=planned; due=2026-04-11; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- `review_qa_sampling_queue`: action=keep; status=planned; due=2026-04-12; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- `decide_publish_gate_mode`: action=keep; status=planned; due=2026-04-13; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- `audit_representative_pages`: action=keep; status=planned; due=2026-04-14; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- `update_automation_backlog`: action=keep; status=planned; due=2026-04-15; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
 
 ## LLM Replan Prompt
 
 ```text
 You are replanning the next weekly operations cycle for a solo operator who may delegate execution to agents.
 
-Use only the inputs in this packet.
+Use only the structured inputs below. Do not assume missing history.
 
 Rules:
 - Keep owner as `zerator` unless there is a compelling reason to change it.
@@ -47,81 +56,36 @@ Rules:
 - Prefer `executor_id: openclaw` for analysis-heavy tasks and `executor_id: zerator` for operator decisions.
 - Do not silently re-add dropped work.
 - Re-scope blocked work instead of copying it unchanged.
-- Only carry unfinished tasks forward when the rationale still matches the current summary and review.
 - Return at most 5 tasks for the next weekly plan.
 
-Current weekly summary:
-# Weekly Ops Summary
-
+Summary headlines:
 - Generated at: 2026-04-10T06:03:02.878Z
 - Dataset version: `2026.04.10.6`
 - Last refresh: `2026-04-09T17:52:22.016Z`
 - Refresh cadence: `monthly`
 - Publish mode: `semi_automatic`
-
-## What Changed Since Last Snapshot
-
 - Entity count: 3 (+0)
 - Active overrides: 1 (+0)
 - Pending override reviews: 0
-- Top entity changed: no
 
-## Top-Line Watchlist
-
-1. North Harbor (`north-harbor`) score 88
-2. Mesa Grove (`mesa-grove`) score 81
-3. Riverbend (`riverbend`) score 76
-
-## Suggested Operator Actions
-
-- Review the latest refresh digest in `docs/ops/generated/refresh-digest.md`
-- Work through the QA queue in `docs/ops/generated/qa-sampling-queue.md`
-- Record publish or hold decisions in `docs/data-audit-log.md`
-
-Current weekly review:
-# Weekly Ops Review
-
+Review headlines:
 - Generated at: 2026-04-10T06:03:03.482Z
 - Planned task count: 5
 - Completed planned tasks: 0
 - Completion rate: 0%
-
-## Completed
-
 - No planned tasks marked complete yet.
-
-## Blocked
-
 - No tasks are currently marked blocked.
-
-## Carried Forward
-
 - No tasks have been explicitly carried forward yet.
-
-## Still Open
-
 - `refresh_core_data` Refresh core data and review anomaly output
 - `review_qa_sampling_queue` Review the QA sampling queue with focus on North Harbor
 - `decide_publish_gate_mode` Decide whether the current publish gate should stay manual-review-only
-- `audit_representative_pages` Audit one high-confidence page (North Harbor) and one edge-case page (Riverbend)
-- `update_automation_backlog` Update the ops automation backlog with one candidate to automate next
 
-## Extra Completed Work
-
-- No extra completed tasks recorded outside the plan.
-
-## Next-Cycle Prompt
-
-- Carry open tasks forward only when the rationale is still valid.
-- Mark dropped work explicitly instead of silently deleting it.
-- Use `carry_forward_reason` to explain why a task survives into the next cycle.
-
-Replan decisions:
-- refresh_core_data: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
-- review_qa_sampling_queue: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
-- decide_publish_gate_mode: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
-- audit_representative_pages: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
-- update_automation_backlog: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.
+Decision inputs:
+- refresh_core_data: action=keep; status=planned; due=2026-04-11; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- review_qa_sampling_queue: action=keep; status=planned; due=2026-04-12; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- decide_publish_gate_mode: action=keep; status=planned; due=2026-04-13; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- audit_representative_pages: action=keep; status=planned; due=2026-04-14; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- update_automation_backlog: action=keep; status=planned; due=2026-04-15; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
 
 Return JSON in this shape:
 {

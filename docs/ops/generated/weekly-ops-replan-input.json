@@ -1,73 +1,80 @@
 {
-  "generated_at": "2026-04-10T06:03:04.027Z",
-  "summary": "# Weekly Ops Summary\n\n- Generated at: 2026-04-10T06:03:02.878Z\n- Dataset version: `2026.04.10.6`\n- Last refresh: `2026-04-09T17:52:22.016Z`\n- Refresh cadence: `monthly`\n- Publish mode: `semi_automatic`\n\n## What Changed Since Last Snapshot\n\n- Entity count: 3 (+0)\n- Active overrides: 1 (+0)\n- Pending override reviews: 0\n- Top entity changed: no\n\n## Top-Line Watchlist\n\n1. North Harbor (`north-harbor`) score 88\n2. Mesa Grove (`mesa-grove`) score 81\n3. Riverbend (`riverbend`) score 76\n\n## Suggested Operator Actions\n\n- Review the latest refresh digest in `docs/ops/generated/refresh-digest.md`\n- Work through the QA queue in `docs/ops/generated/qa-sampling-queue.md`\n- Record publish or hold decisions in `docs/data-audit-log.md`",
-  "review": "# Weekly Ops Review\n\n- Generated at: 2026-04-10T06:03:03.482Z\n- Planned task count: 5\n- Completed planned tasks: 0\n- Completion rate: 0%\n\n## Completed\n\n- No planned tasks marked complete yet.\n\n## Blocked\n\n- No tasks are currently marked blocked.\n\n## Carried Forward\n\n- No tasks have been explicitly carried forward yet.\n\n## Still Open\n\n- `refresh_core_data` Refresh core data and review anomaly output\n- `review_qa_sampling_queue` Review the QA sampling queue with focus on North Harbor\n- `decide_publish_gate_mode` Decide whether the current publish gate should stay manual-review-only\n- `audit_representative_pages` Audit one high-confidence page (North Harbor) and one edge-case page (Riverbend)\n- `update_automation_backlog` Update the ops automation backlog with one candidate to automate next\n\n## Extra Completed Work\n\n- No extra completed tasks recorded outside the plan.\n\n## Next-Cycle Prompt\n\n- Carry open tasks forward only when the rationale is still valid.\n- Mark dropped work explicitly instead of silently deleting it.\n- Use `carry_forward_reason` to explain why a task survives into the next cycle.",
-  "decisions": [
-    {
-      "task_id": "refresh_core_data",
-      "title": "Refresh core data and review anomaly output",
-      "latest_status": "planned",
-      "due": "2026-04-11",
-      "owner": "zerator",
-      "executor_type": "human",
-      "executor_id": "zerator",
-      "carry_forward_reason": null,
-      "notes": "",
-      "recommended_action": "keep",
-      "rationale": "Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged."
-    },
-    {
-      "task_id": "review_qa_sampling_queue",
-      "title": "Review the QA sampling queue with focus on North Harbor",
-      "latest_status": "planned",
-      "due": "2026-04-12",
-      "owner": "zerator",
-      "executor_type": "agent",
-      "executor_id": "openclaw",
-      "carry_forward_reason": null,
-      "notes": "",
-      "recommended_action": "keep",
-      "rationale": "Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged."
-    },
-    {
-      "task_id": "decide_publish_gate_mode",
-      "title": "Decide whether the current publish gate should stay manual-review-only",
-      "latest_status": "planned",
-      "due": "2026-04-13",
-      "owner": "zerator",
-      "executor_type": "human",
-      "executor_id": "zerator",
-      "carry_forward_reason": null,
-      "notes": "",
-      "recommended_action": "keep",
-      "rationale": "Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged."
-    },
-    {
-      "task_id": "audit_representative_pages",
-      "title": "Audit one high-confidence page (North Harbor) and one edge-case page (Riverbend)",
-      "latest_status": "planned",
-      "due": "2026-04-14",
-      "owner": "zerator",
-      "executor_type": "agent",
-      "executor_id": "openclaw",
-      "carry_forward_reason": null,
-      "notes": "",
-      "recommended_action": "keep",
-      "rationale": "Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged."
-    },
-    {
-      "task_id": "update_automation_backlog",
-      "title": "Update the ops automation backlog with one candidate to automate next",
-      "latest_status": "planned",
-      "due": "2026-04-15",
-      "owner": "zerator",
-      "executor_type": "human",
-      "executor_id": "zerator",
-      "carry_forward_reason": null,
-      "notes": "",
-      "recommended_action": "keep",
-      "rationale": "Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged."
-    }
-  ],
-  "prompt": "You are replanning the next weekly operations cycle for a solo operator who may delegate execution to agents.\n\nUse only the inputs in this packet.\n\nRules:\n- Keep owner as `zerator` unless there is a compelling reason to change it.\n- Use `executor_type` values `human`, `agent`, or `system`.\n- Prefer `executor_id: openclaw` for analysis-heavy tasks and `executor_id: zerator` for operator decisions.\n- Do not silently re-add dropped work.\n- Re-scope blocked work instead of copying it unchanged.\n- Only carry unfinished tasks forward when the rationale still matches the current summary and review.\n- Return at most 5 tasks for the next weekly plan.\n\nCurrent weekly summary:\n# Weekly Ops Summary\n\n- Generated at: 2026-04-10T06:03:02.878Z\n- Dataset version: `2026.04.10.6`\n- Last refresh: `2026-04-09T17:52:22.016Z`\n- Refresh cadence: `monthly`\n- Publish mode: `semi_automatic`\n\n## What Changed Since Last Snapshot\n\n- Entity count: 3 (+0)\n- Active overrides: 1 (+0)\n- Pending override reviews: 0\n- Top entity changed: no\n\n## Top-Line Watchlist\n\n1. North Harbor (`north-harbor`) score 88\n2. Mesa Grove (`mesa-grove`) score 81\n3. Riverbend (`riverbend`) score 76\n\n## Suggested Operator Actions\n\n- Review the latest refresh digest in `docs/ops/generated/refresh-digest.md`\n- Work through the QA queue in `docs/ops/generated/qa-sampling-queue.md`\n- Record publish or hold decisions in `docs/data-audit-log.md`\n\nCurrent weekly review:\n# Weekly Ops Review\n\n- Generated at: 2026-04-10T06:03:03.482Z\n- Planned task count: 5\n- Completed planned tasks: 0\n- Completion rate: 0%\n\n## Completed\n\n- No planned tasks marked complete yet.\n\n## Blocked\n\n- No tasks are currently marked blocked.\n\n## Carried Forward\n\n- No tasks have been explicitly carried forward yet.\n\n## Still Open\n\n- `refresh_core_data` Refresh core data and review anomaly output\n- `review_qa_sampling_queue` Review the QA sampling queue with focus on North Harbor\n- `decide_publish_gate_mode` Decide whether the current publish gate should stay manual-review-only\n- `audit_representative_pages` Audit one high-confidence page (North Harbor) and one edge-case page (Riverbend)\n- `update_automation_backlog` Update the ops automation backlog with one candidate to automate next\n\n## Extra Completed Work\n\n- No extra completed tasks recorded outside the plan.\n\n## Next-Cycle Prompt\n\n- Carry open tasks forward only when the rationale is still valid.\n- Mark dropped work explicitly instead of silently deleting it.\n- Use `carry_forward_reason` to explain why a task survives into the next cycle.\n\nReplan decisions:\n- refresh_core_data: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.\n- review_qa_sampling_queue: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.\n- decide_publish_gate_mode: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.\n- audit_representative_pages: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.\n- update_automation_backlog: keep | Task is still planned but lacks a strong execution signal. Re-validate priority before carrying it forward unchanged.\n\nReturn JSON in this shape:\n{\n  \"focus\": [\"...\", \"...\"],\n  \"tasks\": [\n    {\n      \"id\": \"task_id\",\n      \"title\": \"Task title\",\n      \"owner\": \"zerator\",\n      \"executor_type\": \"human|agent|system\",\n      \"executor_id\": \"zerator|openclaw|github_actions\",\n      \"status\": \"planned\",\n      \"due\": \"YYYY-MM-DD\",\n      \"carry_forward_reason\": null,\n      \"source\": \"ops_replan\"\n    }\n  ],\n  \"planning_notes\": [\"...\", \"...\"]\n}"
+  "generated_at": "2026-04-10T06:56:34.273Z",
+  "compact_context": {
+    "summary_headlines": [
+      "Generated at: 2026-04-10T06:03:02.878Z",
+      "Dataset version: `2026.04.10.6`",
+      "Last refresh: `2026-04-09T17:52:22.016Z`",
+      "Refresh cadence: `monthly`",
+      "Publish mode: `semi_automatic`",
+      "Entity count: 3 (+0)",
+      "Active overrides: 1 (+0)",
+      "Pending override reviews: 0"
+    ],
+    "review_headlines": [
+      "Generated at: 2026-04-10T06:03:03.482Z",
+      "Planned task count: 5",
+      "Completed planned tasks: 0",
+      "Completion rate: 0%",
+      "No planned tasks marked complete yet.",
+      "No tasks are currently marked blocked.",
+      "No tasks have been explicitly carried forward yet.",
+      "`refresh_core_data` Refresh core data and review anomaly output",
+      "`review_qa_sampling_queue` Review the QA sampling queue with focus on North Harbor",
+      "`decide_publish_gate_mode` Decide whether the current publish gate should stay manual-review-only"
+    ],
+    "decisions": [
+      {
+        "task_id": "refresh_core_data",
+        "latest_status": "planned",
+        "due": "2026-04-11",
+        "executor": "human:zerator",
+        "carry_forward_reason": null,
+        "notes": "",
+        "recommended_action": "keep",
+        "rationale": "Still planned with no strong execution signal. Re-validate before carrying forward unchanged."
+      },
+      {
+        "task_id": "review_qa_sampling_queue",
+        "latest_status": "planned",
+        "due": "2026-04-12",
+        "executor": "agent:openclaw",
+        "carry_forward_reason": null,
+        "notes": "",
+        "recommended_action": "keep",
+        "rationale": "Still planned with no strong execution signal. Re-validate before carrying forward unchanged."
+      },
+      {
+        "task_id": "decide_publish_gate_mode",
+        "latest_status": "planned",
+        "due": "2026-04-13",
+        "executor": "human:zerator",
+        "carry_forward_reason": null,
+        "notes": "",
+        "recommended_action": "keep",
+        "rationale": "Still planned with no strong execution signal. Re-validate before carrying forward unchanged."
+      },
+      {
+        "task_id": "audit_representative_pages",
+        "latest_status": "planned",
+        "due": "2026-04-14",
+        "executor": "agent:openclaw",
+        "carry_forward_reason": null,
+        "notes": "",
+        "recommended_action": "keep",
+        "rationale": "Still planned with no strong execution signal. Re-validate before carrying forward unchanged."
+      },
+      {
+        "task_id": "update_automation_backlog",
+        "latest_status": "planned",
+        "due": "2026-04-15",
+        "executor": "human:zerator",
+        "carry_forward_reason": null,
+        "notes": "",
+        "recommended_action": "keep",
+        "rationale": "Still planned with no strong execution signal. Re-validate before carrying forward unchanged."
+      }
+    ]
+  },
+  "prompt": "You are replanning the next weekly operations cycle for a solo operator who may delegate execution to agents.\n\nUse only the structured inputs below. Do not assume missing history.\n\nRules:\n- Keep owner as `zerator` unless there is a compelling reason to change it.\n- Use `executor_type` values `human`, `agent`, or `system`.\n- Prefer `executor_id: openclaw` for analysis-heavy tasks and `executor_id: zerator` for operator decisions.\n- Do not silently re-add dropped work.\n- Re-scope blocked work instead of copying it unchanged.\n- Return at most 5 tasks for the next weekly plan.\n\nSummary headlines:\n- Generated at: 2026-04-10T06:03:02.878Z\n- Dataset version: `2026.04.10.6`\n- Last refresh: `2026-04-09T17:52:22.016Z`\n- Refresh cadence: `monthly`\n- Publish mode: `semi_automatic`\n- Entity count: 3 (+0)\n- Active overrides: 1 (+0)\n- Pending override reviews: 0\n\nReview headlines:\n- Generated at: 2026-04-10T06:03:03.482Z\n- Planned task count: 5\n- Completed planned tasks: 0\n- Completion rate: 0%\n- No planned tasks marked complete yet.\n- No tasks are currently marked blocked.\n- No tasks have been explicitly carried forward yet.\n- `refresh_core_data` Refresh core data and review anomaly output\n- `review_qa_sampling_queue` Review the QA sampling queue with focus on North Harbor\n- `decide_publish_gate_mode` Decide whether the current publish gate should stay manual-review-only\n\nDecision inputs:\n- refresh_core_data: action=keep; status=planned; due=2026-04-11; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.\n- review_qa_sampling_queue: action=keep; status=planned; due=2026-04-12; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.\n- decide_publish_gate_mode: action=keep; status=planned; due=2026-04-13; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.\n- audit_representative_pages: action=keep; status=planned; due=2026-04-14; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.\n- update_automation_backlog: action=keep; status=planned; due=2026-04-15; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.\n\nReturn JSON in this shape:\n{\n  \"focus\": [\"...\", \"...\"],\n  \"tasks\": [\n    {\n      \"id\": \"task_id\",\n      \"title\": \"Task title\",\n      \"owner\": \"zerator\",\n      \"executor_type\": \"human|agent|system\",\n      \"executor_id\": \"zerator|openclaw|github_actions\",\n      \"status\": \"planned\",\n      \"due\": \"YYYY-MM-DD\",\n      \"carry_forward_reason\": null,\n      \"source\": \"ops_replan\"\n    }\n  ],\n  \"planning_notes\": [\"...\", \"...\"]\n}"
 }

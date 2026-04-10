@@ -136,12 +136,15 @@ This writes starter outputs into `docs/ops/generated/`:
 - `weekly-ops-summary.md`
 - `weekly-ops-plan.md`
 - `weekly-ops-review.md`
+- `weekly-ops-replan.md`
+- `weekly-ops-replan-input.json`
 
 The intended loop is:
 
 1. Generate the weekly plan.
 2. Record actual work in `docs/ops/ops-execution-log.md`.
 3. Generate the weekly review.
-4. Use the review to drive the next plan cycle.
+4. Generate the replan brief for the next cycle.
+5. Use the replan brief to drive the next plan cycle, either manually or through an LLM / agent layer.
 
 GitHub Actions includes a weekly `Ops Snapshot` workflow plus manual `workflow_dispatch` support so these artifacts can be generated, archived, and upserted into a dated GitHub issue.

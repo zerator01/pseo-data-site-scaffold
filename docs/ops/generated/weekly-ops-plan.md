@@ -1,6 +1,6 @@
 # Weekly Ops Plan
 
-- Generated at: 2026-04-10T03:45:36.267Z
+- Generated at: 2026-04-10T06:03:03.144Z
 - Planning window start: 2026-04-10
 - Dataset version: `2026.04.10.6`
 - Refresh cadence: `monthly`

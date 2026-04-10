@@ -53,6 +53,7 @@ jobs:
             const queue = fs.readFileSync('docs/ops/generated/qa-sampling-queue.md', 'utf8');
             const plan = fs.readFileSync('docs/ops/generated/weekly-ops-plan.md', 'utf8');
             const review = fs.readFileSync('docs/ops/generated/weekly-ops-review.md', 'utf8');
+            const replan = fs.readFileSync('docs/ops/generated/weekly-ops-replan.md', 'utf8');
             const executionLog = fs.readFileSync('docs/ops/ops-execution-log.md', 'utf8');
 
             const title = `Ops Snapshot: ${new Date().toISOString().slice(0, 10)}`;
@@ -65,6 +66,10 @@ jobs:
               '---',
               '',
               review,
+              '',
+              '---',
+              '',
+              replan,
               '',
               '---',
               '',

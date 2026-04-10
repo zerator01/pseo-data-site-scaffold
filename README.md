@@ -136,4 +136,4 @@ This writes starter outputs into `docs/ops/generated/`:
 
 GitHub Actions also includes a weekly `Ops Snapshot` workflow plus manual `workflow_dispatch` support so the same artifacts can be generated and archived remotely.
 
-The scheduled workflow also opens a dated GitHub issue with the generated weekly summary, refresh digest, and QA queue so the artifacts have a default review surface even before Slack or OpenClaw integration.
+The scheduled workflow also upserts a dated GitHub issue with the generated weekly summary, refresh digest, and QA queue so the artifacts have a default review surface even before Slack or OpenClaw integration.

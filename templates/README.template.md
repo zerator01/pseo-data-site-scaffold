@@ -156,6 +156,14 @@ export OPS_REPLAN_MODEL=gpt-5-mini
 npm run ops:replan:llm
 ```
 
+Model selection guidance:
+
+- Prefer a stronger reasoning model for `ops:replan:llm` than for lightweight copy tasks.
+- For long-context replanning, agentic work, or coding-style task decomposition, prefer a `MiniMax` reasoning / high-speed tier when your provider exposes one.
+- For cheaper general-purpose planning, bilingual drafting, or simpler structured output, a `Qwen` plus-tier model is usually sufficient.
+- Do not treat the provider SKU name as universal truth. Hosted platforms often rename or route models differently, so validate against your actual provider's output quality and latency.
+- Keep the prompt input compact and structured. Better model choice does not compensate for dumping full historical markdown into the request.
+
 Optional:
 
 - `OPS_REPLAN_API_STYLE=responses` for OpenAI Responses-compatible APIs

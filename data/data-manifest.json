@@ -1,6 +1,6 @@
 {
-  "dataset_version": "2026.04.10.6",
-  "previous_dataset_version": "2026.04.10.5",
+  "dataset_version": "2026.04.10.8",
+  "previous_dataset_version": "2026.04.10.7",
   "refresh_policy": {
     "mode": "hybrid",
     "cadence": "monthly",
@@ -10,9 +10,9 @@
   },
   "core_dataset": {
     "year": "2026",
-    "fetched_at": "2026-04-09T17:52:21.725Z",
+    "fetched_at": "2026-04-10T11:43:03.297Z",
     "source": "Starter sample source snapshot",
-    "upstream_date": "2026-04-09",
+    "upstream_date": "2026-04-10",
     "refresh_mode": "automatic",
     "risk_level": "medium",
     "publish_mode": "semi_automatic",
@@ -39,6 +39,6 @@
       "spot_check"
     ]
   },
-  "last_refresh": "2026-04-09T17:52:22.016Z",
-  "last_build": "2026-04-09T17:52:22.016Z"
+  "last_refresh": "2026-04-10T11:43:03.611Z",
+  "last_build": "2026-04-10T11:43:03.611Z"
 }

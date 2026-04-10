@@ -18,6 +18,7 @@ interface RawEntity {
   score: number;
   metrics: Record<string, number>;
   summary: string;
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 interface RawPayload {
@@ -54,6 +55,21 @@ function bumpDatasetVersion(previous?: string | null) {
   return `${match[1]}.${Number(match[2]) + 1}`;
 }
 
+function buildDefaultFaq(entityName: string) {
+  return [
+    {
+      question: `Why is ${entityName} in the sample dataset?`,
+      answer:
+        'It exists to prove out route structure, score interpretation, and next-step navigation in the starter.',
+    },
+    {
+      question: 'Should this data ship to production as-is?',
+      answer:
+        'No. Replace sample values with source-backed records and update the source registry before launch.',
+    },
+  ];
+}
+
 function main() {
   if (!fs.existsSync(RAW_PATH)) {
     console.error(`Missing raw sample source: ${RAW_PATH}`);
@@ -72,18 +88,7 @@ function main() {
     score: entity.score,
     metrics: entity.metrics,
     summary: entity.summary,
-    faq: [
-      {
-        question: `Why is ${entity.name} in the sample dataset?`,
-        answer:
-          'It exists to prove out route structure, score interpretation, and next-step navigation in the starter.',
-      },
-      {
-        question: 'Should this data ship to production as-is?',
-        answer:
-          'No. Replace sample values with source-backed records and update the source registry before launch.',
-      },
-    ],
+    faq: entity.faq?.length ? entity.faq : buildDefaultFaq(entity.name),
   }));
 
   const entityIndex = entities.map(

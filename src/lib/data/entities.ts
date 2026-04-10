@@ -96,9 +96,16 @@ export function getRelatedEntities(slug: string, limit = 3): EntityIndexItem[] {
     return [];
   }
 
-  return getEntityIndex()
-    .filter((item) => item.slug !== slug && item.category === entity.category)
-    .sort((left, right) => Math.abs(right.score - entity.score) - Math.abs(left.score - entity.score))
+  const sameCategory = getEntityIndex().filter(
+    (item) => item.slug !== slug && item.category === entity.category
+  );
+  const fallbackPool =
+    sameCategory.length > 0
+      ? sameCategory
+      : getEntityIndex().filter((item) => item.slug !== slug);
+
+  return fallbackPool
+    .sort((left, right) => Math.abs(left.score - entity.score) - Math.abs(right.score - entity.score))
     .slice(0, limit);
 }
 

@@ -42,6 +42,18 @@ export function generateMetadata({
   };
 }
 
+function getScoreBand(rank: number, total: number) {
+  if (rank === 1) {
+    return 'leader';
+  }
+
+  if (rank === total) {
+    return 'edge_case';
+  }
+
+  return 'middle';
+}
+
 export default function EntityDetailPage({
   params,
 }: {
@@ -53,6 +65,16 @@ export default function EntityDetailPage({
     notFound();
   }
 
+  const rankedEntities = [...getEntityIndex()].sort((left, right) => right.score - left.score);
+  const rank = rankedEntities.findIndex((item) => item.slug === entity.slug) + 1;
+  const total = rankedEntities.length;
+  const metricPairs = METRIC_FAMILIES.map((metric) => ({
+    ...metric,
+    value: entity.metrics[metric.key] ?? 0,
+  })).sort((left, right) => right.value - left.value);
+  const strongestMetric = metricPairs[0];
+  const weakestMetric = metricPairs[metricPairs.length - 1];
+  const scoreBand = getScoreBand(rank, total);
   const related = getRelatedEntities(entity.slug);
   const sections = {
     hero: (
@@ -79,21 +101,44 @@ export default function EntityDetailPage({
     ),
     route_rationale: (
       <section className="panel" key="route_rationale">
-        <h2>Why this route exists</h2>
+        <h2>Score Interpretation</h2>
         <p className="lede">
-          A real detail page should interpret the score, explain tradeoffs, and route the user
-          to the next useful comparison. It should not be a dead-end leaf.
+          {entity.name} ranks {rank} of {total} sample {PROJECT_CONFIG.entityPlural.toLowerCase()}.
+          Its strongest signal is {strongestMetric.label} at {strongestMetric.value}, while{' '}
+          {weakestMetric.label} is the main tradeoff at {weakestMetric.value}.
         </p>
+        <p>
+          {scoreBand === 'leader'
+            ? `This page works as a top-ranked narrative because the score is supported by a clear strength profile instead of a single unexplained number.`
+            : scoreBand === 'edge_case'
+              ? `This page still justifies publication because the weaker overall score points to a specific tradeoff pattern rather than random noise.`
+              : `This page is useful because it sits between the strongest and weakest examples, making the tradeoffs easier to compare.`}
+        </p>
+      </section>
+    ),
+    faq: (
+      <section className="panel" key="faq">
+        <h2>Sample Questions</h2>
+        <div className="list">
+          {entity.faq.map((item) => (
+            <div key={item.question} className="listItem">
+              <strong>{item.question}</strong>
+              <span>{item.answer}</span>
+            </div>
+          ))}
+        </div>
       </section>
     ),
     related_entities: (
       <section className="panel" key="related_entities">
-        <h2>Related entities</h2>
+        <h2>Closest comparisons</h2>
         <div className="list">
           {related.map((item) => (
             <Link key={item.slug} href={ROUTES.entityDetail(item.slug)} className="listItem">
               <strong>{item.name}</strong>
-              <span>Score {item.score}</span>
+              <span>
+                Score {item.score} · {item.categoryLabel}
+              </span>
             </Link>
           ))}
         </div>
@@ -118,6 +163,7 @@ export default function EntityDetailPage({
       </nav>
 
       {renderOrderedSections(getEntityDetailSectionOrder(), sections)}
+      {sections.faq}
 
       <JsonLd
         data={generateBreadcrumbSchema([

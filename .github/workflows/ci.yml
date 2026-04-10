@@ -30,11 +30,21 @@ jobs:
       - name: Refresh sample data
         run: npm run refresh:data
 
+      - name: Generate ops artifacts
+        run: npm run ops:generate
+
       - name: Lint
         run: npm run lint
 
       - name: Build
         run: npm run build
+
+      - name: Upload ops artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ops-generated-artifacts
+          path: docs/ops/generated/
+          if-no-files-found: error
 
   smoke-create-project:
     runs-on: ubuntu-latest

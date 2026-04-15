@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "eight-of-wands",
+    "suit": "Wands",
+    "number": 8,
+    "status": "submitted",
+    "task_id": "task_01KP80Y20SED8J03R3RZ9H2X9Y",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/08-eight-of-wands-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776238397,
+      "estimated_time": 100,
+      "id": "task_01KP80Y20SED8J03R3RZ9H2X9Y",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "queen-of-wands",
+    "suit": "Wands",
+    "number": 13,
+    "status": "submitted",
+    "task_id": "task_01KP80Y2V4DG9MK29A094ZRFQG",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/13-queen-of-wands-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776238398,
+      "estimated_time": 100,
+      "id": "task_01KP80Y2V4DG9MK29A094ZRFQG",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "ace-of-cups",
+    "suit": "Cups",
+    "number": 1,
+    "status": "submitted",
+    "task_id": "task_01KP80Y3RTA2N3AJPK7SYQDQ89",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/01-ace-of-cups-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776238399,
+      "estimated_time": 100,
+      "id": "task_01KP80Y3RTA2N3AJPK7SYQDQ89",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "six-of-swords",
+    "suit": "Swords",
+    "number": 6,
+    "status": "submitted",
+    "task_id": "task_01KP80Y5R6TZBCZYSHR7TPSQ79",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/06-six-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776238401,
+      "estimated_time": 100,
+      "id": "task_01KP80Y5R6TZBCZYSHR7TPSQ79",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "page-of-swords",
+    "suit": "Swords",
+    "number": 11,
+    "status": "submitted",
+    "task_id": "task_01KP80Y6SKFPX554S2RBHKA569",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/11-page-of-swords-fullbleed.png",
+    "pull_status": "downloaded-overwrite"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/01-ace-of-cups-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-minor-selected/minor/cups/01-ace-of-cups-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      91,
+      88,
+      1605,
+      2442
+    ],
+    "size": [
+      1514,
+      2354
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/06-six-of-swords-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-minor-selected/minor/swords/06-six-of-swords-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      97,
+      94,
+      1599,
+      2435
+    ],
+    "size": [
+      1502,
+      2341
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/11-page-of-swords-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-minor-selected/minor/swords/11-page-of-swords-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      62,
+      58,
+      1635,
+      2475
+    ],
+    "size": [
+      1573,
+      2417
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/13-queen-of-wands-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-minor-selected/minor/wands/13-queen-of-wands-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      73,
+      68,
+      1623,
+      2464
+    ],
+    "size": [
+      1550,
+      2396
+    ]
+  }
+]

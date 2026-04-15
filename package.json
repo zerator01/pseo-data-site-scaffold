@@ -1,5 +1,5 @@
 {
-  "name": "my-data-site",
+  "name": "dailytarot",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "rewrite:tarot-content": "node scripts/rewrite-tarot-content.mjs",
     "create:project": "node scripts/create-project.mjs",
     "smoke:create-project": "node scripts/smoke-create-project.mjs",
     "init:project": "node scripts/init-project.mjs",
@@ -14,6 +15,7 @@
     "transform:sample": "tsx scripts/transform-sample-source.ts",
     "rebuild:baseline": "tsx scripts/rebuild-anomaly-baseline.ts",
     "refresh:data": "npm run fetch:sample && npm run transform:sample && npm run rebuild:baseline && npm run validate:ops && npm run ops:narrative-diff",
+    "ops:refresh-queue": "tsx scripts/generate-refresh-queue.ts",
     "ops:refresh-digest": "tsx scripts/generate-refresh-digest.ts",
     "ops:narrative-diff": "tsx scripts/generate-page-narrative-diff.ts",
     "ops:qa-queue": "tsx scripts/generate-qa-sampling-queue.ts",
@@ -22,7 +24,7 @@
     "ops:weekly-review": "tsx scripts/generate-weekly-ops-review.ts",
     "ops:replan": "tsx scripts/generate-weekly-ops-replan.ts",
     "ops:replan:llm": "tsx scripts/run-weekly-ops-replan-llm.ts",
-    "ops:generate": "npm run ops:refresh-digest && npm run ops:qa-queue && npm run ops:weekly-summary && npm run ops:weekly-plan && npm run ops:weekly-review && npm run ops:replan",
+    "ops:generate": "npm run ops:refresh-queue && npm run ops:refresh-digest && npm run ops:qa-queue && npm run ops:weekly-summary && npm run ops:weekly-plan && npm run ops:weekly-review && npm run ops:replan",
     "ops:cycle": "npm run ops:generate",
     "audit:page-quality": "tsx scripts/generate-page-quality-audit.ts",
     "validate:data": "tsx scripts/validate-data.ts",

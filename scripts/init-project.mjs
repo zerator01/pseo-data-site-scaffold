@@ -301,6 +301,47 @@ function buildAnomalyBaseline(entities) {
   };
 }
 
+function buildSourceRegistry(config) {
+  return [
+    {
+      source_key: 'core-sample-dataset',
+      site_key: config.projectName,
+      dataset: 'core_sample_dataset',
+      display_name: 'Core sample dataset',
+      owner: 'repo maintainer',
+      coverage: `Starter ${config.entityPlural.toLowerCase()} and hub families`,
+      source_type: 'sample',
+      refresh_cadence: 'monthly',
+      refresh_mode: 'semi_manual',
+      status: 'fresh',
+      last_refreshed_at: '2026-04-10T12:15:46.132Z',
+      next_refresh_due_at: '2026-05-10T00:00:00.000Z',
+      stale_after_days: 45,
+      review_required: true,
+      blocking_checks: ['validation', 'anomaly_review', 'spot_check'],
+      notes: 'Replace with a real upstream fetch path before launch.',
+    },
+    {
+      source_key: 'editorial-overrides',
+      site_key: config.projectName,
+      dataset: 'editorial_overrides',
+      display_name: 'Editorial overrides',
+      owner: 'repo maintainer',
+      coverage: 'Targeted field corrections and trust adjustments',
+      source_type: 'governance',
+      refresh_cadence: 'ad_hoc',
+      refresh_mode: 'manual',
+      status: 'review_needed',
+      last_refreshed_at: '2026-04-10T00:00:00.000Z',
+      next_refresh_due_at: null,
+      stale_after_days: 14,
+      review_required: true,
+      blocking_checks: ['validation', 'copy_review', 'spot_check'],
+      notes: 'Update when overrides change or when a publish decision needs fresh human review.',
+    },
+  ];
+}
+
 function updateSampleData(config) {
   const entities = buildSampleEntities(config);
   const entityIndex = entities.map(
@@ -319,6 +360,7 @@ function updateSampleData(config) {
   writeJson(path.join(root, 'data', 'processed', 'entity-index.json'), entityIndex);
   writeJson(path.join(root, 'data', 'processed', 'entities.json'), entities);
   writeJson(path.join(root, 'data', 'raw', 'source-sample.json'), buildRawSampleSource(config));
+  writeJson(path.join(root, 'data', 'source-registry.json'), buildSourceRegistry(config));
   writeJson(
     path.join(root, 'data', 'governance', 'anomaly-baseline.json'),
     buildAnomalyBaseline(entities)
@@ -370,6 +412,11 @@ function main() {
   );
   writeFromTemplate('docs/data-audit-log.template.md', 'docs/data-audit-log.md', replacements);
   writeFromTemplate('docs/data-refresh-policy.template.md', 'docs/data-refresh-policy.md', replacements);
+  writeFromTemplate(
+    'docs/data-refresh-control-plane.template.md',
+    'docs/data-refresh-control-plane.md',
+    replacements
+  );
   writeFromTemplate('docs/refresh-runbook.template.md', 'docs/refresh-runbook.md', replacements);
   writeFromTemplate(
     'docs/checklists/page-family-audit-checklist.template.md',
@@ -396,6 +443,16 @@ function main() {
   writeFromTemplate(
     'docs/ops/ops-execution-log.template.md',
     'docs/ops/ops-execution-log.md',
+    replacements
+  );
+  writeFromTemplate(
+    'state/data-refresh-runs/README.template.md',
+    'state/data-refresh-runs/README.md',
+    replacements
+  );
+  writeFromTemplate(
+    'state/data-refresh-approvals/README.template.md',
+    'state/data-refresh-approvals/README.md',
     replacements
   );
 

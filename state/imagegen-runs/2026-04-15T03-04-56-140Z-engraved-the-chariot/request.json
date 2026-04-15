@@ -1,0 +1,17 @@
+{
+  "slug": "engraved-the-chariot",
+  "style": "engraved",
+  "model": "gemini-3.1-flash-image-preview",
+  "submit_url": "https://api.apimart.ai/v1/images/generations",
+  "poll_base_url": "https://api.apimart.ai/v1/tasks",
+  "timeout_ms": 180000,
+  "poll_ms": 5000,
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "A tarot card illustration for a major arcana card. Masterpiece following the 'Gilded Shadow' design philosophy in its ornate dimensional variant. Strict tarot card proportion, tall vertical 2:3 card ratio, rounded corners, and the full card fully visible. Abyssal obsidian background, anchored by a single opulent, meticulously crafted, highly ornamental gold border with rich decorative detail and a blank ornate title cartouche at the bottom center. Preserve the same lavish mystical black-and-gold tarot card look as an ornate gilded major arcana card. The border must feel intricate, radiant, ceremonial, and luxurious. Inside the card, keep the scene predominantly gold-on-black, but allow only a very subtle internal tonal rendering in muted warm gold, antique brass, and soft ivory highlights so the central figures feel slightly more dimensional than pure line art. Do not turn it into a sepia illustration, painted image, or etched print. It must still read first as a black-and-gold tarot card. No bright colors, no modern graphic minimalism, no flat icon look, no double border, no extra outer frame. Central symbol: A fierce armored charioteer standing within a ceremonial chariot, driven by two opposing sphinxes beneath a celestial canopy, with a sense of force, command, and sacred momentum. No text, no words, no letters. Museum-quality, masterfully crafted.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  },
+  "explicit_task_id": null
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "the-fool",
+  "model": "gemini-3.1-flash-image-preview",
+  "submit_url": "https://api.apimart.ai/v1/images/generations",
+  "poll_base_url": "https://api.apimart.ai/v1/tasks",
+  "timeout_ms": 180000,
+  "poll_ms": 5000,
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "A tarot card illustration for 'The Fool'. Masterpiece following the 'Gilded Shadow' design philosophy. Abyssal obsidian background, anchored by an opulent, meticulously crafted geometric gold border. Central symbol: A youthful traveler stepping at the edge of a cliff, carrying a bindle over one shoulder, holding a rose, with a small dog beside them beneath a radiant sun. No text, no words, no letters. Museum-quality, masterfully crafted.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  },
+  "explicit_task_id": null
+}

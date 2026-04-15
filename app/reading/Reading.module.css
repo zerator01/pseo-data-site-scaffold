@@ -1,0 +1,119 @@
+.mainContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-size: 42px;
+  margin-bottom: 16px;
+  letter-spacing: 0.05em;
+}
+
+.description {
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.readingLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.spreadContainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.positionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.positionLabel {
+  font-family: var(--font-heading);
+  color: var(--accent-gold);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.readingResults {
+  max-width: 800px;
+  width: 100%;
+  background: var(--bg-elevated);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  border-radius: 12px;
+  padding: 40px;
+  margin-top: 40px;
+  animation: fadeIn 1s ease forwards;
+}
+
+.resultItem {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.resultItem:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.resultPosition {
+  font-family: var(--font-heading);
+  color: var(--text-muted);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+}
+
+.resultCardName {
+  font-family: var(--font-heading);
+  color: var(--accent-gold-light);
+  font-size: 28px;
+  margin: 0 0 16px 0;
+}
+
+.resultMeaning {
+  color: var(--text-primary);
+  line-height: 1.7;
+}
+
+.actionButton {
+  background: transparent;
+  color: var(--accent-gold-light);
+  border: 1px solid var(--accent-gold);
+  padding: 12px 32px;
+  font-family: var(--font-heading);
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.actionButton:hover {
+  background: rgba(201, 168, 76, 0.1);
+  box-shadow: 0 0 15px rgba(201, 168, 76, 0.3);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

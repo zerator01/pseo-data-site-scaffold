@@ -1,0 +1,332 @@
+[
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/00-the-fool-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/00-the-fool-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      44,
+      38,
+      1653,
+      2490
+    ],
+    "size": [
+      1609,
+      2452
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/01-the-magician-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/01-the-magician-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      69,
+      65,
+      1628,
+      2460
+    ],
+    "size": [
+      1559,
+      2395
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/02-the-high-priestess-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/02-the-high-priestess-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      114,
+      106,
+      1582,
+      2419
+    ],
+    "size": [
+      1468,
+      2313
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/03-the-empress-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/03-the-empress-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      67,
+      64,
+      1630,
+      2462
+    ],
+    "size": [
+      1563,
+      2398
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/04-the-emperor-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/04-the-emperor-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      40,
+      42,
+      1658,
+      2475
+    ],
+    "size": [
+      1618,
+      2433
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/05-the-hierophant-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/05-the-hierophant-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      79,
+      74,
+      1618,
+      2454
+    ],
+    "size": [
+      1539,
+      2380
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/06-the-lovers-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/06-the-lovers-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      54,
+      52,
+      1642,
+      2474
+    ],
+    "size": [
+      1588,
+      2422
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/07-the-chariot-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/07-the-chariot-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      61,
+      62,
+      1637,
+      2468
+    ],
+    "size": [
+      1576,
+      2406
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/08-strength-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/08-strength-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      56,
+      57,
+      1640,
+      2478
+    ],
+    "size": [
+      1584,
+      2421
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/09-the-hermit-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/09-the-hermit-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      89,
+      85,
+      1608,
+      2448
+    ],
+    "size": [
+      1519,
+      2363
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/10-wheel-of-fortune-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/10-wheel-of-fortune-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      65,
+      58,
+      1632,
+      2466
+    ],
+    "size": [
+      1567,
+      2408
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/11-justice-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/11-justice-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      37,
+      34,
+      1660,
+      2528
+    ],
+    "size": [
+      1623,
+      2494
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/12-the-hanged-man-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/12-the-hanged-man-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      56,
+      51,
+      1640,
+      2472
+    ],
+    "size": [
+      1584,
+      2421
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/13-death-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/13-death-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      74,
+      70,
+      1622,
+      2461
+    ],
+    "size": [
+      1548,
+      2391
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/14-temperance-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/14-temperance-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      56,
+      66,
+      1642,
+      2462
+    ],
+    "size": [
+      1586,
+      2396
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/15-the-devil-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/15-the-devil-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      76,
+      75,
+      1620,
+      2454
+    ],
+    "size": [
+      1544,
+      2379
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/16-the-tower-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/16-the-tower-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      64,
+      66,
+      1634,
+      2462
+    ],
+    "size": [
+      1570,
+      2396
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/17-the-star-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/17-the-star-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      54,
+      57,
+      1642,
+      2479
+    ],
+    "size": [
+      1588,
+      2422
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/18-the-moon-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/18-the-moon-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      67,
+      62,
+      1630,
+      2463
+    ],
+    "size": [
+      1563,
+      2401
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/19-the-sun-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/19-the-sun-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      76,
+      59,
+      1620,
+      2465
+    ],
+    "size": [
+      1544,
+      2406
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/20-judgement-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/20-judgement-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      0,
+      12,
+      1696,
+      2528
+    ],
+    "size": [
+      1696,
+      2516
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/21-the-world-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-major/major/21-the-world-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      46,
+      48,
+      1650,
+      2480
+    ],
+    "size": [
+      1604,
+      2432
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "slug": "the-fool",
+  "model": "gemini-3.1-flash-image-preview",
+  "submit_url": "https://api.apimart.ai/v1/images/generations",
+  "poll_base_url": "https://api.apimart.ai/v1/tasks",
+  "timeout_ms": 180000,
+  "poll_ms": 5000,
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "Design philosophy: premium tarot deck, strict black-and-gold visual system, museum-quality occult luxury. Output a finished tarot card illustration as a full vertical rounded-rectangle card. The entire final image canvas must also be pure black. No white studio background, no paper backdrop, no gray surround, no floating product shot on a light background. The card should fill most of the frame while remaining fully visible, centered on a black void. Strict duotone only: pure black background and metallic gold line art only. No other colors whatsoever: no blue, no purple, no green, no red, no orange, no white, no grayscale washes. Use a single integrated Art Nouveau inner frame with rich mystical ornamentation: dense but disciplined flowing linework, celestial curls, rays, crescent motifs, and tiny stars. Do not add a second outer border, glowing perimeter, or double-framed edge. Only one ornate inner frame is allowed. The ornament should feel luxurious and intricate, but it must still frame the figure rather than overpower it. Avoid specific plants, fruit clusters, or literal decorative motifs that distract from the tarot identity. Include an elegant empty Art Nouveau title cartouche at the bottom center inside the card frame, bordered in gold and intentionally left blank. The bottom title cartouche must be horizontally centered, proportionate, organic in shape, and clearly designed for later card-name typography overlay. It must not be a rigid rectangle. Use subtle gold glow only on key focal elements, like gold leaf catching candlelight. No HDR bloom. The full card must be visible and stylistically consistent with a luxury tarot deck. No text, no letters, no roman numerals, no symbols inside the title panel. Do not use Celtic borders, geometric hard-edged borders, painterly color, or fantasy trading-card styling. Subject: A youthful traveler stands at the cliff edge with one foot lifted forward, carrying a small bindle over one shoulder and a white rose rendered only as gold line art. A small dog rises beside the traveler. A radiant sun disk hangs above. The figure is elegant, poised, and archetypal rather than cartoonish. Keep the interior background mostly black with sparse gold details so the figure reads clearly at thumbnail size. Aspect ratio: 2:3 vertical orientation.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  },
+  "explicit_task_id": null
+}

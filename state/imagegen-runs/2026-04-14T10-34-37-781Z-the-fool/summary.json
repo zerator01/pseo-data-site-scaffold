@@ -1,0 +1,13 @@
+{
+  "slug": "the-fool",
+  "model": "gemini-3.1-flash-image-preview",
+  "prompt_preview": "Design philosophy: premium tarot deck, strict black-and-gold visual system, museum-quality occult luxury. Output a finished tarot card illustration as a full vertical rounded-rectangle card. The entire final image canvas must also be pure black. No white studio background, no paper backdrop, no gray",
+  "id": null,
+  "task_id": null,
+  "request_id": null,
+  "status": null,
+  "image_url_found": false,
+  "response_length": 173440,
+  "error": "curl: (28) Operation timed out after 90000 milliseconds with 173440 bytes received\n",
+  "recorded_at": "2026-04-14T10:36:07.815Z"
+}

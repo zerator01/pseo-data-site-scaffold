@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "the-magician",
+    "number": 1,
+    "status": "submitted",
+    "task_id": "task_01KP7X6168CE75533HW4Y6EJBF",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/01-the-magician-fullbleed.png"
+  },
+  {
+    "slug": "the-high-priestess",
+    "number": 2,
+    "status": "submitted",
+    "task_id": "task_01KP7X622F7J47M20J7Z2H4S70",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/02-the-high-priestess-fullbleed.png"
+  },
+  {
+    "slug": "the-emperor",
+    "number": 4,
+    "status": "submitted",
+    "task_id": "task_01KP7X6309CRJB9VE1WAN9WTQX",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/04-the-emperor-fullbleed.png"
+  },
+  {
+    "slug": "the-hierophant",
+    "number": 5,
+    "status": "submitted",
+    "task_id": "task_01KP7X643DAZ8ZX9YJYBJM79EJ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/05-the-hierophant-fullbleed.png"
+  },
+  {
+    "slug": "the-hermit",
+    "number": 9,
+    "status": "submitted",
+    "task_id": "task_01KP7X64Y5V826ZTD97EKHBPV4",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/09-the-hermit-fullbleed.png"
+  },
+  {
+    "slug": "wheel-of-fortune",
+    "number": 10,
+    "status": "submitted",
+    "task_id": "task_01KP7X65XRFNMRW189M3GS3BJ9",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/10-wheel-of-fortune-fullbleed.png"
+  },
+  {
+    "slug": "death",
+    "number": 13,
+    "status": "submitted",
+    "task_id": "task_01KP7X66NQVP3Z76GE5QDFH560",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/13-death-fullbleed.png"
+  },
+  {
+    "slug": "temperance",
+    "number": 14,
+    "status": "submitted",
+    "task_id": "task_01KP7X67YCAMMNN9A0TE8ZYEN2",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/14-temperance-fullbleed.png"
+  },
+  {
+    "slug": "the-devil",
+    "number": 15,
+    "status": "submitted",
+    "task_id": "task_01KP7X68RZMTTE0WFC9CB3Y72N",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/15-the-devil-fullbleed.png"
+  },
+  {
+    "slug": "the-tower",
+    "number": 16,
+    "status": "submitted",
+    "task_id": "task_01KP7X69R6RHP9MQSE7VZJEXQF",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/16-the-tower-fullbleed.png"
+  },
+  {
+    "slug": "the-moon",
+    "number": 18,
+    "status": "submitted",
+    "task_id": "task_01KP7X6AJHNRKAY2K07FWAGTB6",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/18-the-moon-fullbleed.png"
+  },
+  {
+    "slug": "the-sun",
+    "number": 19,
+    "status": "submitted",
+    "task_id": "task_01KP7X6B9TY3KMD1DMJATRTMDK",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/19-the-sun-fullbleed.png"
+  },
+  {
+    "slug": "judgement",
+    "number": 20,
+    "status": "submitted",
+    "task_id": "task_01KP7X6C9ACS48T401AXK8G094",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/20-judgement-fullbleed.png"
+  }
+]

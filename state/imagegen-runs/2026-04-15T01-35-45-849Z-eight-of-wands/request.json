@@ -1,0 +1,16 @@
+{
+  "slug": "eight-of-wands",
+  "model": "gemini-3.1-flash-image-preview",
+  "submit_url": "https://api.apimart.ai/v1/images/generations",
+  "poll_base_url": "https://api.apimart.ai/v1/tasks",
+  "timeout_ms": 180000,
+  "poll_ms": 5000,
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "A tarot card illustration following the 'Gilded Shadow' design philosophy. Strict tarot card proportion, tall vertical 2:3 card ratio, with rounded corners and the full card fully visible. Abyssal obsidian background, strict black and gold only, no other colors. Anchored by a single opulent, meticulously crafted geometric gold border. Prefer one unified border architecture and minimize any inner secondary frame. Include an empty title cartouche at the bottom center for later card-name text; this cartouche must be clearly visible and intentionally blank. Central symbol: Eight powerful wands flying diagonally in swift parallel motion across open space above distant land and water, with an atmosphere of acceleration, direct movement, and messages arriving without delay. No text, no words, no letters. Museum-quality, masterfully crafted.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  },
+  "explicit_task_id": "task_01KP65J8H3GCKN0N23EMPTX1V4"
+}

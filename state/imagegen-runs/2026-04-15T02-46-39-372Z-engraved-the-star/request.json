@@ -1,0 +1,17 @@
+{
+  "slug": "engraved-the-star",
+  "style": "engraved",
+  "model": "gemini-3.1-flash-image-preview",
+  "submit_url": "https://api.apimart.ai/v1/images/generations",
+  "poll_base_url": "https://api.apimart.ai/v1/tasks",
+  "timeout_ms": 180000,
+  "poll_ms": 5000,
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "A tarot card illustration for a major arcana card. Masterpiece following the 'Gilded Shadow' design philosophy in its engraved variant. Strict tarot card proportion, tall vertical 2:3 card ratio, rounded corners, and the full card fully visible. A deep obsidian card structure with a single opulent, meticulously crafted gold border and an empty ornamental title cartouche at the bottom center. Inside the card, do not use flat pure gold line art only. Instead, render the central scene with luxurious engraved illustration depth using antique gold, muted brass, soft sepia, warm ivory highlights, and dark shadowed charcoal tones, while keeping the overall palette restrained, dark, and elegant. The border remains black and gold, but the internal scene should feel like a mystical etched print illuminated by dim sacred light. No bright modern colors, no neon, no saturated green, red, or blue. No flat metallic outline-only rendering. No minimalist icon style. Central symbol: A serene figure kneeling beside still water, pouring from two vessels beneath a great radiant star surrounded by smaller stars, with an atmosphere of hope, spiritual clarity, healing, and quiet renewal. No text, no words, no letters. Esoteric, atmospheric, richly detailed, museum-quality, masterfully crafted.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  },
+  "explicit_task_id": null
+}

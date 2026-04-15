@@ -1,0 +1,10 @@
+{
+  "code": 200,
+  "data": {
+    "created": 1776175653,
+    "estimated_time": 100,
+    "id": "task_01KP6538FRAGTMM9F6FWA6AYD2",
+    "progress": 0,
+    "status": "pending"
+  }
+}

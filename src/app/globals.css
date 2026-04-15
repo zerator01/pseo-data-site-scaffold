@@ -1,0 +1,52 @@
+:root {
+  /* Base - Gilded Shadow Dark */
+  --bg-primary:     #0a0a0f;
+  --bg-secondary:   #12121a;
+  --bg-elevated:    #1a1a2e;
+
+  /* Gold Accent */
+  --accent-gold:    #c9a84c;
+  --accent-gold-light: #e8d48b;
+  --accent-gold-dim: #8a7033;
+
+  /* Text */
+  --text-primary:   #e8e6e1;
+  --text-secondary: #9a9890;
+  --text-muted:     #5a5850;
+
+  /* Semantic */
+  --upright-glow:   #c9a84c;
+  --reversed-glow:  #8b3a3a;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--accent-gold);
+  font-weight: 400;
+}
+
+a {
+  color: var(--accent-gold-light);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Base structural classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/00-the-fool-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-samples-major/major/00-the-fool-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      44,
+      38,
+      1653,
+      2490
+    ],
+    "size": [
+      1609,
+      2452
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/07-the-chariot-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-samples-major/major/07-the-chariot-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      61,
+      62,
+      1637,
+      2468
+    ],
+    "size": [
+      1576,
+      2406
+    ]
+  },
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/14-temperance-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-samples-major/major/14-temperance-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      56,
+      66,
+      1642,
+      2462
+    ],
+    "size": [
+      1586,
+      2396
+    ]
+  }
+]

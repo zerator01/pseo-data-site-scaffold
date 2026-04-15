@@ -1,0 +1,8 @@
+[
+  {
+    "source": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards/card-back-external.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop-misc/cards/card-back-external.png",
+    "status": "failed",
+    "error": "Could not detect stable gold border on all sides"
+  }
+]

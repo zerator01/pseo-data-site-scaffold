@@ -2,6 +2,9 @@
 
 Track every upstream input that can affect public pages.
 
+The machine-readable companion file is `data/source-registry.json`. Keep this markdown file for
+human trust notes and the JSON file for queue generation and refresh state coordination.
+
 | Dataset | Owner | URL | Coverage | Fetch cadence | License / usage notes | Last raw date | Last fetch date |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Core sample dataset | repo maintainer | repo-local sample snapshot | Starter entities and hub families | monthly | Replace with real source terms before launch | 2026-04-10 | 2026-04-10 |

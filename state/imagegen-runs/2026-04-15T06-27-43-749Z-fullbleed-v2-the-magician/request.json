@@ -1,0 +1,11 @@
+{
+  "slug": "the-magician",
+  "output_path": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed-v2/major/01-the-magician-fullbleed-v2.png",
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "A tarot card illustration following the 'Gilded Shadow' design philosophy. Full-bleed tarot card composition. The tarot card itself fills the entire canvas. The outer gold border sits very close to the image edges. No extra outer black padding. No card floating inside a larger background. Tall ceremonial tarot card layout with rounded corners. Luxurious black and gold palette. Predominantly black and gold. Highly ornamental, richly detailed, mystical, opulent. Single unified border architecture. No double border. No bright colors. No modern graphic minimalism. No flat icon look. A single ornate title cartouche at the bottom center. The cartouche must be uniform across the whole deck. The cartouche background must be solid warm matte gold. The cartouche interior must be clean and flat, with no texture variation, no black fill, no white fill, and no illustration details inside it. Do not vary the title cartouche style from card to card. Do not place any scene elements inside the title cartouche. Central symbol: A ritual magician standing before an altar with wand raised toward the heavens and the other hand directed downward, surrounded by the elemental tools and an atmosphere of focus, will, and manifested power. No text, no words, no letters. Museum-quality, masterfully crafted.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  }
+}

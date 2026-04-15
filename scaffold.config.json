@@ -1,64 +1,44 @@
 {
-  "projectName": "my-data-site",
-  "siteName": "My Data Site",
-  "siteUrl": "https://example.com",
-  "siteDescription": "A data-led pSEO site built on the scaffold starter.",
-  "siteTagline": "Runnable starter for data-led pSEO sites",
-  "heroTitle": "Build a real scaffold, not another vague page factory.",
-  "heroDescription": "This starter demonstrates layered indexing, anti-orphan hubs, representative rankings, centralized schema, and documented methodology with sample data.",
-  "entitySingular": "City",
-  "entityPlural": "Cities",
-  "entityDirectoryLabel": "City directory",
-  "entityRouteBase": "entities",
-  "categorySingular": "Region",
-  "categoryPlural": "Regions",
-  "categoryRouteBase": "categories",
-  "defaultCategoryHubLabel": "Region Hub",
-  "defaultCategoryHubSlug": "port-city",
-  "representativeRankingLabel": "Representative Rankings",
-  "representativeRankingDescription": "A user-facing sample ranking that filters out tiny edge cases.",
-  "fullRankingLabel": "Full Rankings",
-  "fullRankingDescription": "The raw mathematical ordering of all entities in the sample dataset.",
-  "metricFamilies": [
-    {
-      "key": "cost_index",
-      "label": "Cost Index"
-    },
-    {
-      "key": "access_index",
-      "label": "Access Index"
-    },
-    {
-      "key": "momentum_index",
-      "label": "Momentum Index"
-    }
-  ],
+  "projectName": "dailytarot",
+  "siteName": "Daily Tarot",
+  "siteUrl": "https://dailytarot.org",
+  "siteDescription": "Premium AI-powered interactive tarot reading and deep card meanings matrix.",
+  "siteTagline": "Interactive Free Tarot Readings",
+  "heroTitle": "Reveal Your Path",
+  "heroDescription": "Experience the most visually striking and interactively rich free tarot reading online, alongside deep, contextual interpretations for every card.",
+  "entitySingular": "Tarot Card",
+  "entityPlural": "Tarot Cards",
+  "entityDirectoryLabel": "Tarot Deck",
+  "entityRouteBase": "cards",
+  "categorySingular": "Arcana",
+  "categoryPlural": "Arcana",
+  "categoryRouteBase": "deck",
+  "defaultCategoryHubLabel": "Major Arcana",
+  "defaultCategoryHubSlug": "major",
+  "representativeRankingLabel": "Most Popular Cards",
+  "representativeRankingDescription": "The cards users pull most from our free daily readings.",
+  "fullRankingLabel": "Card Index",
+  "fullRankingDescription": "All 78 cards of the traditional tarot deck.",
+  "metricFamilies": [],
   "homeSectionOrder": [
     "hero",
-    "navigation_matrix",
-    "category_hubs",
-    "featured_entities",
-    "ranking_families",
-    "next_steps"
+    "reading_tool",
+    "daily_draw",
+    "category_hubs"
   ],
   "entityDetailSectionOrder": [
     "hero",
-    "metrics",
-    "route_rationale",
-    "related_entities",
-    "next_steps"
+    "quick_keywords",
+    "upright_meaning",
+    "reversed_meaning",
+    "common_combinations",
+    "faq"
   ],
   "categoryHubSectionOrder": [
     "hero",
     "entity_grid",
     "next_steps"
   ],
-  "rankingHubSectionOrder": [
-    "hero",
-    "ranking_grid"
-  ],
-  "rankingDetailSectionOrder": [
-    "hero",
-    "ranking_table"
-  ]
+  "rankingHubSectionOrder": [],
+  "rankingDetailSectionOrder": []
 }

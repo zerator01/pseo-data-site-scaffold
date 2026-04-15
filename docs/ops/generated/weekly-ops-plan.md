@@ -1,8 +1,8 @@
 # Weekly Ops Plan
 
-- Generated at: 2026-04-10T06:03:03.144Z
-- Planning window start: 2026-04-10
-- Dataset version: `2026.04.10.6`
+- Generated at: 2026-04-12T13:02:45.930Z
+- Planning window start: 2026-04-12
+- Dataset version: `2026.04.10.9`
 - Refresh cadence: `monthly`
 - Publish mode: `semi_automatic`
 
@@ -16,11 +16,11 @@
 
 | Task ID | Title | Owner | Executor Type | Executor | Status | Due | Carry Forward Reason |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `refresh_core_data` | Refresh core data and review anomaly output | zerator | human | zerator | planned | 2026-04-11 |  |
-| `review_qa_sampling_queue` | Review the QA sampling queue with focus on North Harbor | zerator | agent | openclaw | planned | 2026-04-12 |  |
-| `decide_publish_gate_mode` | Decide whether the current publish gate should stay manual-review-only | zerator | human | zerator | planned | 2026-04-13 |  |
-| `audit_representative_pages` | Audit one high-confidence page (North Harbor) and one edge-case page (Riverbend) | zerator | agent | openclaw | planned | 2026-04-14 |  |
-| `update_automation_backlog` | Update the ops automation backlog with one candidate to automate next | zerator | human | zerator | planned | 2026-04-15 |  |
+| `refresh_core_data` | Refresh core data and review anomaly output | zerator | human | zerator | planned | 2026-04-13 |  |
+| `review_qa_sampling_queue` | Review the QA sampling queue with focus on North Harbor | zerator | agent | openclaw | planned | 2026-04-14 |  |
+| `decide_publish_gate_mode` | Decide whether the current publish gate should stay manual-review-only | zerator | human | zerator | planned | 2026-04-15 |  |
+| `audit_representative_pages` | Audit one high-confidence page (North Harbor) and one edge-case page (Riverbend) | zerator | agent | openclaw | planned | 2026-04-16 |  |
+| `update_automation_backlog` | Update the ops automation backlog with one candidate to automate next | zerator | human | zerator | planned | 2026-04-17 |  |
 
 ## Inputs To Review
 

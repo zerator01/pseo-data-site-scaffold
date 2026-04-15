@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T06:03:03.144Z",
+  "generated_at": "2026-04-12T13:02:45.929Z",
   "tasks": [
     {
       "id": "refresh_core_data",
@@ -8,7 +8,7 @@
       "executor_type": "human",
       "executor_id": "zerator",
       "status": "planned",
-      "due": "2026-04-11",
+      "due": "2026-04-13",
       "carry_forward_reason": null,
       "source": "ops_cycle"
     },
@@ -19,7 +19,7 @@
       "executor_type": "agent",
       "executor_id": "openclaw",
       "status": "planned",
-      "due": "2026-04-12",
+      "due": "2026-04-14",
       "carry_forward_reason": null,
       "source": "ops_cycle"
     },
@@ -30,7 +30,7 @@
       "executor_type": "human",
       "executor_id": "zerator",
       "status": "planned",
-      "due": "2026-04-13",
+      "due": "2026-04-15",
       "carry_forward_reason": null,
       "source": "ops_cycle"
     },
@@ -41,7 +41,7 @@
       "executor_type": "agent",
       "executor_id": "openclaw",
       "status": "planned",
-      "due": "2026-04-14",
+      "due": "2026-04-16",
       "carry_forward_reason": null,
       "source": "ops_cycle"
     },
@@ -52,7 +52,7 @@
       "executor_type": "human",
       "executor_id": "zerator",
       "status": "planned",
-      "due": "2026-04-15",
+      "due": "2026-04-17",
       "carry_forward_reason": null,
       "source": "ops_cycle"
     }

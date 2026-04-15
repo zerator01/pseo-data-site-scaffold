@@ -96,9 +96,19 @@ See `docs/scaffold-config-reference.md` for every supported config field and wha
 ```bash
 npm run fetch:sample
 npm run transform:sample
+npm run ops:refresh-queue
 npm run rebuild:baseline
 npm run refresh:data
 ```
+
+`npm run ops:refresh-queue` generates a human-in-the-loop refresh queue from
+`data/source-registry.json` and writes:
+
+- `docs/ops/generated/data-refresh-queue.json`
+- `docs/ops/generated/data-refresh-queue.md`
+
+Use this to see which sources are fresh, due, overdue, blocked, or waiting on review before a
+publish decision.
 
 ## Quality Audit
 
@@ -129,8 +139,10 @@ The goal is to make page-family quality review repeatable instead of relying on 
 - `src/lib/site.ts`: generated site constants, route helpers, family configuration
 - `src/lib/page-sections.ts`: config-driven section registry for major page families
 - `data/raw/`: starter raw inputs
+- `data/source-registry.json`: machine-readable source registry for refresh coordination
 - `data/processed/`: generated entity datasets
 - `data/governance/`: anomaly baseline and override registry
+- `state/`: refresh run records and approval records
 - `scripts/`: init, refresh, validation, and publish-gate commands
 - `docs/`: blueprint, refresh, governance, and source documentation
 

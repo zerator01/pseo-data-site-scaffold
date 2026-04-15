@@ -1,100 +1,128 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import { EntityCard } from '@/components/EntityCard';
-import { FreshnessBadge } from '@/components/FreshnessBadge';
-import { NextSteps } from '@/components/NextSteps';
-import {
-  getCategoryHubItems,
-  getRepresentativeEntities,
-  RANKING_CATEGORIES,
-} from '@/lib/data/entities';
-import {
-  getHomeNavigationItems,
-  getHomeNextSteps,
-  getHomeSectionOrder,
-  renderOrderedSections,
-} from '@/lib/page-sections';
-import { PROJECT_CONFIG, ROUTES } from '@/lib/site';
+import cards from '@/../data/tarot-cards.json';
+import { TAROT_GROUPS } from '@/lib/tarot-groups';
+
+const featuredSlugs = ['the-fool', 'the-high-priestess', 'death'];
 
 export default function HomePage() {
-  const featured = getRepresentativeEntities(3);
-  const categoryHubs = getCategoryHubItems();
-  const navigationItems = getHomeNavigationItems();
-  const sections = {
-    hero: (
-      <section className="hero" key="hero">
-        <div className="eyebrow">Data-led pSEO starter</div>
-        <h1>{PROJECT_CONFIG.heroTitle}</h1>
-        <p className="lede">{PROJECT_CONFIG.heroDescription}</p>
-        <FreshnessBadge />
-        <div className="buttonRow">
-          <Link href={ROUTES.entityDirectory} className="button">
-            Browse {PROJECT_CONFIG.entityPlural.toLowerCase()}
-          </Link>
-          <Link href={ROUTES.methodology} className="buttonGhost">
-            Read the methodology
-          </Link>
-        </div>
-      </section>
-    ),
-    navigation_matrix: (
-      <section className="panel" key="navigation_matrix">
-        <h2>Home Navigation Matrix</h2>
-        <p className="lede">
-          Your home page should route users into entity detail, hub, ranking, and trust
-          surfaces. It should not just sell the idea of the product.
-        </p>
-        <div className="grid" style={{ marginTop: 20 }}>
-          {navigationItems.map((item) => (
-            <Link key={item.href} href={item.href} className="card">
-              <strong>{item.title}</strong>
-              <span>{item.description}</span>
-            </Link>
-          ))}
-        </div>
-      </section>
-    ),
-    category_hubs: (
-      <section className="panel" key="category_hubs">
-        <h2>{PROJECT_CONFIG.categoryPlural}</h2>
-        <div className="list">
-          {categoryHubs.map((hub) => (
-            <Link key={hub.slug} href={ROUTES.categoryHub(hub.slug)} className="listItem">
-              <strong>{hub.label}</strong>
-              <span>{hub.items.length} entities</span>
-            </Link>
-          ))}
-        </div>
-      </section>
-    ),
-    featured_entities: (
-      <section className="panel" key="featured_entities">
-        <h2>Featured Representative {PROJECT_CONFIG.entityPlural}</h2>
-        <div className="grid">
-          {featured.map((entity) => (
-            <EntityCard key={entity.slug} entity={entity} />
-          ))}
-        </div>
-      </section>
-    ),
-    ranking_families: (
-      <section className="panel" key="ranking_families">
-        <h2>Ranking Families</h2>
-        <div className="grid">
-          {RANKING_CATEGORIES.map((ranking) => (
-            <Link key={ranking.slug} href={`${ROUTES.rankings}${ranking.slug}/`} className="card">
-              <strong>{ranking.name}</strong>
-              <span>{ranking.description}</span>
-            </Link>
-          ))}
-        </div>
-      </section>
-    ),
-    next_steps: <NextSteps key="next_steps" items={getHomeNextSteps()} />,
-  } as const;
+  const featuredCards = featuredSlugs
+    .map((slug) => cards.find((card) => card.slug === slug))
+    .filter((card): card is (typeof cards)[number] => Boolean(card));
+
+  const suitCards = TAROT_GROUPS.map((group) => ({
+    ...group,
+    count: cards.filter(group.matches).length,
+  }));
 
   return (
     <main className="sectionStack">
-      {renderOrderedSections(getHomeSectionOrder(), sections)}
+      <section className="hero heroLarge">
+        <div className="heroCopy">
+          <div className="eyebrow">Black-Gold Tarot Library</div>
+          <h1>A full-deck tarot reference with one visual language and 78 real card pages.</h1>
+          <p className="lede">
+            Explore Major Arcana and the four suits through a consistent deck system: upright and
+            reversed meanings, symbolism, relationship readings, work readings, money readings,
+            health interpretations, and a direct yes-or-no lens.
+          </p>
+          <div className="badgeRow">
+            <span className="badge">78 cards</span>
+            <span className="badge subtle">Major + Minor Arcana</span>
+            <span className="badge subtle">Upright and reversed interpretations</span>
+          </div>
+          <div className="buttonRow">
+            <Link href="/cards" className="button">
+              Browse the deck
+            </Link>
+            <Link href="/cards/the-fool" className="buttonGhost">
+              Read The Fool
+            </Link>
+          </div>
+        </div>
+
+        <div className="heroVisual">
+          <div className="cardStack">
+            {featuredCards.map((card, index) => (
+              <Link
+                key={card.slug}
+                href={`/cards/${card.slug}`}
+                className={`showcaseCard showcaseCard${index + 1}`}
+              >
+                <div className="showcaseImageWrap">
+                  <Image src={card.image} alt={card.name} fill className="showcaseImage" />
+                </div>
+                <div className="showcaseMeta">
+                  <strong>{card.name}</strong>
+                  <span>
+                    {card.arcana === 'major' ? 'Major Arcana' : card.suit} • {card.keywords.upright[0]}
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="panel">
+        <div className="sectionIntro">
+          <div className="eyebrow">The Grimoire</div>
+          <h2>Explore the Gilded Shadow deck.</h2>
+          <p className="lede">
+            Whether you are drawing a daily spread or studying the archetypes, enter the library through the path that serves your current reading.
+          </p>
+        </div>
+        
+        <div className="bentoGrid">
+          {/* Main Hero Bento */}
+          <Link href="/cards" className="bentoCard bentoHero">
+            <strong>Full Deck Index</strong>
+            <span>See every card in one sweep and jump straight to the page you need. The ultimate visual reference across all 78 arcana.</span>
+          </Link>
+
+          {/* Secondary Action */}
+          <Link href="/reading" className="bentoCard bentoAction">
+            <strong>Interactive Reading</strong>
+            <span>Open the visual reading flow instead of entering through the index. Let the cards fall where they may.</span>
+          </Link>
+          
+          <Link href="/cards/groups/major-arcana" className="bentoCard bentoAction">
+            <strong>Major Arcana</strong>
+            <span>Read the 22 archetypal thresholds that shape big life turns.</span>
+          </Link>
+
+          {/* Suits Sub-Grid placed inside Bento */}
+          <div className="bentoSuitsGrid">
+            {suitCards.map((group) => (
+              <Link key={group.slug} href={`/cards/groups/${group.slug}`} className="bentoSuitTile">
+                <strong>{group.title}</strong>
+                <span>{group.count} cards</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="panel panelDense">
+        <div className="sectionIntro">
+          <div className="eyebrow">Reading Method</div>
+          <h2>Built to help cards compare cleanly across the full deck.</h2>
+        </div>
+        <div className="grid valueGrid">
+          <div className="card cardLuxe">
+            <strong>One Deck Language</strong>
+            <span>Every page follows the same reading frame, so comparing cards stays easy.</span>
+          </div>
+          <div className="card cardLuxe">
+            <strong>Direct Reading Structure</strong>
+            <span>Each card moves from archetype to application without detouring into fluff.</span>
+          </div>
+          <div className="card cardLuxe">
+            <strong>Visual Deck Consistency</strong>
+            <span>The card art, card back, and library structure all belong to one black-and-gold system.</span>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

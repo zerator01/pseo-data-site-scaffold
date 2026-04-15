@@ -1,0 +1,498 @@
+[
+  {
+    "slug": "two-of-wands",
+    "suit": "Wands",
+    "number": 2,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQN5X2R93TMV68JBPPM5Z",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/02-two-of-wands-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237139,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQN5X2R93TMV68JBPPM5Z",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "four-of-wands",
+    "suit": "Wands",
+    "number": 4,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQP1RM34P1Q4NSD2W41A3",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/04-four-of-wands-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237140,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQP1RM34P1Q4NSD2W41A3",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "six-of-wands",
+    "suit": "Wands",
+    "number": 6,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQPWRCE9W65VV5XFTG43Y",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/06-six-of-wands-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237140,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQPWRCE9W65VV5XFTG43Y",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "eight-of-wands",
+    "suit": "Wands",
+    "number": 8,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQQVTJKCDV6A34X7H2DA3",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/08-eight-of-wands-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237141,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQQVTJKCDV6A34X7H2DA3",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "nine-of-wands",
+    "suit": "Wands",
+    "number": 9,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQRX4ZQGKGBBGNQFPEJ4R",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/09-nine-of-wands-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237142,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQRX4ZQGKGBBGNQFPEJ4R",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "queen-of-wands",
+    "suit": "Wands",
+    "number": 13,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQSVK07Q228AB5ACZDBAA",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/13-queen-of-wands-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237143,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQSVK07Q228AB5ACZDBAA",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "ace-of-cups",
+    "suit": "Cups",
+    "number": 1,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQVHX6C7JE2V9YT037EMX",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/01-ace-of-cups-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237145,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQVHX6C7JE2V9YT037EMX",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "two-of-cups",
+    "suit": "Cups",
+    "number": 2,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQWMASXFRZY0MQJ4BHBQ3",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/02-two-of-cups-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237146,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQWMASXFRZY0MQJ4BHBQ3",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "four-of-cups",
+    "suit": "Cups",
+    "number": 4,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQXK8MPXWF2JE1HV1XWNQ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/04-four-of-cups-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237147,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQXK8MPXWF2JE1HV1XWNQ",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "six-of-cups",
+    "suit": "Cups",
+    "number": 6,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQYDB0F9CD4TF478B6JHR",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/06-six-of-cups-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237148,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQYDB0F9CD4TF478B6JHR",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "seven-of-cups",
+    "suit": "Cups",
+    "number": 7,
+    "status": "submitted",
+    "task_id": "task_01KP7ZQZCBH4PZ1ZNVGTJ916PD",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/07-seven-of-cups-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237149,
+      "estimated_time": 100,
+      "id": "task_01KP7ZQZCBH4PZ1ZNVGTJ916PD",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "knight-of-cups",
+    "suit": "Cups",
+    "number": 12,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR0B2RVRP8CSH934Q1437",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/12-knight-of-cups-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237150,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR0B2RVRP8CSH934Q1437",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "queen-of-cups",
+    "suit": "Cups",
+    "number": 13,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR15YC7KN5BS2PZMXCREV",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/13-queen-of-cups-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237151,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR15YC7KN5BS2PZMXCREV",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "ace-of-swords",
+    "suit": "Swords",
+    "number": 1,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR21J7JF82QM6535E1J87",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/01-ace-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237152,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR21J7JF82QM6535E1J87",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "three-of-swords",
+    "suit": "Swords",
+    "number": 3,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR3BKH2EB6ZSQ3CDKRQE9",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/03-three-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237153,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR3BKH2EB6ZSQ3CDKRQE9",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "five-of-swords",
+    "suit": "Swords",
+    "number": 5,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR476X4HE6GC8Q60MH6PY",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/05-five-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237154,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR476X4HE6GC8Q60MH6PY",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "six-of-swords",
+    "suit": "Swords",
+    "number": 6,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR5D8AJT8EZPA65QJM89E",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/06-six-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237155,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR5D8AJT8EZPA65QJM89E",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "eight-of-swords",
+    "suit": "Swords",
+    "number": 8,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR6BXW56SRSFJ6EZ3VZ61",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/08-eight-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237156,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR6BXW56SRSFJ6EZ3VZ61",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "nine-of-swords",
+    "suit": "Swords",
+    "number": 9,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR79Q5JV8DC4Z1TKB4X93",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/09-nine-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237157,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR79Q5JV8DC4Z1TKB4X93",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "page-of-swords",
+    "suit": "Swords",
+    "number": 11,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR83AMSRV1EVS3W3XJY2K",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/11-page-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237158,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR83AMSRV1EVS3W3XJY2K",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "knight-of-swords",
+    "suit": "Swords",
+    "number": 12,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR8ZMEQDA3YRXSQZVDZ5X",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/12-knight-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237159,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR8ZMEQDA3YRXSQZVDZ5X",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "king-of-swords",
+    "suit": "Swords",
+    "number": 14,
+    "status": "submitted",
+    "task_id": "task_01KP7ZR9YMZYZJJ3X0AZ3KDJGH",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/14-king-of-swords-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237160,
+      "estimated_time": 100,
+      "id": "task_01KP7ZR9YMZYZJJ3X0AZ3KDJGH",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "ace-of-pentacles",
+    "suit": "Pentacles",
+    "number": 1,
+    "status": "submitted",
+    "task_id": "task_01KP7ZRAVVQGSNBGFDVTT9VCHE",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/01-ace-of-pentacles-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237161,
+      "estimated_time": 100,
+      "id": "task_01KP7ZRAVVQGSNBGFDVTT9VCHE",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "four-of-pentacles",
+    "suit": "Pentacles",
+    "number": 4,
+    "status": "submitted",
+    "task_id": "task_01KP7ZRBQ2BEAPQEC3CSTZPQWF",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/04-four-of-pentacles-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237162,
+      "estimated_time": 100,
+      "id": "task_01KP7ZRBQ2BEAPQEC3CSTZPQWF",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "five-of-pentacles",
+    "suit": "Pentacles",
+    "number": 5,
+    "status": "submitted",
+    "task_id": "task_01KP7ZRCQAJFJ74AG9SR6FEMQ1",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/05-five-of-pentacles-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237163,
+      "estimated_time": 100,
+      "id": "task_01KP7ZRCQAJFJ74AG9SR6FEMQ1",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "seven-of-pentacles",
+    "suit": "Pentacles",
+    "number": 7,
+    "status": "submitted",
+    "task_id": "task_01KP7ZRDNZJJFSXGZV2NHR54PZ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/07-seven-of-pentacles-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237164,
+      "estimated_time": 100,
+      "id": "task_01KP7ZRDNZJJFSXGZV2NHR54PZ",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "nine-of-pentacles",
+    "suit": "Pentacles",
+    "number": 9,
+    "status": "submitted",
+    "task_id": "task_01KP7ZREQRMM0GDFG7BD8M2JGA",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/09-nine-of-pentacles-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237165,
+      "estimated_time": 100,
+      "id": "task_01KP7ZREQRMM0GDFG7BD8M2JGA",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "ten-of-pentacles",
+    "suit": "Pentacles",
+    "number": 10,
+    "status": "submitted",
+    "task_id": "task_01KP7ZRGTZEX11HZG3EF05EKR7",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/10-ten-of-pentacles-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237167,
+      "estimated_time": 100,
+      "id": "task_01KP7ZRGTZEX11HZG3EF05EKR7",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "page-of-pentacles",
+    "suit": "Pentacles",
+    "number": 11,
+    "status": "submitted",
+    "task_id": "task_01KP7ZRHTQ4PQE7S0105J7T8AC",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/11-page-of-pentacles-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237168,
+      "estimated_time": 100,
+      "id": "task_01KP7ZRHTQ4PQE7S0105J7T8AC",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "knight-of-pentacles",
+    "suit": "Pentacles",
+    "number": 12,
+    "status": "submitted",
+    "task_id": "task_01KP7ZRJSBKY4DYZJYJ4J6FPEJ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/12-knight-of-pentacles-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237169,
+      "estimated_time": 100,
+      "id": "task_01KP7ZRJSBKY4DYZJYJ4J6FPEJ",
+      "progress": 0,
+      "status": "processing"
+    }
+  },
+  {
+    "slug": "queen-of-pentacles",
+    "suit": "Pentacles",
+    "number": 13,
+    "status": "submitted",
+    "task_id": "task_01KP7ZRM0YS3J36DSGXX8V892M",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/13-queen-of-pentacles-fullbleed.png",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776237170,
+      "estimated_time": 100,
+      "id": "task_01KP7ZRM0YS3J36DSGXX8V892M",
+      "progress": 0,
+      "status": "processing"
+    }
+  }
+]

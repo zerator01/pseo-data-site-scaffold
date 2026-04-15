@@ -3,7 +3,7 @@ import Link from 'next/link';
 import './globals.css';
 import { JsonLd } from '@/components/JsonLd';
 import { generateWebsiteSchema } from '@/lib/seo/schema';
-import { PROJECT_CONFIG, ROUTES, SITE_DESCRIPTION, SITE_NAME } from '@/lib/site';
+import { ROUTES, SITE_DESCRIPTION, SITE_NAME } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: {
@@ -24,19 +24,28 @@ export default function RootLayout({
         <div className="shell">
           <header className="siteHeader">
             <Link href="/" className="brand">
-              <strong>{SITE_NAME}</strong>
-              <span>{PROJECT_CONFIG.siteTagline}</span>
+              <span className="brandMark" aria-hidden="true">
+                ✦
+              </span>
+              <div className="brandCopy">
+                <strong>{SITE_NAME}</strong>
+                <span>Black-and-gold tarot meanings for the full 78-card deck</span>
+              </div>
             </Link>
             <nav className="nav">
-              <Link href={ROUTES.entityDirectory}>{PROJECT_CONFIG.entityPlural}</Link>
-              <Link href={ROUTES.defaultCategoryHub}>{PROJECT_CONFIG.defaultCategoryHubLabel}</Link>
-              <Link href={ROUTES.rankings}>Rankings</Link>
+              <Link href="/cards">Cards</Link>
+              <Link href="/cards/groups/major-arcana">Major Arcana</Link>
+              <Link href="/cards/groups/cups">Cups</Link>
+              <Link href="/reading">Reading</Link>
               <Link href={ROUTES.methodology}>Methodology</Link>
             </nav>
           </header>
           {children}
           <footer className="siteFooter">
-            <span>Independent publisher starter. Replace with your real project identity.</span>
+            <span>
+              {SITE_NAME} is a tarot reference library for upright meanings, reversed meanings,
+              symbolism, and practical reading contexts.
+            </span>
             <div className="nav">
               <Link href={ROUTES.about}>About</Link>
               <Link href={ROUTES.privacy}>Privacy</Link>

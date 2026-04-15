@@ -1,0 +1,11 @@
+{
+  "slug": "the-hermit",
+  "output_path": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/09-the-hermit-fullbleed.png",
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "A tarot card illustration following the 'Gilded Shadow' design philosophy. Full-bleed composition. The tarot card itself fills the entire canvas. The outer gold border sits extremely close to the image edges with minimal outer black margin. Do not depict a card floating inside a larger background. Do not leave outer padding. Edge-to-edge tarot card layout. Strict tarot card proportion, luxurious black and gold only, a single opulent highly ornamental gold border, and a blank ornate title cartouche at the bottom center. Preserve a lavish mystical tarot card look with rich decorative detail and a strong ceremonial presence. Central symbol: A solitary hooded sage standing upon a high mountain peak, raising a radiant lantern and supporting themself with a staff, with deep stillness and an atmosphere of inner guidance, contemplation, and sacred withdrawal. No text, no words, no letters. No double border, no extra outer frame, no bright colors. Museum-quality, masterfully crafted.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  }
+}

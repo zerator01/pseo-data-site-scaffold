@@ -1,0 +1,22 @@
+{
+  "code": 200,
+  "data": {
+    "actual_time": 121,
+    "completed": 1776229548,
+    "created": 1776229427,
+    "estimated_time": 100,
+    "id": "task_01KP7RCAN4KR4WJWGANQ8KYYEF",
+    "progress": 100,
+    "result": {
+      "images": [
+        {
+          "expires_at": 1776315948,
+          "url": [
+            "https://upload.apimart.ai/f/image/9998223770454478-54ec12fd-b82e-4b41-9627-fc34a3c106dc-1776229545518862077_0.png,https://upload.apimart.ai/f/image/9998223770452831-b957c026-c024-4197-9655-bd634fc2d193-1776229547125107596_1.png"
+          ]
+        }
+      ]
+    },
+    "status": "completed"
+  }
+}

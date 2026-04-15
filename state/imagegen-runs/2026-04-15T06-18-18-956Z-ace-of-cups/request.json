@@ -1,0 +1,17 @@
+{
+  "slug": "ace-of-cups",
+  "style": "gilded",
+  "model": "gemini-3.1-flash-image-preview",
+  "submit_url": "https://api.apimart.ai/v1/images/generations",
+  "poll_base_url": "https://api.apimart.ai/v1/tasks",
+  "timeout_ms": 180000,
+  "poll_ms": 5000,
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "A tarot card illustration following the 'Gilded Shadow' design philosophy. Strict tarot card proportion, tall vertical 2:3 card ratio, with rounded corners and the full card fully visible. Abyssal obsidian background, strict black and gold only, no other colors. Anchored by a single opulent, meticulously crafted geometric gold border. Prefer one unified border architecture and minimize any inner secondary frame. Include an empty title cartouche at the bottom center for later card-name text; this cartouche must be clearly visible and intentionally blank. Central symbol: A single sacred chalice overflowing with luminous water, a descending dove above the cup, gentle ripples below, and subtle celestial radiance surrounding the vessel. No text, no words, no letters. Museum-quality, masterfully crafted.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  },
+  "explicit_task_id": "task_01KP7RCAN4KR4WJWGANQ8KYYEF"
+}

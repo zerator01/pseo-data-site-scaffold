@@ -1,0 +1,11 @@
+{
+  "slug": "seven-of-wands",
+  "output_path": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/07-seven-of-wands-fullbleed.png",
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "A tarot card illustration following the 'Gilded Shadow' design philosophy. Full-bleed composition. The tarot card itself fills the entire canvas. The outer gold border sits extremely close to the image edges with minimal outer black margin. Do not depict a card floating inside a larger background. Do not leave outer padding. Edge-to-edge tarot card layout. Strict tarot card proportion, luxurious black and gold only, a single opulent highly ornamental gold border, and a blank ornate title cartouche at the bottom center. Preserve a lavish mystical tarot card look with rich decorative detail and a strong ceremonial presence. Central symbol: a faithful, recognizable tarot scene for Seven of Wands, rendered as a dramatic ceremonial composition with clear archetypal figures, symbolic objects, and environmental storytelling. Use the established symbolism of Seven of Wands: Wands cards use staffs, flame, and outward movement to symbolize life-force trying to become visible through action. Their imagery is about direction, vitality, and the management of desire. In Seven of Wands, the emphasis falls on testing, discernment, and reality-checking a direction, and specifically on the image of the elevated stance shows the strain and necessity of defending a hard-won position. This shows how the suit behaves at that exact point in its cycle. No text, no words, no letters. No double border, no extra outer frame, no bright colors. Museum-quality, masterfully crafted.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  }
+}

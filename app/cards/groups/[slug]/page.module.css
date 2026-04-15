@@ -1,0 +1,174 @@
+.page {
+  display: grid;
+  gap: 28px;
+}
+
+.hero,
+.section {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(32, 35, 26, 0.05);
+}
+
+.hero,
+.section,
+.sectionHeader,
+.metricCard,
+.cardTile,
+.groupCard {
+  display: grid;
+}
+
+.hero,
+.section {
+  gap: 18px;
+}
+
+.crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.eyebrow,
+.sectionKicker,
+.cardMeta {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.eyebrow,
+.sectionKicker {
+  color: var(--highlight);
+}
+
+.hero h1,
+.section h2,
+.cardTile h3,
+.groupCard strong,
+.metricCard strong {
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  line-height: 0.98;
+}
+
+.lede,
+.cardTile p,
+.groupCard span {
+  color: var(--muted);
+}
+
+.lede,
+.cardTile p,
+.groupCard span {
+  line-height: 1.7;
+}
+
+.metricRow,
+.cardGrid,
+.groupGrid,
+.tagRow {
+  display: grid;
+  gap: 16px;
+}
+
+.metricRow {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.metricCard {
+  gap: 8px;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+.metricCard span {
+  color: var(--muted);
+}
+
+.metricCard strong {
+  color: var(--accent);
+  font-size: 28px;
+}
+
+.sectionHeader {
+  gap: 6px;
+}
+
+.cardGrid {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.cardTile,
+.groupCard {
+  gap: 12px;
+  padding: 18px;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  background: white;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.cardTile:hover,
+.groupCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(32, 35, 26, 0.08);
+  border-color: rgba(216, 141, 31, 0.45);
+}
+
+.cardMeta {
+  color: var(--accent);
+}
+
+.cardTile h3 {
+  font-size: 22px;
+  line-height: 1.15;
+}
+
+.cardTile p {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}
+
+.tagRow {
+  grid-template-columns: repeat(2, minmax(0, auto));
+  justify-content: start;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.groupGrid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+@media (max-width: 720px) {
+  .hero,
+  .section {
+    padding: 20px;
+  }
+}

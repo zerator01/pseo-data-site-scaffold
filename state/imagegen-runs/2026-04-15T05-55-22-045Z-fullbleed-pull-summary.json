@@ -1,0 +1,574 @@
+[
+  {
+    "slug": "the-fool",
+    "status": "submitted",
+    "task_id": "task_01KP7RB0CJQ1PE4X537E0GQQ8M",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/00-the-fool-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-magician",
+    "status": "submitted",
+    "task_id": "task_01KP7RB26VWD00AZAXCPSRGK0Z",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/01-the-magician-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-high-priestess",
+    "status": "submitted",
+    "task_id": "task_01KP7RB31VKYK6SAB72HNQH72Q",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/02-the-high-priestess-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-empress",
+    "status": "submitted",
+    "task_id": "task_01KP7RB3VXAQSM060VPWNYTQYK",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/03-the-empress-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-emperor",
+    "status": "submitted",
+    "task_id": "task_01KP7RB4XDEG02YY8T1KG8V6X4",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/04-the-emperor-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-hierophant",
+    "status": "submitted",
+    "task_id": "task_01KP7RB5TXSEPYAQPV8FJHT09G",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/05-the-hierophant-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-lovers",
+    "status": "submitted",
+    "task_id": "task_01KP7RB6MVPK8C12V7JA7DFDKJ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/06-the-lovers-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-chariot",
+    "status": "submitted",
+    "task_id": "task_01KP7RB7PB9S419T37Z6H4GQ97",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/07-the-chariot-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "strength",
+    "status": "submitted",
+    "task_id": "task_01KP7RB8J6WG7X9HCN0FZ7Q2AG",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/08-strength-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-hermit",
+    "status": "submitted",
+    "task_id": "task_01KP7RB9HYCD5ZMZN3982VVY38",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/09-the-hermit-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "wheel-of-fortune",
+    "status": "submitted",
+    "task_id": "task_01KP7RBAB9Y70BREC2008A607B",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/10-wheel-of-fortune-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "justice",
+    "status": "submitted",
+    "task_id": "task_01KP7RBB83DRKTA6A2YSJM47ET",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/11-justice-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-hanged-man",
+    "status": "submitted",
+    "task_id": "task_01KP7RBCJZJHEJC8ZWKWYCFSV6",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/12-the-hanged-man-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "death",
+    "status": "submitted",
+    "task_id": "task_01KP7RBE1J9X4Z0KFMBSD80E5J",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/13-death-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "temperance",
+    "status": "submitted",
+    "task_id": "task_01KP7RBF0DET2Y61FV6DRKCMZ2",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/14-temperance-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-devil",
+    "status": "submitted",
+    "task_id": "task_01KP7RBFTZMWZ0J38RW7W0HRN9",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/15-the-devil-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-tower",
+    "status": "submitted",
+    "task_id": "task_01KP7RBGX3WE1QTG485RWC5TGK",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/16-the-tower-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-star",
+    "status": "submitted",
+    "task_id": "task_01KP7RBHWH7D93VSDPJQ2AXCHY",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/17-the-star-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-moon",
+    "status": "submitted",
+    "task_id": "task_01KP7RBJTQ3S47P6Y4CVJTPYBK",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/18-the-moon-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-sun",
+    "status": "submitted",
+    "task_id": "task_01KP7RBKWN6D8YX6TBKJMKWGJB",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/19-the-sun-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "judgement",
+    "status": "submitted",
+    "task_id": "task_01KP7RBMWKSJ4PTAKQ2X544YBM",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/20-judgement-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "the-world",
+    "status": "submitted",
+    "task_id": "task_01KP7RBP7VA3JTSQB097RKTZHJ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/21-the-world-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "ace-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RBQNAVN73HXWWVHMFB524",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/01-ace-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "two-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RBRNKKNPET8YG80RR52KK",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/02-two-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "three-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RBSQ17B99W64TYXH634R7",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/03-three-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "four-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RBV4Q9454GEGTCJ2EFFJJ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/04-four-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "five-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RBW07B3A0VES28G9M14XT",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/05-five-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "six-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RBWTSZJDM76HKMTQ8Q40B",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/06-six-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "seven-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RBXNYZ4HZ4G8VFJ438KQZ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/07-seven-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "eight-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RBYYRG447XN155VWW9B4J",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/08-eight-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "nine-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RC02JHTTF109KN4H8QG1T",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/09-nine-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "ten-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RC13BPBQ3WJ0YXBHE9M9X",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/10-ten-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "page-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RC1WM8A28STJBVYPAFPZ2",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/11-page-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "knight-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RC33EAR820Z7X69R72MD8",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/12-knight-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "queen-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RC47W7A0Y2HA87A4V5JSW",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/13-queen-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "king-of-wands",
+    "status": "submitted",
+    "task_id": "task_01KP7RC515C0EZNP09Q2JR1MZQ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/14-king-of-wands-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "ace-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RC5VTP0VN5FCXPZKY0RP1",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/01-ace-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "two-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RC73EWE78ZWS57539BRV0",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/02-two-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "three-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RC7Y3XVJGGZENGFE6NZDY",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/03-three-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "four-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RC8VWZAXPXPJKB9ASQHJP",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/04-four-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "five-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RC9S2H1W7D0EW74M9XGBJ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/05-five-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "six-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RCAN4KR4WJWGANQ8KYYEF",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/06-six-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "seven-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RCBV7CNZP9J912VN2FVD3",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/07-seven-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "eight-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RCCR8AN93XJ6GHHMX6EJ5",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/08-eight-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "nine-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RCDRKGA8Q3FAK7ER5ZER1",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/09-nine-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "ten-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RCENDXWKG19S2CW7QR8A9",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/10-ten-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "page-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RCFHSKZY77SY6SGT0Y94M",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/11-page-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "knight-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RCGVF2898AVH8QBN5K74K",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/12-knight-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "queen-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RCHZ75V88RX1BN93X7YB3",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/13-queen-of-cups-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "king-of-cups",
+    "status": "submitted",
+    "task_id": "task_01KP7RCJTX4PQ5TWA0TTS1D1SG",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/14-king-of-cups-fullbleed.png",
+    "pull_status": "failed",
+    "raw": {
+      "actual_time": 143,
+      "completed": 1776229579,
+      "created": 1776229436,
+      "error": {
+        "code": "task_failed",
+        "message": "Models task execution failed."
+      },
+      "estimated_time": 100,
+      "id": "task_01KP7RCJTX4PQ5TWA0TTS1D1SG",
+      "progress": 0,
+      "status": "failed"
+    }
+  },
+  {
+    "slug": "ace-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCKQPE4ZMX4N9G7A6F7TD",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/01-ace-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "two-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCMH7BAHP2XR8KYVBBCZJ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/02-two-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "three-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCNCFEA09Y372VSRDM2YR",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/03-three-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "four-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCP7Y40AP3FV4Y65PGC8C",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/04-four-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "five-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCQ4MQK0M7NAVZR2BZCAQ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/05-five-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "six-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCQXCQHWZMSS0V63CHMM2",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/06-six-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "seven-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCRRNTB7S1GY70860SXNP",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/07-seven-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "eight-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCSNNH5T6AWTHJ0NJM0AJ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/08-eight-of-swords-fullbleed.png",
+    "pull_status": "failed",
+    "raw": {
+      "actual_time": 146,
+      "completed": 1776229589,
+      "created": 1776229443,
+      "error": {
+        "code": "task_failed",
+        "message": "Models task execution failed."
+      },
+      "estimated_time": 100,
+      "id": "task_01KP7RCSNNH5T6AWTHJ0NJM0AJ",
+      "progress": 0,
+      "status": "failed"
+    }
+  },
+  {
+    "slug": "nine-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCTJCPCHJE097NM6VXSVE",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/09-nine-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "ten-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCVD5RF4KYBWYAJ983FZJ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/10-ten-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "page-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCW60CMX3XPQ0EQ3WYKTR",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/11-page-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "knight-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCX0AZC6GQEBKPMTASJWZ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/12-knight-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "queen-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCXVCZQKZ9V380R06T43K",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/13-queen-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "king-of-swords",
+    "status": "submitted",
+    "task_id": "task_01KP7RCYNK66M923GRRRJVPKTA",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/14-king-of-swords-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "ace-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RCZG9VP2H7XS26BFKRQKA",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/01-ace-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "two-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD0AAEHNC4PNZ70Y41TQ5",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/02-two-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "three-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD176YNDRW12VHF5J7GQQ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/03-three-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "four-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD20RENT1BTG9DP48KV1H",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/04-four-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "five-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD2ZFC9J40J9QFBWKHBYH",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/05-five-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "six-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD3XA09YEJJAZM5F1J8AT",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/06-six-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "seven-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD4TN7ZG7PWX3G8F8V21Z",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/07-seven-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "eight-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD5KAVZMPGDVBCG46H4AZ",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/08-eight-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "nine-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD6JMSZB62RNE3BB22FG8",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/09-nine-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "ten-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD7CRWZ0W1WPZPS9MZ5ZT",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/10-ten-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "page-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD8ENXFS2ZWW1VAEAVE0T",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/11-page-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "knight-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RD98SVBY3YS5RVVZBQ1RM",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/12-knight-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "queen-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RDA7SN3288KZ8QZN1TVB1",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/13-queen-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  },
+  {
+    "slug": "king-of-pentacles",
+    "status": "submitted",
+    "task_id": "task_01KP7RDB4GBA23RHF9MFD7ACXD",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/14-king-of-pentacles-fullbleed.png",
+    "pull_status": "downloaded"
+  }
+]

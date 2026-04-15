@@ -1,0 +1,281 @@
+[
+  {
+    "slug": "two-of-wands",
+    "suit": "Wands",
+    "number": 2,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/02-two-of-wands-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "four-of-wands",
+    "suit": "Wands",
+    "number": 4,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/04-four-of-wands-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "six-of-wands",
+    "suit": "Wands",
+    "number": 6,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/06-six-of-wands-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "eight-of-wands",
+    "suit": "Wands",
+    "number": 8,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/08-eight-of-wands-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "nine-of-wands",
+    "suit": "Wands",
+    "number": 9,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/09-nine-of-wands-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "queen-of-wands",
+    "suit": "Wands",
+    "number": 13,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/wands/13-queen-of-wands-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "ace-of-cups",
+    "suit": "Cups",
+    "number": 1,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/01-ace-of-cups-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "two-of-cups",
+    "suit": "Cups",
+    "number": 2,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/02-two-of-cups-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "four-of-cups",
+    "suit": "Cups",
+    "number": 4,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/04-four-of-cups-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "six-of-cups",
+    "suit": "Cups",
+    "number": 6,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/06-six-of-cups-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "seven-of-cups",
+    "suit": "Cups",
+    "number": 7,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/07-seven-of-cups-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "knight-of-cups",
+    "suit": "Cups",
+    "number": 12,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/12-knight-of-cups-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "queen-of-cups",
+    "suit": "Cups",
+    "number": 13,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/cups/13-queen-of-cups-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "ace-of-swords",
+    "suit": "Swords",
+    "number": 1,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/01-ace-of-swords-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "three-of-swords",
+    "suit": "Swords",
+    "number": 3,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/03-three-of-swords-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "five-of-swords",
+    "suit": "Swords",
+    "number": 5,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/05-five-of-swords-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "six-of-swords",
+    "suit": "Swords",
+    "number": 6,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/06-six-of-swords-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "eight-of-swords",
+    "suit": "Swords",
+    "number": 8,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/08-eight-of-swords-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "nine-of-swords",
+    "suit": "Swords",
+    "number": 9,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/09-nine-of-swords-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "page-of-swords",
+    "suit": "Swords",
+    "number": 11,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/11-page-of-swords-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "knight-of-swords",
+    "suit": "Swords",
+    "number": 12,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/12-knight-of-swords-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "king-of-swords",
+    "suit": "Swords",
+    "number": 14,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/swords/14-king-of-swords-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "ace-of-pentacles",
+    "suit": "Pentacles",
+    "number": 1,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/01-ace-of-pentacles-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "four-of-pentacles",
+    "suit": "Pentacles",
+    "number": 4,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/04-four-of-pentacles-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "five-of-pentacles",
+    "suit": "Pentacles",
+    "number": 5,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/05-five-of-pentacles-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "seven-of-pentacles",
+    "suit": "Pentacles",
+    "number": 7,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/07-seven-of-pentacles-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "nine-of-pentacles",
+    "suit": "Pentacles",
+    "number": 9,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/09-nine-of-pentacles-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "ten-of-pentacles",
+    "suit": "Pentacles",
+    "number": 10,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/10-ten-of-pentacles-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "page-of-pentacles",
+    "suit": "Pentacles",
+    "number": 11,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/11-page-of-pentacles-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "knight-of-pentacles",
+    "suit": "Pentacles",
+    "number": 12,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/12-knight-of-pentacles-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  },
+  {
+    "slug": "queen-of-pentacles",
+    "suit": "Pentacles",
+    "number": 13,
+    "status": "submit-failed",
+    "error": "curl: (7) Failed to connect to 127.0.0.1 port 1089 after 0 ms: Couldn't connect to server\n",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/minor/pentacles/13-queen-of-pentacles-fullbleed.png",
+    "pull_status": "skipped-missing-task-or-output"
+  }
+]

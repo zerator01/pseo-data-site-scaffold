@@ -1,0 +1,7 @@
+[
+  { "id": "love", "slug": "love-meaning", "label": "Love & Relationships" },
+  { "id": "career", "slug": "career-meaning", "label": "Career & Work" },
+  { "id": "health", "slug": "health-meaning", "label": "Health & Wellness" },
+  { "id": "finance", "slug": "finance-meaning", "label": "Money & Finance" },
+  { "id": "spirituality", "slug": "spiritual-meaning", "label": "Spirituality & Growth" }
+]

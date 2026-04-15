@@ -1,0 +1,16 @@
+{
+  "slug": "two-of-pentacles",
+  "model": "gemini-3.1-flash-image-preview",
+  "submit_url": "https://api.apimart.ai/v1/images/generations",
+  "poll_base_url": "https://api.apimart.ai/v1/tasks",
+  "timeout_ms": 180000,
+  "poll_ms": 5000,
+  "body": {
+    "model": "gemini-3.1-flash-image-preview",
+    "prompt": "A tarot card illustration following the 'Gilded Shadow' design philosophy. Strict tarot card proportion, tall vertical 2:3 card ratio, with rounded corners and the full card fully visible. Abyssal obsidian background, strict black and gold only, no other colors. Anchored by a single opulent, meticulously crafted geometric gold border. Prefer one unified border architecture and minimize any inner secondary frame. Include an empty title cartouche at the bottom center for later card-name text; this cartouche must be clearly visible and intentionally blank. Central symbol: A nimble figure standing at the shoreline while balancing two pentacles joined by a flowing infinity loop, with storm-tossed waves, multiple ships rising and falling behind them, and a full dramatic sense of instability, rhythm, adaptation, and material life kept in motion. No text, no words, no letters. Museum-quality, masterfully crafted.",
+    "size": "2:3",
+    "resolution": "2K",
+    "n": 1
+  },
+  "explicit_task_id": null
+}

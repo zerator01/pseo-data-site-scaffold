@@ -3,10 +3,11 @@ export default function AboutPage() {
     <main className="sectionStack">
       <section className="panel">
         <div className="eyebrow">About</div>
-        <h1>Independent publisher starter</h1>
+        <h1>About DailyTarot</h1>
         <p className="lede">
-          This project intentionally uses neutral wording. Replace it with your real operator,
-          contact path, and correction policy before launch.
+          DailyTarot is a tarot reading library built around the full 78-card deck. The goal is
+          to give readers a cleaner path into upright and reversed meanings, symbolism, and
+          practical interpretations without padding or generic filler.
         </p>
       </section>
     </main>

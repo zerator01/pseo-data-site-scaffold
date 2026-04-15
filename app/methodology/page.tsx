@@ -1,51 +1,49 @@
-import { FreshnessBadge } from '@/components/FreshnessBadge';
-
 export default function MethodologyPage() {
   return (
     <main className="sectionStack">
       <section className="panel">
         <div className="eyebrow">Methodology</div>
-        <h1>Document the data before you amplify it.</h1>
+        <h1>How These Tarot Pages Are Structured</h1>
         <p className="lede">
-          A real launch should explain source coverage, fallback logic, representative ranking
-          rules, and estimate boundaries. This sample route exists to force that habit.
+          Each card page is organized around upright and reversed meanings, symbolism, yes-or-no
+          framing, and applied interpretations for love, work, money, and health. The aim is to
+          make tarot pages easier to browse, compare, and read in context.
         </p>
-        <FreshnessBadge />
       </section>
 
       <section className="split">
         <div className="panel">
-          <h2>Minimum methodology sections</h2>
+          <h2>What Each Card Includes</h2>
           <div className="list">
             <div className="listItem">
-              <strong>Source registry</strong>
-              <span>Link to primary and secondary datasets.</span>
+              <strong>Upright meaning</strong>
+              <span>The core pattern and direct reading when the card appears upright.</span>
             </div>
             <div className="listItem">
-              <strong>Fallback chain</strong>
-              <span>Show where estimates replace direct measurements.</span>
+              <strong>Reversed meaning</strong>
+              <span>The shadow pattern, distortion, or blocked expression of the same archetype.</span>
             </div>
             <div className="listItem">
-              <strong>Ranking doctrine</strong>
-              <span>Explain why representative and full rankings differ.</span>
+              <strong>Applied reading areas</strong>
+              <span>Separate interpretations for relationships, work, money, and health.</span>
             </div>
           </div>
         </div>
 
         <div className="panel">
-          <h2>Starter constraints</h2>
+          <h2>Editorial Constraints</h2>
           <div className="list">
             <div className="listItem">
-              <strong>No fake authority</strong>
-              <span>Write as a transparent publisher, not an invented institution.</span>
+              <strong>No filler</strong>
+              <span>Pages should move quickly from card identity to actual interpretation.</span>
             </div>
             <div className="listItem">
-              <strong>No empty entry points</strong>
-              <span>Do not route primary navigation to placeholders.</span>
+              <strong>No placeholder routes</strong>
+              <span>Navigation should only point to real tarot pages and reading surfaces.</span>
             </div>
             <div className="listItem">
-              <strong>No blueprint drift</strong>
-              <span>Keep page ambition aligned with actual data coverage.</span>
+              <strong>Consistent deck structure</strong>
+              <span>All 78 cards should follow the same reading framework so comparison stays easy.</span>
             </div>
           </div>
         </div>

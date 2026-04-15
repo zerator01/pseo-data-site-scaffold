@@ -1,0 +1,19 @@
+{
+  "actual_time": 122,
+  "completed": 1776220453,
+  "created": 1776220331,
+  "estimated_time": 100,
+  "id": "task_01KP7FPQ5TN9H44VN37N2FHDKP",
+  "progress": 100,
+  "result": {
+    "images": [
+      {
+        "expires_at": 1776306853,
+        "url": [
+          "https://upload.apimart.ai/f/image/9998223779548817-459a266c-07b8-4c09-a04c-c7a17f3de206-image_task_01KP7FPQ5TN9H44VN37N2FHDKP.png"
+        ]
+      }
+    ]
+  },
+  "status": "completed"
+}

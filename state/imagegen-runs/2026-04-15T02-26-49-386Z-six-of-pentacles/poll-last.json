@@ -1,0 +1,16 @@
+{
+  "code": 200,
+  "data": {
+    "actual_time": 134,
+    "completed": 1776220144,
+    "created": 1776220010,
+    "error": {
+      "code": "task_failed",
+      "message": "Model task execution failed."
+    },
+    "estimated_time": 100,
+    "id": "task_01KP7FCXWG39NNRDWFZ22ZTGEP",
+    "progress": 0,
+    "status": "failed"
+  }
+}

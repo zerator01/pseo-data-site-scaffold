@@ -1,6 +1,6 @@
 # Weekly Ops Replan Brief
 
-- Generated at: 2026-04-10T06:56:34.274Z
+- Generated at: 2026-04-12T13:02:46.441Z
 - Purpose: package the current cycle into a model-ready replanning brief
 
 ## Replan Signals
@@ -13,9 +13,9 @@
 
 ### Summary Headlines
 
-- Generated at: 2026-04-10T06:03:02.878Z
-- Dataset version: `2026.04.10.6`
-- Last refresh: `2026-04-09T17:52:22.016Z`
+- Generated at: 2026-04-12T13:02:45.628Z
+- Dataset version: `2026.04.10.9`
+- Last refresh: `2026-04-10T12:15:46.382Z`
 - Refresh cadence: `monthly`
 - Publish mode: `semi_automatic`
 - Entity count: 3 (+0)
@@ -24,7 +24,7 @@
 
 ### Review Headlines
 
-- Generated at: 2026-04-10T06:03:03.482Z
+- Generated at: 2026-04-12T13:02:46.179Z
 - Planned task count: 5
 - Completed planned tasks: 0
 - Completion rate: 0%
@@ -37,11 +37,11 @@
 
 ### Decision Inputs
 
-- `refresh_core_data`: action=keep; status=planned; due=2026-04-11; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
-- `review_qa_sampling_queue`: action=keep; status=planned; due=2026-04-12; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
-- `decide_publish_gate_mode`: action=keep; status=planned; due=2026-04-13; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
-- `audit_representative_pages`: action=keep; status=planned; due=2026-04-14; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
-- `update_automation_backlog`: action=keep; status=planned; due=2026-04-15; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- `refresh_core_data`: action=keep; status=planned; due=2026-04-13; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- `review_qa_sampling_queue`: action=keep; status=planned; due=2026-04-14; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- `decide_publish_gate_mode`: action=keep; status=planned; due=2026-04-15; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- `audit_representative_pages`: action=keep; status=planned; due=2026-04-16; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- `update_automation_backlog`: action=keep; status=planned; due=2026-04-17; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
 
 ## LLM Replan Prompt
 
@@ -59,9 +59,9 @@ Rules:
 - Return at most 5 tasks for the next weekly plan.
 
 Summary headlines:
-- Generated at: 2026-04-10T06:03:02.878Z
-- Dataset version: `2026.04.10.6`
-- Last refresh: `2026-04-09T17:52:22.016Z`
+- Generated at: 2026-04-12T13:02:45.628Z
+- Dataset version: `2026.04.10.9`
+- Last refresh: `2026-04-10T12:15:46.382Z`
 - Refresh cadence: `monthly`
 - Publish mode: `semi_automatic`
 - Entity count: 3 (+0)
@@ -69,7 +69,7 @@ Summary headlines:
 - Pending override reviews: 0
 
 Review headlines:
-- Generated at: 2026-04-10T06:03:03.482Z
+- Generated at: 2026-04-12T13:02:46.179Z
 - Planned task count: 5
 - Completed planned tasks: 0
 - Completion rate: 0%
@@ -81,11 +81,11 @@ Review headlines:
 - `decide_publish_gate_mode` Decide whether the current publish gate should stay manual-review-only
 
 Decision inputs:
-- refresh_core_data: action=keep; status=planned; due=2026-04-11; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
-- review_qa_sampling_queue: action=keep; status=planned; due=2026-04-12; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
-- decide_publish_gate_mode: action=keep; status=planned; due=2026-04-13; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
-- audit_representative_pages: action=keep; status=planned; due=2026-04-14; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
-- update_automation_backlog: action=keep; status=planned; due=2026-04-15; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- refresh_core_data: action=keep; status=planned; due=2026-04-13; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- review_qa_sampling_queue: action=keep; status=planned; due=2026-04-14; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- decide_publish_gate_mode: action=keep; status=planned; due=2026-04-15; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- audit_representative_pages: action=keep; status=planned; due=2026-04-16; executor=agent:openclaw; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
+- update_automation_backlog: action=keep; status=planned; due=2026-04-17; executor=human:zerator; rationale=Still planned with no strong execution signal. Re-validate before carrying forward unchanged.
 
 Return JSON in this shape:
 {

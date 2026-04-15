@@ -1,0 +1,5 @@
+Gilded Shadow Engraved is a branch of the black-gold tarot system where the card architecture remains obsidian and gold, but the internal illustration opens into a richer engraved world. The border, cartouche, and overall silhouette stay controlled and ceremonial. The scene inside the frame is allowed to breathe through muted brass, sepia, ivory highlights, and dark charcoal shadows.
+
+The goal is not flat iconography. Each image should feel like an occult print, etched by a master craftsperson and lit by dim sacred light. Figures must read as narrative presences inside a symbolic environment, not as isolated decorative emblems. The card should still feel restrained and luxurious, but with more tonal depth and atmospheric drama than the pure line-art branch.
+
+This branch should preserve tarot clarity. A viewer should still recognize the major arcana scene immediately, but the picture should feel more mythic, more lived-in, and less like a gold outline poster. The result should suggest museum printmaking, esoteric illustration, and aristocratic occult ornament in a single controlled frame.

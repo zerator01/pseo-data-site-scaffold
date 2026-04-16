@@ -1,9 +1,31 @@
 import type { Metadata } from 'next';
+import { Cormorant_Garamond, Lora, Cinzel } from 'next/font/google';
 import Link from 'next/link';
 import './globals.css';
 import { JsonLd } from '@/components/JsonLd';
 import { generateWebsiteSchema } from '@/lib/seo/schema';
 import { ROUTES, SITE_DESCRIPTION, SITE_NAME } from '@/lib/site';
+
+const fontHeading = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-heading',
+  display: 'swap',
+});
+
+const fontBody = Lora({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-body',
+  display: 'swap',
+});
+
+const fontCardTitle = Cinzel({
+  subsets: ['latin'],
+  weight: ['600', '700', '800'],
+  variable: '--font-card-title',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: {
@@ -19,8 +41,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className={`${fontHeading.variable} ${fontBody.variable} ${fontCardTitle.variable}`}>
+      <body className="antialiased font-body">
         <div className="shell">
           <header className="siteHeader">
             <Link href="/" className="brand">

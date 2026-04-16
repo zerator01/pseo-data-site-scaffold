@@ -55,6 +55,8 @@
   overflow: hidden;
   background-color: var(--bg-primary);
   border: 1px solid rgba(201, 168, 76, 0.2);
+  /* Specular cut around the edge */
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
 }
 
 .cardBack {
@@ -92,14 +94,15 @@
 }
 
 .cardTitle {
-  font-family: var(--font-heading), serif;
+  font-family: var(--font-card-title), var(--font-heading), serif;
   font-size: 1.15rem;
   font-weight: 700;
   color: #120a02;
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
   margin: 0;
   line-height: 1.1;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.05em; /* Match the cinematic uppercase spacing */
+  text-transform: uppercase;
 }
 
 /* Holographic Effect Follows Mouse var(--mouse-x) */

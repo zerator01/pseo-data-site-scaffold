@@ -1,0 +1,17 @@
+[
+  {
+    "source": "/private/tmp/magician-crop-src/major/01-the-magician-fullbleed.png",
+    "output": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-goldcrop/major/01-the-magician-fullbleed.png",
+    "status": "cropped",
+    "box": [
+      51,
+      45,
+      1646,
+      2484
+    ],
+    "size": [
+      1595,
+      2439
+    ]
+  }
+]

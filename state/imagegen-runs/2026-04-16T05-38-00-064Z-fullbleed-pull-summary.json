@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "the-magician",
+    "number": 1,
+    "status": "submitted",
+    "outputPath": "/Users/zerator/Desktop/antigravity-work/pseo/dailytarot/public/cards-fullbleed/major/01-the-magician-fullbleed.png",
+    "task_id": "task_01KPACP3833703J6K96854C70J",
+    "pull_status": "processing",
+    "raw": {
+      "created": 1776317828,
+      "estimated_time": 100,
+      "id": "task_01KPACP3833703J6K96854C70J",
+      "progress": 0,
+      "status": "processing"
+    }
+  }
+]

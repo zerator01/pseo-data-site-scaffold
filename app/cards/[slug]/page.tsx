@@ -122,7 +122,12 @@ export default async function CardPage({ params }: { params: Promise<{ slug: str
         
         {/* Render the actual 3D Interactive Card */}
         <div className={styles.cardShowcase}>
-          <TarotCard cardName={card.name} imagePath={imagePath} isFlipped={true} />
+          <TarotCard 
+            cardName={card.name} 
+            imagePath={imagePath} 
+            isFlipped={false} 
+            titleOffsetBottom={(card as any).titleOffsetBottom}
+          />
         </div>
       </header>
 

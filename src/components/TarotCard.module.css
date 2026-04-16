@@ -91,19 +91,6 @@
   text-align: center;
 }
 
-/* AI Text Concealer to erase Midjourney's baked-in unreadable text */
-.nameplateContainer::before {
-  content: '';
-  position: absolute;
-  top: -10px;
-  bottom: -10px;
-  left: -20px;
-  right: -20px;
-  z-index: -1;
-  background: radial-gradient(ellipse at center, rgba(198, 152, 72, 0.98) 20%, rgba(182, 137, 60, 0.8) 50%, rgba(145, 106, 43, 0) 80%);
-  pointer-events: none;
-}
-
 .cardTitle {
   font-family: var(--font-heading), serif;
   font-size: 1.15rem;

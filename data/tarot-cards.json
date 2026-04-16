@@ -6,7 +6,7 @@
     "number": 0,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/00-the-fool.webp",
+    "image": "https://img.dailytarot.org/cards/major/00-the-fool-fullbleed.webp",
     "keywords": {
       "upright": [
         "fresh start",
@@ -49,7 +49,7 @@
     "number": 1,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/01-the-magician.webp",
+    "image": "https://img.dailytarot.org/cards/major/01-the-magician-fullbleed.webp",
     "keywords": {
       "upright": [
         "focus",
@@ -92,7 +92,7 @@
     "number": 2,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/02-the-high-priestess.webp",
+    "image": "https://img.dailytarot.org/cards/major/02-the-high-priestess-fullbleed.webp",
     "keywords": {
       "upright": [
         "intuition",
@@ -135,7 +135,7 @@
     "number": 3,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/03-the-empress.webp",
+    "image": "https://img.dailytarot.org/cards/major/03-the-empress-fullbleed.webp",
     "keywords": {
       "upright": [
         "abundance",
@@ -178,7 +178,7 @@
     "number": 4,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/04-the-emperor.webp",
+    "image": "https://img.dailytarot.org/cards/major/04-the-emperor-fullbleed.webp",
     "keywords": {
       "upright": [
         "order",
@@ -221,7 +221,7 @@
     "number": 5,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/05-the-hierophant.webp",
+    "image": "https://img.dailytarot.org/cards/major/05-the-hierophant-fullbleed.webp",
     "keywords": {
       "upright": [
         "tradition",
@@ -264,7 +264,7 @@
     "number": 6,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/06-the-lovers.webp",
+    "image": "https://img.dailytarot.org/cards/major/06-the-lovers-fullbleed.webp",
     "keywords": {
       "upright": [
         "union",
@@ -307,7 +307,7 @@
     "number": 7,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/07-the-chariot.webp",
+    "image": "https://img.dailytarot.org/cards/major/07-the-chariot-fullbleed.webp",
     "keywords": {
       "upright": [
         "drive",
@@ -350,7 +350,7 @@
     "number": 8,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/08-strength.webp",
+    "image": "https://img.dailytarot.org/cards/major/08-strength-fullbleed.webp",
     "keywords": {
       "upright": [
         "courage",
@@ -393,7 +393,7 @@
     "number": 9,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/09-the-hermit.webp",
+    "image": "https://img.dailytarot.org/cards/major/09-the-hermit-fullbleed.webp",
     "keywords": {
       "upright": [
         "withdrawal",
@@ -436,7 +436,7 @@
     "number": 10,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/10-wheel-of-fortune.webp",
+    "image": "https://img.dailytarot.org/cards/major/10-wheel-of-fortune-fullbleed.webp",
     "keywords": {
       "upright": [
         "turning point",
@@ -479,7 +479,7 @@
     "number": 11,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/11-justice.webp",
+    "image": "https://img.dailytarot.org/cards/major/11-justice-fullbleed.webp",
     "keywords": {
       "upright": [
         "clarity",
@@ -522,7 +522,7 @@
     "number": 12,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/12-the-hanged-man.webp",
+    "image": "https://img.dailytarot.org/cards/major/12-the-hanged-man-fullbleed.webp",
     "keywords": {
       "upright": [
         "pause",
@@ -565,7 +565,7 @@
     "number": 13,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/13-death.webp",
+    "image": "https://img.dailytarot.org/cards/major/13-death-fullbleed.webp",
     "keywords": {
       "upright": [
         "ending",
@@ -608,7 +608,7 @@
     "number": 14,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/14-temperance.webp",
+    "image": "https://img.dailytarot.org/cards/major/14-temperance-fullbleed.webp",
     "keywords": {
       "upright": [
         "balance",
@@ -651,7 +651,7 @@
     "number": 15,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/15-the-devil.webp",
+    "image": "https://img.dailytarot.org/cards/major/15-the-devil-fullbleed.webp",
     "keywords": {
       "upright": [
         "attachment",
@@ -694,7 +694,7 @@
     "number": 16,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/16-the-tower.webp",
+    "image": "https://img.dailytarot.org/cards/major/16-the-tower-fullbleed.webp",
     "keywords": {
       "upright": [
         "upheaval",
@@ -737,7 +737,7 @@
     "number": 17,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/17-the-star.webp",
+    "image": "https://img.dailytarot.org/cards/major/17-the-star-fullbleed.webp",
     "keywords": {
       "upright": [
         "hope",
@@ -780,7 +780,7 @@
     "number": 18,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/18-the-moon.webp",
+    "image": "https://img.dailytarot.org/cards/major/18-the-moon-fullbleed.webp",
     "keywords": {
       "upright": [
         "ambiguity",
@@ -823,7 +823,7 @@
     "number": 19,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/19-the-sun.webp",
+    "image": "https://img.dailytarot.org/cards/major/19-the-sun-fullbleed.webp",
     "keywords": {
       "upright": [
         "joy",
@@ -866,7 +866,7 @@
     "number": 20,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/20-judgement.webp",
+    "image": "https://img.dailytarot.org/cards/major/20-judgement-fullbleed.webp",
     "keywords": {
       "upright": [
         "awakening",
@@ -909,7 +909,7 @@
     "number": 21,
     "arcana": "major",
     "suit": null,
-    "image": "https://img.dailytarot.org/cards/major/21-the-world.webp",
+    "image": "https://img.dailytarot.org/cards/major/21-the-world-fullbleed.webp",
     "keywords": {
       "upright": [
         "completion",
@@ -952,7 +952,7 @@
     "number": 1,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/01-ace-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/01-ace-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "beginning",
@@ -995,7 +995,7 @@
     "number": 2,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/02-two-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/02-two-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "balance",
@@ -1038,7 +1038,7 @@
     "number": 3,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/03-three-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/03-three-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "growth",
@@ -1081,7 +1081,7 @@
     "number": 4,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/04-four-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/04-four-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "stability",
@@ -1124,7 +1124,7 @@
     "number": 5,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/05-five-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/05-five-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "challenge",
@@ -1167,7 +1167,7 @@
     "number": 6,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/06-six-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/06-six-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "adjustment",
@@ -1210,7 +1210,7 @@
     "number": 7,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/07-seven-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/07-seven-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "testing",
@@ -1253,7 +1253,7 @@
     "number": 8,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/08-eight-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/08-eight-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "momentum",
@@ -1296,7 +1296,7 @@
     "number": 9,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/09-nine-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/09-nine-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "maturity",
@@ -1339,7 +1339,7 @@
     "number": 10,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/10-ten-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/10-ten-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "culmination",
@@ -1382,7 +1382,7 @@
     "number": 11,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/11-page-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/11-page-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "curiosity",
@@ -1425,7 +1425,7 @@
     "number": 12,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/12-knight-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/12-knight-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "movement",
@@ -1468,7 +1468,7 @@
     "number": 13,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/13-queen-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/13-queen-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "inner mastery",
@@ -1511,7 +1511,7 @@
     "number": 14,
     "arcana": "minor",
     "suit": "Wands",
-    "image": "https://img.dailytarot.org/cards/minor/wands/14-king-of-wands.webp",
+    "image": "https://img.dailytarot.org/cards/minor/wands/14-king-of-wands-fullbleed.webp",
     "keywords": {
       "upright": [
         "leadership",
@@ -1554,7 +1554,7 @@
     "number": 1,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/01-ace-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/01-ace-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "beginning",
@@ -1597,7 +1597,7 @@
     "number": 2,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/02-two-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/02-two-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "balance",
@@ -1640,7 +1640,7 @@
     "number": 3,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/03-three-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/03-three-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "growth",
@@ -1683,7 +1683,7 @@
     "number": 4,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/04-four-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/04-four-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "stability",
@@ -1726,7 +1726,7 @@
     "number": 5,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/05-five-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/05-five-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "challenge",
@@ -1769,7 +1769,7 @@
     "number": 6,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/06-six-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/06-six-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "adjustment",
@@ -1812,7 +1812,7 @@
     "number": 7,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/07-seven-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/07-seven-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "testing",
@@ -1855,7 +1855,7 @@
     "number": 8,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/08-eight-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/08-eight-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "momentum",
@@ -1898,7 +1898,7 @@
     "number": 9,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/09-nine-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/09-nine-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "maturity",
@@ -1941,7 +1941,7 @@
     "number": 10,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/10-ten-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/10-ten-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "culmination",
@@ -1984,7 +1984,7 @@
     "number": 11,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/11-page-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/11-page-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "curiosity",
@@ -2027,7 +2027,7 @@
     "number": 12,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/12-knight-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/12-knight-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "movement",
@@ -2070,7 +2070,7 @@
     "number": 13,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/13-queen-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/13-queen-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "inner mastery",
@@ -2113,7 +2113,7 @@
     "number": 14,
     "arcana": "minor",
     "suit": "Cups",
-    "image": "https://img.dailytarot.org/cards/minor/cups/14-king-of-cups.webp",
+    "image": "https://img.dailytarot.org/cards/minor/cups/14-king-of-cups-fullbleed.webp",
     "keywords": {
       "upright": [
         "leadership",
@@ -2156,7 +2156,7 @@
     "number": 1,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/01-ace-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/01-ace-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "beginning",
@@ -2199,7 +2199,7 @@
     "number": 2,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/02-two-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/02-two-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "balance",
@@ -2242,7 +2242,7 @@
     "number": 3,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/03-three-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/03-three-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "growth",
@@ -2285,7 +2285,7 @@
     "number": 4,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/04-four-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/04-four-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "stability",
@@ -2328,7 +2328,7 @@
     "number": 5,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/05-five-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/05-five-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "challenge",
@@ -2371,7 +2371,7 @@
     "number": 6,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/06-six-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/06-six-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "adjustment",
@@ -2414,7 +2414,7 @@
     "number": 7,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/07-seven-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/07-seven-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "testing",
@@ -2457,7 +2457,7 @@
     "number": 8,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/08-eight-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/08-eight-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "momentum",
@@ -2500,7 +2500,7 @@
     "number": 9,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/09-nine-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/09-nine-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "maturity",
@@ -2543,7 +2543,7 @@
     "number": 10,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/10-ten-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/10-ten-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "culmination",
@@ -2586,7 +2586,7 @@
     "number": 11,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/11-page-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/11-page-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "curiosity",
@@ -2629,7 +2629,7 @@
     "number": 12,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/12-knight-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/12-knight-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "movement",
@@ -2672,7 +2672,7 @@
     "number": 13,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/13-queen-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/13-queen-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "inner mastery",
@@ -2715,7 +2715,7 @@
     "number": 14,
     "arcana": "minor",
     "suit": "Swords",
-    "image": "https://img.dailytarot.org/cards/minor/swords/14-king-of-swords.webp",
+    "image": "https://img.dailytarot.org/cards/minor/swords/14-king-of-swords-fullbleed.webp",
     "keywords": {
       "upright": [
         "leadership",
@@ -2758,7 +2758,7 @@
     "number": 1,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/01-ace-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/01-ace-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "beginning",
@@ -2801,7 +2801,7 @@
     "number": 2,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/02-two-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/02-two-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "balance",
@@ -2844,7 +2844,7 @@
     "number": 3,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/03-three-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/03-three-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "growth",
@@ -2887,7 +2887,7 @@
     "number": 4,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/04-four-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/04-four-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "stability",
@@ -2930,7 +2930,7 @@
     "number": 5,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/05-five-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/05-five-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "challenge",
@@ -2973,7 +2973,7 @@
     "number": 6,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/06-six-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/06-six-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "adjustment",
@@ -3016,7 +3016,7 @@
     "number": 7,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/07-seven-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/07-seven-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "testing",
@@ -3059,7 +3059,7 @@
     "number": 8,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/08-eight-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/08-eight-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "momentum",
@@ -3102,7 +3102,7 @@
     "number": 9,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/09-nine-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/09-nine-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "maturity",
@@ -3145,7 +3145,7 @@
     "number": 10,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/10-ten-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/10-ten-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "culmination",
@@ -3188,7 +3188,7 @@
     "number": 11,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/11-page-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/11-page-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "curiosity",
@@ -3231,7 +3231,7 @@
     "number": 12,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/12-knight-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/12-knight-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "movement",
@@ -3274,7 +3274,7 @@
     "number": 13,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/13-queen-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/13-queen-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "inner mastery",
@@ -3317,7 +3317,7 @@
     "number": 14,
     "arcana": "minor",
     "suit": "Pentacles",
-    "image": "https://img.dailytarot.org/cards/minor/pentacles/14-king-of-pentacles.webp",
+    "image": "https://img.dailytarot.org/cards/minor/pentacles/14-king-of-pentacles-fullbleed.webp",
     "keywords": {
       "upright": [
         "leadership",

@@ -80,29 +80,26 @@
 /* Perfect Typography Overlay */
 .nameplateContainer {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 16%;
+  bottom: var(--title-bottom, 4%);
+  left: 10%;
+  right: 10%;
+  height: 12%;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
   text-align: center;
-  /* Dark dramatic fade at the bottom to ensure text readability even if art is bright */
-  background: linear-gradient(to top, rgba(10, 10, 15, 0.9) 0%, transparent 100%);
 }
 
 .cardTitle {
-  font-family: var(--font-heading);
-  color: var(--accent-gold-light);
-  font-size: 26px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  font-family: var(--font-heading), serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #120a02;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
   margin: 0;
-  padding-top: 15px;
-  /* Very sharp text shadow for premium feel */
-  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.9), 0px 0px 15px rgba(201, 168, 76, 0.4);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
 }
 
 /* Holographic Effect Follows Mouse var(--mouse-x) */

@@ -49,14 +49,14 @@ export default function HomePage() {
                 href={`/cards/${card.slug}`}
                 className={`showcaseCard showcaseCard${index + 1}`}
               >
-                <div className="showcaseImageWrap">
+                <div 
+                  className="showcaseImageWrap" 
+                  style={{ "--title-bottom": (card as any).titleOffsetBottom } as React.CSSProperties}
+                >
                   <Image src={card.image} alt={card.name} fill className="showcaseImage" />
-                </div>
-                <div className="showcaseMeta">
-                  <strong>{card.name}</strong>
-                  <span>
-                    {card.arcana === 'major' ? 'Major Arcana' : card.suit} • {card.keywords.upright[0]}
-                  </span>
+                  <div className="showcaseNameplate">
+                    <span className="showcaseTitle">{card.name}</span>
+                  </div>
                 </div>
               </Link>
             ))}

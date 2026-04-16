@@ -8,6 +8,7 @@ export interface TarotCardProps {
   imagePath: string; // The blank, textless original art
   isReversed?: boolean;
   isFlipped?: boolean;
+  titleOffsetBottom?: string;
   onClick?: () => void;
 }
 
@@ -16,6 +17,7 @@ export default function TarotCard({
   imagePath,
   isReversed = false,
   isFlipped = false,
+  titleOffsetBottom,
   onClick,
 }: TarotCardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
@@ -76,7 +78,10 @@ export default function TarotCard({
            <Image src={imagePath} alt={cardName} fill className={styles.cardImage} priority />
            
            {/* CSS Text Overlay: 100% typography consistency across all 78 cards */}
-           <div className={styles.nameplateContainer}>
+           <div 
+             className={styles.nameplateContainer}
+             style={titleOffsetBottom ? { "--title-bottom": titleOffsetBottom } as React.CSSProperties : undefined}
+           >
              <h3 className={styles.cardTitle}>{cardName}</h3>
            </div>
            

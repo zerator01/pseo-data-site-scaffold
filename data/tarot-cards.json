@@ -40,7 +40,8 @@
       }
     },
     "symbolism": "The cliff, open sky, and traveling figure show a psyche at the edge of formation. The small bundle suggests untapped potential carried lightly, while the companion animal represents instinct trying to keep pace with freedom. The card's symbolism centers on openness before identity hardens into habit.",
-    "yesno": "Yes, if you respond with maturity to the card's lesson."
+    "yesno": "Yes, if you respond with maturity to the card's lesson.",
+    "titleOffsetBottom": "4.5%"
   },
   {
     "id": "major-01",
@@ -126,7 +127,8 @@
       }
     },
     "symbolism": "The veil, pillars, and moon imagery point to thresholds between the known and the hidden. She does not block truth; she filters it, asking whether you are mature enough to receive it without distortion.",
-    "yesno": "Yes, if you respond with maturity to the card's lesson."
+    "yesno": "Yes, if you respond with maturity to the card's lesson.",
+    "titleOffsetBottom": "3.8%"
   },
   {
     "id": "major-03",
@@ -599,7 +601,8 @@
       }
     },
     "symbolism": "The skeletal imagery strips life down to what cannot be negotiated away: impermanence. Death symbolizes renewal through subtraction and the dignity of making room for what comes after an ending.",
-    "yesno": "Not yet. A real change of structure is required first."
+    "yesno": "Not yet. A real change of structure is required first.",
+    "titleOffsetBottom": "3.5%"
   },
   {
     "id": "major-14",

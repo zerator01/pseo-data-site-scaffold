@@ -6,37 +6,50 @@ import TarotCard from '@/components/TarotCard';
 import { resolveCardImageUrl } from '@/lib/card-images';
 import styles from './Reading.module.css';
 
-const demoCards = ['the-fool', 'death', 'ace-of-wands']
-  .map((slug) => cards.find((card) => card.slug === slug))
-  .filter((card): card is (typeof cards)[number] => Boolean(card));
+const positions = ['Past', 'Present', 'Future'] as const;
+
+function drawThreeUniqueCards() {
+  const shuffled = [...cards];
+
+  for (let i = shuffled.length - 1; i > 0; i -= 1) {
+    const swapIndex = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[i]];
+  }
+
+  return shuffled.slice(0, 3);
+}
 
 export default function ReadingClient() {
+  const [drawnCards, setDrawnCards] = useState(() => drawThreeUniqueCards());
   const [flippedIndex, setFlippedIndex] = useState<number>(-1);
-  
-  // State: 0, 1, 2 for the three cards flipped sequentially
+
   const handleCardClick = (index: number) => {
-    if (flippedIndex < index) {
+    if (index === flippedIndex + 1) {
       setFlippedIndex(index);
     }
   };
 
-  const positions = ["Past", "Present", "Future"];
+  const handleDrawAgain = () => {
+    setDrawnCards(drawThreeUniqueCards());
+    setFlippedIndex(-1);
+  };
 
   return (
     <div className={styles.readingLayout}>
       <div className={styles.spreadContainer}>
         {positions.map((label, index) => {
           const isFlipped = flippedIndex >= index;
-          const card = demoCards[index];
+          const card = drawnCards[index];
           const imagePath = resolveCardImageUrl(card.image);
-          
+
           return (
-            <div key={index} className={styles.positionWrapper}>
+            <div key={label} className={styles.positionWrapper}>
               <span className={styles.positionLabel}>{label}</span>
-              <TarotCard 
-                cardName={card.name} 
+              <TarotCard
+                cardName={card.name}
                 imagePath={imagePath}
                 isFlipped={isFlipped}
+                titleOffsetBottom={(card as any).titleOffsetBottom}
                 onClick={() => handleCardClick(index)}
               />
             </div>
@@ -44,17 +57,17 @@ export default function ReadingClient() {
         })}
       </div>
 
-      {flippedIndex === 2 && (
+      {flippedIndex === positions.length - 1 && (
         <div className={styles.readingResults}>
           {positions.map((label, index) => (
-            <div key={index} className={styles.resultItem}>
+            <div key={label} className={styles.resultItem}>
               <div className={styles.resultPosition}>{label}</div>
-              <h3 className={styles.resultCardName}>{demoCards[index].name}</h3>
-              <p className={styles.resultMeaning}>{demoCards[index].meaning.upright.general}</p>
+              <h3 className={styles.resultCardName}>{drawnCards[index].name}</h3>
+              <p className={styles.resultMeaning}>{drawnCards[index].meaning.upright.general}</p>
             </div>
           ))}
           <div className="text-center">
-            <button className={styles.actionButton} onClick={() => setFlippedIndex(-1)}>
+            <button className={styles.actionButton} onClick={handleDrawAgain}>
               Draw Again
             </button>
           </div>

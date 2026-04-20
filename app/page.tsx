@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import cards from '@/../data/tarot-cards.json';
 import { TAROT_GROUPS } from '@/lib/tarot-groups';
+import DailyDraw from '@/components/DailyDraw';
 
 const featuredSlugs = ['the-fool', 'the-high-priestess', 'death'];
 
@@ -17,26 +18,27 @@ export default function HomePage() {
 
   return (
     <main className="sectionStack">
-      <section className="hero heroLarge">
+      <section className="hero heroEditorial">
         <div className="heroCopy">
           <div className="eyebrow">Black-Gold Tarot Library</div>
-          <h1>A full-deck tarot reference with one visual language and 78 real card pages.</h1>
+          <h1>The definitive tarot reference, unified under one visual language.</h1>
           <p className="lede">
-            Explore Major Arcana and the four suits through a consistent deck system: upright and
-            reversed meanings, symbolism, relationship readings, work readings, money readings,
-            health interpretations, and a direct yes-or-no lens.
+            Explore Major Arcana and the four suits through a rigid system: upright and
+            reversed meanings, symbolism, relationship, and work interpretations.
           </p>
-          <div className="badgeRow">
-            <span className="badge">78 cards</span>
-            <span className="badge subtle">Major + Minor Arcana</span>
-            <span className="badge subtle">Upright and reversed interpretations</span>
+          <div className="editorialMetaRow" style={{ marginTop: '32px' }}>
+            <span className="metaText accent">78 CARDS</span>
+            <span className="metaDivider">/</span>
+            <span className="metaText">MAJOR + MINOR ARCANA</span>
+            <span className="metaDivider">/</span>
+            <span className="metaText">UPRIGHT & REVERSED</span>
           </div>
-          <div className="buttonRow">
-            <Link href="/cards" className="button">
-              Browse the deck
+          <div className="editorialButtonRow">
+            <Link href="/cards" className="editorialLink">
+              Explore The Deck <span>&#8594;</span>
             </Link>
-            <Link href="/cards/the-fool" className="buttonGhost">
-              Read The Fool
+            <Link href="/reading" className="editorialLink">
+              Consult The Cards <span>&#8594;</span>
             </Link>
           </div>
         </div>
@@ -67,59 +69,76 @@ export default function HomePage() {
       <section className="panel">
         <div className="sectionIntro">
           <div className="eyebrow">The Grimoire</div>
-          <h2>Explore the Gilded Shadow deck.</h2>
-          <p className="lede">
-            Whether you are drawing a daily spread or studying the archetypes, enter the library through the path that serves your current reading.
-          </p>
+          <h2>Registry of the Major & Minor Arcana.</h2>
         </div>
         
-        <div className="bentoGrid">
-          {/* Main Hero Bento */}
-          <Link href="/cards" className="bentoCard bentoHero">
-            <strong>Full Deck Index</strong>
-            <span>See every card in one sweep and jump straight to the page you need. The ultimate visual reference across all 78 arcana.</span>
-          </Link>
-
-          {/* Secondary Action */}
-          <Link href="/reading" className="bentoCard bentoAction">
-            <strong>Interactive Reading</strong>
-            <span>Open the visual reading flow instead of entering through the index. Let the cards fall where they may.</span>
+        <div className="exhibitionList">
+          <Link href="/cards" className="exhibitionRow">
+            <div>
+              <strong className="exhibitionTitle">Full Deck Index</strong>
+              <span className="exhibitionDesc">The complete gallery of all 78 arcana cards, structured for rapid visual reference.</span>
+            </div>
+            <div className="exhibitionData">
+              <span className="exhibitionMeta">78 ITEMS</span>
+              <span className="exhibitionMeta" style={{ color: 'var(--muted)' }}>ALL CARDS</span>
+            </div>
           </Link>
           
-          <Link href="/cards/groups/major-arcana" className="bentoCard bentoAction">
-            <strong>Major Arcana</strong>
-            <span>Read the 22 archetypal thresholds that shape big life turns.</span>
+          <Link href="/cards/groups/major-arcana" className="exhibitionRow">
+            <div>
+              <strong className="exhibitionTitle">Major Arcana</strong>
+              <span className="exhibitionDesc">The 22 archetypal thresholds that shape profound life turns and spiritual foundations.</span>
+            </div>
+            <div className="exhibitionData">
+              <span className="exhibitionMeta">22 ITEMS</span>
+              <span className="exhibitionMeta" style={{ color: 'var(--muted)' }}>ARCHETYPES</span>
+            </div>
           </Link>
 
-          {/* Suits Sub-Grid placed inside Bento */}
-          <div className="bentoSuitsGrid">
-            {suitCards.map((group) => (
-              <Link key={group.slug} href={`/cards/groups/${group.slug}`} className="bentoSuitTile">
-                <strong>{group.title}</strong>
-                <span>{group.count} cards</span>
-              </Link>
-            ))}
-          </div>
+          {suitCards.map((group) => (
+            <Link key={group.slug} href={`/cards/groups/${group.slug}`} className="exhibitionRow">
+              <div>
+                <strong className="exhibitionTitle">{group.title}</strong>
+                <span className="exhibitionDesc">Explore the cyclical journey of the {group.title}.</span>
+              </div>
+              <div className="exhibitionData">
+                <span className="exhibitionMeta">{group.count} ITEMS</span>
+                <span className="exhibitionMeta" style={{ color: 'var(--muted)' }}>MINOR ARCANA</span>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 
-      <section className="panel panelDense">
+      <DailyDraw />
+
+      <section className="panel panelDense" style={{ paddingBottom: '80px' }}>
         <div className="sectionIntro">
           <div className="eyebrow">Reading Method</div>
-          <h2>Built to help cards compare cleanly across the full deck.</h2>
+          <h2>A strict framework for consistent readings.</h2>
         </div>
-        <div className="grid valueGrid">
-          <div className="card cardLuxe">
-            <strong>One Deck Language</strong>
-            <span>Every page follows the same reading frame, so comparing cards stays easy.</span>
+        
+        <div className="manifestoList">
+          <div className="manifestoItem">
+            <span className="manifestoNum">01</span>
+            <div className="manifestoCopy">
+              <strong>One Graphic Language</strong>
+              <span>Every page follows identical spatial rules, ensuring comparisons across the 78 cards remain clinical and untainted by shifting art styles.</span>
+            </div>
           </div>
-          <div className="card cardLuxe">
-            <strong>Direct Reading Structure</strong>
-            <span>Each card moves from archetype to application without detouring into fluff.</span>
+          <div className="manifestoItem">
+            <span className="manifestoNum">02</span>
+            <div className="manifestoCopy">
+              <strong>Direct Reading Structure</strong>
+              <span>Each card moves from primary archetype to application without detouring into unnecessary spiritual fluff or modern colloquialisms.</span>
+            </div>
           </div>
-          <div className="card cardLuxe">
-            <strong>Visual Deck Consistency</strong>
-            <span>The card art, card back, and library structure all belong to one black-and-gold system.</span>
+          <div className="manifestoItem">
+            <span className="manifestoNum">03</span>
+            <div className="manifestoCopy">
+              <strong>Museum-Grade Precision</strong>
+              <span>The typography, geometry, and border language belong to an ancient black-and-gold system, treating the deck as a historical exhibit.</span>
+            </div>
           </div>
         </div>
       </section>

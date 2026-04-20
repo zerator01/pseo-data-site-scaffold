@@ -7,6 +7,7 @@ import TarotCard from '@/components/TarotCard';
 import { JsonLd } from '@/components/JsonLd';
 import { generateBreadcrumbSchema, generateFAQSchema } from '@/lib/seo/schema';
 import { resolveCardImageUrl } from '@/lib/card-images';
+import { canonicalPairSlug } from '@/lib/combinations';
 
 const areaSections = [
   { key: 'love', label: 'Love & Relationships', icon: 'Heart' },
@@ -225,6 +226,27 @@ export default async function CardPage({ params }: { params: Promise<{ slug: str
               <span className={styles.noteLabel}>Straight Answer</span>
               <p>{card.yesno}</p>
             </div>
+          </div>
+        </section>
+
+        <hr className={styles.divider} />
+
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <span className={styles.sectionKicker}>Combinations</span>
+            <h2>Common Pairings</h2>
+          </div>
+          <div className={styles.relatedGrid}>
+            {relatedCards.map((relatedCard) => {
+              const pairSlug = canonicalPairSlug(card.slug, relatedCard.slug);
+                
+              return (
+                <Link key={pairSlug} href={`/combinations/${pairSlug}`} className={styles.relatedCard}>
+                  <span className={styles.relatedLabel}>{card.name} + {relatedCard.name}</span>
+                  <strong>Read Combination</strong>
+                </Link>
+              );
+            })}
           </div>
         </section>
 

@@ -1,0 +1,108 @@
+.container {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 40px;
+  padding: 80px 0;
+  background: transparent;
+  border-top: 1px solid rgba(211, 173, 95, 0.15);
+  border-bottom: 1px solid rgba(211, 173, 95, 0.05);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.intro h2 {
+  font-family: var(--font-heading), var(--font-fallback-serif);
+  font-size: 3rem;
+  color: var(--text-heading);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.intro p {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.cardContainer {
+  position: relative;
+  width: 260px;
+  height: 400px; /* Approximately 2/3 aspect ratio */
+  perspective: 1200px;
+  cursor: pointer;
+}
+
+.resultBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.cardName {
+  font-family: var(--font-heading), var(--font-fallback-serif);
+  font-size: 1.8rem;
+  color: var(--accent-strong);
+  margin: 0;
+}
+
+.drawText {
+  color: var(--text);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 480px;
+}
+
+/* Very premium pulse animation before click */
+.unpulled {
+  animation: pulseIdle 4s ease-in-out infinite;
+}
+
+.unpulled:hover {
+  transform: scale(1.02) translateY(-4px);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8);
+}
+
+@keyframes pulseIdle {
+  0%, 100% {
+    transform: translateY(0);
+    filter: drop-shadow(0 15px 30px rgba(0,0,0,0.4));
+  }
+  50% {
+    transform: translateY(-8px);
+    filter: drop-shadow(0 25px 40px rgba(211,173,95,0.15));
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .intro {
+    align-items: center;
+  }
+  
+  .cardContainer {
+    margin: 0 auto;
+  }
+  
+  .resultBox {
+    text-align: center;
+    align-items: center;
+  }
+}

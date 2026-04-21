@@ -1,32 +1,58 @@
 .mainContainer {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 24px 80px;
+  padding: 28px 0 88px;
 }
 
 .header {
+  display: grid;
+  gap: 16px;
+  justify-items: center;
   text-align: center;
-  margin-bottom: 60px;
+  padding: clamp(24px, 3vw, 36px);
+  margin-bottom: 28px;
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at top, rgba(217, 168, 95, 0.12), transparent 34%),
+    rgba(255, 255, 255, 0.02);
+}
+
+.eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(246, 221, 178, 0.16);
+  color: var(--accent-strong);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
 }
 
 .title {
-  font-size: 42px;
-  margin-bottom: 16px;
-  letter-spacing: 0.05em;
+  font-size: clamp(3rem, 5vw, 5rem);
+  line-height: 0.92;
 }
 
 .description {
-  color: var(--text-secondary);
-  max-width: 600px;
+  color: var(--text-soft);
+  max-width: 640px;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 .readingLayout {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 60px;
+  gap: 28px;
+  padding: clamp(24px, 3vw, 40px);
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0.015)),
+    rgba(18, 14, 12, 0.72);
 }
 
 .spreadContainer {
@@ -45,27 +71,26 @@
 
 .positionLabel {
   font-family: var(--font-heading);
-  color: var(--accent-gold);
+  color: var(--accent-strong);
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 .readingResults {
-  max-width: 800px;
+  max-width: 880px;
   width: 100%;
-  background: var(--bg-elevated);
-  border: 1px solid rgba(201, 168, 76, 0.2);
-  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid var(--line);
+  border-radius: 26px;
   padding: 40px;
-  margin-top: 40px;
   animation: fadeIn 1s ease forwards;
 }
 
 .resultItem {
   margin-bottom: 40px;
   padding-bottom: 40px;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .resultItem:last-child {
@@ -76,7 +101,7 @@
 
 .resultPosition {
   font-family: var(--font-heading);
-  color: var(--text-muted);
+  color: var(--muted);
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -85,35 +110,48 @@
 
 .resultCardName {
   font-family: var(--font-heading);
-  color: var(--accent-gold-light);
+  color: var(--text);
   font-size: 28px;
   margin: 0 0 16px 0;
 }
 
 .resultMeaning {
-  color: var(--text-primary);
+  color: var(--text-soft);
   line-height: 1.7;
 }
 
 .actionButton {
-  background: transparent;
-  color: var(--accent-gold-light);
-  border: 1px solid var(--accent-gold);
-  padding: 12px 32px;
+  background: linear-gradient(135deg, rgba(246, 221, 178, 0.18), rgba(217, 168, 95, 0.08));
+  color: var(--text);
+  border: 1px solid rgba(246, 221, 178, 0.24);
+  padding: 12px 28px;
   font-family: var(--font-heading);
-  font-size: 18px;
-  border-radius: 4px;
+  font-size: 16px;
+  border-radius: 999px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 20px;
 }
 
 .actionButton:hover {
-  background: rgba(201, 168, 76, 0.1);
-  box-shadow: 0 0 15px rgba(201, 168, 76, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.26);
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .readingLayout,
+  .readingResults {
+    padding: 22px;
+  }
 }

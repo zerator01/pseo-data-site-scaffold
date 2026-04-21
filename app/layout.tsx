@@ -51,14 +51,15 @@ export default function RootLayout({
               </span>
               <div className="brandCopy">
                 <strong>{SITE_NAME}</strong>
-                <span>Black-and-gold tarot meanings for the full 78-card deck</span>
+                <span>An image-first archive for the full 78-card deck</span>
               </div>
             </Link>
             <nav className="nav">
+              <Link href="/">Home</Link>
               <Link href="/cards">Cards</Link>
               <Link href="/cards/groups/major-arcana">Major Arcana</Link>
-              <Link href="/cards/groups/cups">Cups</Link>
               <Link href="/reading">Reading</Link>
+              <Link href="/rankings">Indexes</Link>
               <Link href={ROUTES.methodology}>Methodology</Link>
             </nav>
           </header>

@@ -10,13 +10,14 @@ export default function ReadingPage() {
   return (
     <main className={styles.mainContainer}>
       <header className={styles.header}>
+        <div className={styles.eyebrow}>Three-Card Spread</div>
         <h1 className={styles.title}>Free 3-Card Reading</h1>
         <p className={styles.description}>
-          Focus on your question, center your mind, and reveal a randomized three-card spread for
-          your past, present, and future.
+          Focus on your question, reveal the cards one by one, and read the spread as a visual
+          sequence through past, present, and future.
         </p>
       </header>
-      
+
       <ReadingClient />
     </main>
   );

@@ -4,106 +4,96 @@ import cards from '@/../data/tarot-cards.json';
 import { TAROT_GROUPS } from '@/lib/tarot-groups';
 import DailyDraw from '@/components/DailyDraw';
 
-const featuredSlugs = ['the-fool', 'the-high-priestess', 'death'];
-
 export default function HomePage() {
-  const featuredCards = featuredSlugs
-    .map((slug) => cards.find((card) => card.slug === slug))
-    .filter((card): card is (typeof cards)[number] => Boolean(card));
+  const masonryCards = cards.slice(0, 16);
+  const col1 = masonryCards.slice(0, 4);
+  const col2 = masonryCards.slice(4, 8);
+  const col3 = masonryCards.slice(8, 12);
+  const col4 = masonryCards.slice(12, 16);
 
-  const suitCards = TAROT_GROUPS.map((group) => ({
-    ...group,
-    count: cards.filter(group.matches).length,
-  }));
+  const portals = [
+    {
+      href: '/cards',
+      title: 'Full Deck Index',
+      meta: '78 cards',
+      image: cards.find((c) => c.slug === 'the-magician')?.image || '',
+    },
+    {
+      href: '/cards/groups/major-arcana',
+      title: 'Major Arcana',
+      meta: '22 cards',
+      image: cards.find((c) => c.slug === 'the-fool')?.image || '',
+    },
+    ...TAROT_GROUPS.map((group) => {
+      const match = cards.filter(group.matches);
+      return {
+        href: `/cards/groups/${group.slug}`,
+        title: group.title,
+        meta: `${match.length} cards`,
+        image: match[0]?.image || '',
+      };
+    }),
+  ];
 
   return (
     <main className="sectionStack">
-      <section className="hero heroEditorial">
-        <div className="heroCopy">
-          <div className="eyebrow">Black-Gold Tarot Library</div>
-          <h1>The definitive tarot reference, unified under one visual language.</h1>
+      <section className="heroCinematic">
+        <div className="heroMasonry">
+          {[col1, col2, col3, col4].map((col, i) => (
+            <div key={i} className="masonryColumn">
+              {col.map((card) => (
+                <div key={card.slug} className="masonryCard">
+                  <Image src={card.image} alt={card.name} fill style={{ objectFit: 'cover' }} />
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+
+        <div className="heroCinematicCopy">
+          <div className="eyebrow">Tarot Image Archive</div>
+          <h1>See the cards before you interpret them.</h1>
           <p className="lede">
-            Explore Major Arcana and the four suits through a rigid system: upright and
-            reversed meanings, symbolism, relationship, and work interpretations.
+            DailyTarot is built like a visual library, not a blog. Browse all 78 cards, compare
+            archetypes, and move from artwork to meaning through a calmer, more premium reading
+            experience.
           </p>
-          <div className="editorialMetaRow" style={{ marginTop: '32px' }}>
-            <span className="metaText accent">78 CARDS</span>
+          <div className="editorialMetaRow">
+            <span className="metaText accent">78 cards</span>
             <span className="metaDivider">/</span>
-            <span className="metaText">MAJOR + MINOR ARCANA</span>
+            <span className="metaText">upright and reversed meanings</span>
             <span className="metaDivider">/</span>
-            <span className="metaText">UPRIGHT & REVERSED</span>
+            <span className="metaText">image-led navigation</span>
           </div>
           <div className="editorialButtonRow">
             <Link href="/cards" className="editorialLink">
-              Explore The Deck <span>&#8594;</span>
+              Browse The Deck <span>&#8594;</span>
             </Link>
-            <Link href="/reading" className="editorialLink">
-              Consult The Cards <span>&#8594;</span>
+            <Link href="/reading" className="buttonGhost">
+              Start A Reading
             </Link>
-          </div>
-        </div>
-
-        <div className="heroVisual">
-          <div className="cardStack">
-            {featuredCards.map((card, index) => (
-              <Link
-                key={card.slug}
-                href={`/cards/${card.slug}`}
-                className={`showcaseCard showcaseCard${index + 1}`}
-              >
-                <div 
-                  className="showcaseImageWrap" 
-                  style={{ "--title-bottom": (card as any).titleOffsetBottom } as React.CSSProperties}
-                >
-                  <Image src={card.image} alt={card.name} fill className="showcaseImage" />
-                  <div className="showcaseNameplate">
-                    <span className="showcaseTitle">{card.name}</span>
-                  </div>
-                </div>
-              </Link>
-            ))}
           </div>
         </div>
       </section>
 
       <section className="panel">
-        <div className="sectionIntro">
-          <div className="eyebrow">The Grimoire</div>
-          <h2>Registry of the Major & Minor Arcana.</h2>
+        <div className="sectionIntro center">
+          <div className="eyebrow">Explore By Collection</div>
+          <h2>Move through the deck like a curated gallery.</h2>
+          <p className="lede">
+            Jump into the full deck, start with the Major Arcana, or enter by suit when you want a
+            narrower symbolic mood.
+          </p>
         </div>
-        
-        <div className="exhibitionList">
-          <Link href="/cards" className="exhibitionRow">
-            <div>
-              <strong className="exhibitionTitle">Full Deck Index</strong>
-              <span className="exhibitionDesc">The complete gallery of all 78 arcana cards, structured for rapid visual reference.</span>
-            </div>
-            <div className="exhibitionData">
-              <span className="exhibitionMeta">78 ITEMS</span>
-              <span className="exhibitionMeta" style={{ color: 'var(--muted)' }}>ALL CARDS</span>
-            </div>
-          </Link>
-          
-          <Link href="/cards/groups/major-arcana" className="exhibitionRow">
-            <div>
-              <strong className="exhibitionTitle">Major Arcana</strong>
-              <span className="exhibitionDesc">The 22 archetypal thresholds that shape profound life turns and spiritual foundations.</span>
-            </div>
-            <div className="exhibitionData">
-              <span className="exhibitionMeta">22 ITEMS</span>
-              <span className="exhibitionMeta" style={{ color: 'var(--muted)' }}>ARCHETYPES</span>
-            </div>
-          </Link>
 
-          {suitCards.map((group) => (
-            <Link key={group.slug} href={`/cards/groups/${group.slug}`} className="exhibitionRow">
-              <div>
-                <strong className="exhibitionTitle">{group.title}</strong>
-                <span className="exhibitionDesc">Explore the cyclical journey of the {group.title}.</span>
-              </div>
-              <div className="exhibitionData">
-                <span className="exhibitionMeta">{group.count} ITEMS</span>
-                <span className="exhibitionMeta" style={{ color: 'var(--muted)' }}>MINOR ARCANA</span>
+        <div className="visualGrimoire">
+          {portals.map((portal) => (
+            <Link key={portal.title} href={portal.href} className="portalCard">
+              <Image src={portal.image} alt={portal.title} fill className="portalImage" />
+              <div className="portalOverlay" />
+              <div className="portalContent">
+                <span className="portalTitle">{portal.title}</span>
+                <span className="portalMeta">{portal.meta}</span>
               </div>
             </Link>
           ))}
@@ -112,32 +102,55 @@ export default function HomePage() {
 
       <DailyDraw />
 
-      <section className="panel panelDense" style={{ paddingBottom: '80px' }}>
+      <section className="panel">
         <div className="sectionIntro">
-          <div className="eyebrow">Reading Method</div>
-          <h2>A strict framework for consistent readings.</h2>
+          <div className="eyebrow">Why It Feels Better</div>
+          <h2>Built to make the images carry more of the experience.</h2>
+          <p className="lede">
+            The layout stays restrained so the cards feel valuable. Text acts as a guide rail, not
+            wallpaper.
+          </p>
         </div>
-        
-        <div className="manifestoList">
-          <div className="manifestoItem">
-            <span className="manifestoNum">01</span>
-            <div className="manifestoCopy">
-              <strong>One Graphic Language</strong>
-              <span>Every page follows identical spatial rules, ensuring comparisons across the 78 cards remain clinical and untainted by shifting art styles.</span>
-            </div>
+
+        <div className="manifestoSplit">
+          <div className="manifestoVisualSticky">
+            <Image
+              src={cards.find((c) => c.slug === 'the-high-priestess')?.image || ''}
+              alt="The High Priestess"
+              fill
+              className="manifestoImage"
+            />
           </div>
-          <div className="manifestoItem">
-            <span className="manifestoNum">02</span>
-            <div className="manifestoCopy">
-              <strong>Direct Reading Structure</strong>
-              <span>Each card moves from primary archetype to application without detouring into unnecessary spiritual fluff or modern colloquialisms.</span>
+          <div className="manifestoList">
+            <div className="manifestoItem">
+              <span className="manifestoNum">01</span>
+              <div className="manifestoCopy">
+                <strong>Image-first hierarchy</strong>
+                <span>
+                  Card art, crop, scale, and mood establish the emotional read before the
+                  explanatory text takes over.
+                </span>
+              </div>
             </div>
-          </div>
-          <div className="manifestoItem">
-            <span className="manifestoNum">03</span>
-            <div className="manifestoCopy">
-              <strong>Museum-Grade Precision</strong>
-              <span>The typography, geometry, and border language belong to an ancient black-and-gold system, treating the deck as a historical exhibit.</span>
+            <div className="manifestoItem">
+              <span className="manifestoNum">02</span>
+              <div className="manifestoCopy">
+                <strong>One system across every page</strong>
+                <span>
+                  Home, library, single-card detail, combinations, and reading flows now feel like
+                  one place instead of separate experiments.
+                </span>
+              </div>
+            </div>
+            <div className="manifestoItem">
+              <span className="manifestoNum">03</span>
+              <div className="manifestoCopy">
+                <strong>Archive-grade reading UX</strong>
+                <span>
+                  The interface frames each card like a collectible plate, which helps the deck
+                  feel deliberate, premium, and worth lingering on.
+                </span>
+              </div>
             </div>
           </div>
         </div>

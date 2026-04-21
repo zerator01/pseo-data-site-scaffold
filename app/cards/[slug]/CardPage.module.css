@@ -1,15 +1,21 @@
 .container {
-  max-width: 1180px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 72px 24px 120px;
+  padding: 28px 0 96px;
 }
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) 360px;
-  gap: 56px;
+  grid-template-columns: minmax(0, 1.25fr) 380px;
+  gap: clamp(28px, 4vw, 56px);
   align-items: center;
-  margin-bottom: 56px;
+  margin-bottom: 28px;
+  padding: clamp(24px, 3vw, 38px);
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at top right, rgba(217, 168, 95, 0.12), transparent 30%),
+    rgba(255, 255, 255, 0.02);
 }
 
 .heroContent {
@@ -22,11 +28,11 @@
   flex-wrap: wrap;
   gap: 8px;
   font-size: 13px;
-  color: var(--text-muted);
+  color: var(--muted);
 }
 
 .crumbs a {
-  color: var(--text-secondary);
+  color: var(--text-soft);
 }
 
 .eyebrow {
@@ -35,7 +41,7 @@
   padding: 8px 12px;
   border: 1px solid rgba(201, 168, 76, 0.4);
   border-radius: 999px;
-  color: var(--accent-gold-light);
+  color: var(--accent-strong);
   text-transform: uppercase;
   letter-spacing: 0.16em;
   font-size: 12px;
@@ -45,18 +51,18 @@
 }
 
 .title {
-  font-size: clamp(44px, 6vw, 72px);
-  line-height: 0.98;
+  font-size: clamp(3rem, 6vw, 5.6rem);
+  line-height: 0.9;
   margin: 0;
-  color: var(--accent-gold-light);
+  color: var(--text);
 }
 
 .subtitle {
   max-width: 62ch;
   margin: 0;
-  font-size: 19px;
-  line-height: 1.7;
-  color: var(--text-secondary);
+  font-size: 18px;
+  line-height: 1.82;
+  color: var(--text-soft);
 }
 
 .heroMeta {
@@ -70,11 +76,11 @@
   display: grid;
   gap: 10px;
   padding: 18px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  border-radius: 18px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
   background:
     radial-gradient(circle at top left, rgba(201, 168, 76, 0.12), transparent 56%),
-    rgba(255, 255, 255, 0.02);
+    rgba(255, 255, 255, 0.025);
 }
 
 .metaLabel,
@@ -86,11 +92,11 @@
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
-  color: var(--text-muted);
+  color: var(--muted);
 }
 
 .metaValue {
-  color: var(--text-primary);
+  color: var(--text);
   line-height: 1.6;
   font-size: 15px;
 }
@@ -118,7 +124,7 @@
 .tag {
   background: rgba(201, 168, 76, 0.14);
   border: 1px solid rgba(201, 168, 76, 0.18);
-  color: var(--accent-gold-light);
+  color: var(--accent-strong);
 }
 
 .tagReversed {
@@ -134,21 +140,21 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  border-radius: 28px;
+  border-radius: 30px;
   background:
     radial-gradient(circle at top, rgba(201, 168, 76, 0.18), transparent 45%),
-    linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01));
-  border: 1px solid rgba(255, 255, 255, 0.07);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.01));
+  border: 1px solid var(--line);
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.34);
 }
 
 .tankContent {
   padding: 34px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 28px;
+  border: 1px solid var(--line);
+  border-radius: 30px;
   background:
     radial-gradient(circle at top left, rgba(201, 168, 76, 0.08), transparent 30%),
-    linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.015)),
     var(--bg-elevated);
 }
 
@@ -165,7 +171,7 @@
 .sectionHeader h2 {
   margin: 0;
   font-size: clamp(28px, 3vw, 38px);
-  color: var(--accent-gold-light);
+  color: var(--text);
 }
 
 .snapshotGrid,
@@ -182,13 +188,13 @@
 .cardMeaningReversed,
 .areaCard {
   border-radius: 22px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--line);
 }
 
 .snapshotCard,
 .noteCard {
   padding: 24px;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.025);
 }
 
 .snapshotCard p,
@@ -198,7 +204,7 @@
 .areaPane p,
 .areaPaneReversed p {
   margin: 0;
-  color: var(--text-secondary);
+  color: var(--text-soft);
   line-height: 1.9;
 }
 
@@ -229,14 +235,14 @@
 .areaCard h3 {
   margin: 0;
   font-size: 24px;
-  color: #fff;
+  color: var(--text);
 }
 
 .divider {
   border: none;
   height: 1px;
   margin: 34px 0;
-  background: linear-gradient(90deg, transparent, rgba(201, 168, 76, 0.34), transparent);
+  background: linear-gradient(90deg, transparent, rgba(201, 168, 76, 0.28), transparent);
 }
 
 .areaStack {
@@ -246,7 +252,7 @@
 
 .areaCard {
   padding: 22px;
-  background: rgba(255, 255, 255, 0.018);
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .areaCard h3 {
@@ -273,7 +279,7 @@
 }
 
 .areaPaneReversed {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.035);
 }
 
 .relatedGrid {
@@ -287,25 +293,25 @@
   gap: 8px;
   padding: 18px;
   border-radius: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.02);
   transition: transform 0.18s ease, border-color 0.18s ease;
 }
 
 .relatedCard:hover {
   transform: translateY(-2px);
-  border-color: rgba(201, 168, 76, 0.35);
+  border-color: var(--line-strong);
 }
 
 .relatedLabel {
   font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--muted);
 }
 
 .relatedCard strong {
-  color: var(--text-primary);
+  color: var(--text);
   font-size: 18px;
 }
 
@@ -330,21 +336,13 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
   .container {
-    padding: 40px 16px 72px;
+    padding-bottom: 72px;
   }
 
+  .hero,
   .tankContent {
-    padding: 20px;
-    border-radius: 22px;
-  }
-
-  .cardMeaning,
-  .cardMeaningReversed,
-  .snapshotCard,
-  .noteCard,
-  .areaCard {
-    padding: 18px;
+    padding: 22px;
   }
 }
